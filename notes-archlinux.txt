@@ -1,0 +1,16 @@
+1) For installation follow the Howtoforge page for Archlinux and LUKS
+2) For wifi install iw wpa_supplicant connman bluez package duing install
+3) systemctl enable connman.service and configure connman via connmanctl and then enable wifi and then 'scan wifi' , 'services' (remember key for the AP you want to connect to', 'agent on', 'connect wifi_d******************************_manages_psk', give passphrase and then 'quit' => it will now autoconnect when in reach
+4) install synaptics and xorg-xinit
+5) install chromium firefox vlc xscreensaver
+6) check out git with:
+
+ git config --global user.email "mve@pragmasec.nl"
+ git config --global user.name "Michiel van Es"
+ git clone git@git.pragmasec.nl:mve/scripts.git 
+7) copy dotfiles to ~ aka cp ~/scripts/.muttrc ~/
+8) firefox is slow, use opera or chromium or even better, use midori
+9) install zsh and oh-my-zsh and fish, choose which one you like best - i prefer fish 'cause of the history autocompletion! (have to fix git plugins etc which zsh has!)
+10) install gnome-keyring and add it to the .xinitrc (see dotfiles in git repo) so you only have to type your ssh private key passphrase once!
+11) install parcellite and start it with parcellite -D in .Xdefaults
+12) install yaourt fogger telegram hipchat mutt curl lynx atom connman-ui-gtk

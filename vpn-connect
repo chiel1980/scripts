@@ -1,0 +1,5 @@
+#!/bin/bash
+user=''
+address=''
+profile=''
+sudo openconnect -u "$user" -b "$address" --authgroup="$profile"
