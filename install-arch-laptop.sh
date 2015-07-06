@@ -6,7 +6,7 @@
 #
 ### Install packages
 #
-packages=(midori connman midori parcellite gnome-keyring synaptics xorg-server xorg-xinit i3 vlc libreoffice fish mutt curl lynx atom connman-ui-gtk terminator urxvt git)
+packages=(offlineimap msmtp midori connman midori parcellite gnome-keyring synaptics xorg-server xorg-xinit i3 vlc libreoffice fish mutt curl lynx atom connman-ui-gtk terminator urxvt git)
 dotfiles_url='https://github.com/chiel1980/dotfiles.git'
 function install_packages {
 pacman -Sy $packages
@@ -28,3 +28,11 @@ cp fish_prompt.fish ~/.config/fish/functions/
 #
 systemctl enable connman.service
 systemctl start connman.service
+#
+### Fix maildir for offlineimap and mutt
+#
+mkdir -p ~/Mail/Gmail
+#
+### Fix permissions on .dotfiles
+#
+chmod 600 .*
