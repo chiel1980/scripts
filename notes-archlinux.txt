@@ -9,8 +9,8 @@
  git config --global user.name "Michiel van Es"
  git clone git@git.pragmasec.nl:mve/scripts.git 
 7) copy dotfiles to ~ aka cp ~/scripts/.muttrc ~/
-8) firefox is slow, use opera or chromium or even better, use midori
-9) install zsh and oh-my-zsh and fish, choose which one you like best - i prefer fish 'cause of the history autocompletion! (have to fix git plugins etc which zsh has!)
+8) firefox is slow, use midori
+9) install fish, choose which one you like best - i prefer fish 'cause of the history autocompletion! (git prompt nifty feature: http://www.martinklepsch.org/posts/git-prompt-for-fish-shell.html)
 10) install gnome-keyring and add it to the .xinitrc (see dotfiles in git repo) so you only have to type your ssh private key passphrase once!
 11) install parcellite and start it with parcellite -D in .Xdefaults
 12) install yaourt fogger telegram hipchat mutt curl lynx atom connman-ui-gtk
