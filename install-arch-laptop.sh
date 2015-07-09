@@ -6,7 +6,7 @@
 #
 ### Install packages
 #
-packages=(pulseaudio pulseaudio-alsa pa-applet-git offlineimap msmtp midori connman midori parcellite gnome-keyring synaptics xorg-server xorg-xinit i3 vlc libreoffice fish mutt curl lynx atom connman-ui-gtk terminator urxvt git ufw terminator chromium)
+packages=(pulseaudio pulseaudio-alsa pa-applet-git offlineimap msmtp midori connman midori parcellite gnome-keyring synaptics xorg-server xorg-xinit i3 vlc libreoffice fish mutt curl lynx atom connman-ui-gtk terminator urxvt git ufw terminator chromium keepassx2)
 dotfiles_url='https://github.com/chiel1980/dotfiles.git'
 function install_packages {
 pacman -Sy $packages
