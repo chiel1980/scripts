@@ -6,7 +6,7 @@
 #
 ### Install packages
 #
-packages=(offlineimap msmtp midori connman midori parcellite gnome-keyring synaptics xorg-server xorg-xinit i3 vlc libreoffice fish mutt curl lynx atom connman-ui-gtk terminator urxvt git)
+packages=(pulseaudio pulseaudio-alsa pa-applet-git offlineimap msmtp midori connman midori parcellite gnome-keyring synaptics xorg-server xorg-xinit i3 vlc libreoffice fish mutt curl lynx atom connman-ui-gtk terminator urxvt git ufw terminator chromium)
 dotfiles_url='https://github.com/chiel1980/dotfiles.git'
 function install_packages {
 pacman -Sy $packages
@@ -26,8 +26,8 @@ cp fish_prompt.fish ~/.config/fish/functions/
 #
 ### Ensure that all services are started
 #
-systemctl enable connman.service
-systemctl start connman.service
+sudo systemctl enable connman.service
+sudo systemctl start connman.service
 #
 ### Fix maildir for offlineimap and mutt
 #
@@ -36,3 +36,10 @@ mkdir -p ~/Mail/Gmail
 ### Fix permissions on .dotfiles
 #
 chmod 600 .*
+#
+### start ufw and cron
+#
+sudo systemctl enable cron.service
+sudo systemctl start cron.service
+sudo systemctl enable ufw
+sudo systemctl start ufw.service
