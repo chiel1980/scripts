@@ -1,11 +1,13 @@
 #!/bin/bash
 #
-#######################
+# Ensure you set CITY and RECIPIENT to
+# a correct value.
+######################################
 NEW='funda-check.txt'
 VORIGE='funda-check-vorige.txt'
 DIFF='diffje.txt'
 RECIPIENT='blabla@domain.com'
-URL='http://partnerapi.funda.nl/feeds/Aanbod.svc/rss/?type=koop&zo=/*city*/275000-400000/100+woonopp/4+kamers/3+slaapkamers/'
+URL='http://partnerapi.funda.nl/feeds/Aanbod.svc/rss/?type=koop&zo=/*CITY*/275000-400000/100+woonopp/4+kamers/3+slaapkamers/'
 #
 ### if NEW exists (from yesterday), move to VORIGE
 ##
