@@ -7,4 +7,4 @@
 #do
 #    mv -v "$FILE" `echo $FILE | tr ' ' '_' `
 #done
-for i in `ls`;do avconv -i $i -c:v libx264 -c:a copy $i.mp4;done
+for i in `ls`;do avconv -i $i -vcodec libx264 -acodec libfaac $i.mp4;done
