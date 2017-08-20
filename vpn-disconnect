@@ -1,0 +1,2 @@
+#!/bin/bash
+sudo kill `ps aux|grep openconnect|grep -v grep|cut -c 10-15`
