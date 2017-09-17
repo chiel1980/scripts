@@ -10,9 +10,21 @@
 # UPPERCASE space-separated country codes to ACCEPT
 ALLOW_COUNTRIES="NL DE FR DK SE UK BE"
 LOGDENY_FACILITY="authpriv.notice"
-# set the correct interface here where you want to block ip's from foreign countries
-INTERFACE='ens3'
-
+GEOIP6=`which geoiplookup6`
+GEOIP=`which geoiplookup`
+###
+if [ $GEOIP6 ]; then
+  echo 'geopiplookup6 found! continue'
+else
+  echo 'geoiplookup6 not found - please install it via your package manager!'
+  exit 1
+fi
+if [ $GEOIP ]; then
+  echo 'geopiplookup found! continue'
+else
+  echo 'geoiplookup not found - please install it via your package manager!'
+  exit 1
+fi
 if [ $# -ne 1 ]; then
   echo "Usage:  `basename $0` " 1>&2
   exit 0 # return true in case of config issue
@@ -30,6 +42,6 @@ if [[ "$RESPONSE" == "ALLOW" ]] ; then
   exit 0
 else
   logger -p $LOGDENY_FACILITY "$RESPONSE sshd connection from $1 ($COUNTRY)"
-  /sbin/iptables -I INPUT 1 -i $INTERFACE -s $1 -j DROP
+  /sbin/iptables -I INPUT 1 -s $1 -j DROP
   exit 1
 fi
