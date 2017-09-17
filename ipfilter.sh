@@ -31,9 +31,9 @@ if [ $# -ne 1 ]; then
 fi
 
 if [[ "`echo $1 | grep ':'`" != "" ]] ; then
-  COUNTRY=`/bin/geoiplookup6 "$1" | awk -F ": " '{ print $2 }' | awk -F "," '{ print $1 }' | head -n 1`
+  COUNTRY=`"$GEOIP6" "$1" | awk -F ": " '{ print $2 }' | awk -F "," '{ print $1 }' | head -n 1`
 else
-  COUNTRY=`/bin/geoiplookup "$1" | awk -F ": " '{ print $2 }' | awk -F "," '{ print $1 }' | head -n 1`
+  COUNTRY=`"$GEOIP" "$1" | awk -F ": " '{ print $2 }' | awk -F "," '{ print $1 }' | head -n 1`
 fi
 [[ $COUNTRY = "IP Address not found" || $ALLOW_COUNTRIES =~ $COUNTRY ]] && RESPONSE="ALLOW" || RESPONSE="DENY"
 
