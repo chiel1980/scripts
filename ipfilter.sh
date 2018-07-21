@@ -30,7 +30,7 @@
 # 	DROP       all  --  1.2.3.4              0.0.0.0/0            /* 2018-07-21T06:27:32+0000 ssh: ipfilter.sh */
 
 ## Changelog
-# 20180721/pbiering: implement syslog, proper iptables selection for IPv6 and custom iptables chain
+# 20180721/pbiering: extend syslog, proper iptables selection for IPv6 and custom iptables chain
 
 ## TODO
 # provide script for regular cleanup of iptables chain by checking inserted timestamp
