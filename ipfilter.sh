@@ -13,7 +13,11 @@
 # Custom country list:
 #  sshd: ALL : spawn /usr/local/bin/ipfilter %a %d "DE US" [<iptables chain>]
 
-# On EL8 install "tcp_wrappers" from EPEL and replace "spawn" with "aclexec"
+# For OS versions having "tcp_wrappers" deprecated see instructions here:
+#  https://fedoraproject.org/wiki/Changes/Deprecate_TCP_wrappers
+#
+# At least on Fedora >= 34 and  EL >= 8 install "tcp_wrappers" from EPEL and replace "spawn" with "aclexec"
+#  see also https://src.fedoraproject.org/rpms/tcp_wrappers
 
 ## iptables extension
 # it's recommended to use a dedicated chain, created with
