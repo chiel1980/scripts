@@ -13,6 +13,8 @@
 # Custom country list:
 #  sshd: ALL : spawn /usr/local/bin/ipfilter %a %d "DE US" [<iptables chain>]
 
+# On EL8 install "tcp_wrappers" from EPEL and replace "spawn" with "aclexec"
+
 ## iptables extension
 # it's recommended to use a dedicated chain, created with
 #	iptables -A INPUT -j BLOCKDYN
@@ -31,11 +33,12 @@
 
 ## Changelog
 # 20180721/pbiering: extend syslog, proper iptables selection for IPv6 and custom iptables chain
+# 20210610/pbiering: add support for "ipv6calc" with precedence above "geoiplookup"
+# 20210611/pbiering: fix if called without a proper IP address
 
 ## TODO
 # provide script for regular cleanup of iptables chain by checking inserted timestamp
 # add support for firewalld
-
 
 # UPPERCASE space-separated country codes to ACCEPT
 #ALLOW_COUNTRIES="NL DE FR DK SE UK BE" # <- your potential default list
@@ -61,12 +64,28 @@ if [ -n "$4" ]; then
 	CHAIN="$4"
 fi
 
+IPV6CALC="$(which ipv6calc)"
+
 if [[ $1 =~ : ]] ; then
   IPTABLES="$(which ip6tables)"
-  GEOIPLOOKUP="$(which geoiplookup6)"
-else
+  GEOIPLOOKUP="$(which geoiplookup6 2>/dev/null)"
+  if [ -n "$IPV6CALC" ]; then
+    if $IPV6CALC -v 2>&1 | grep -wq "DB_IPV6_CC"; then
+      GEOIPLOOKUP="$IPV6CALC -q --addr2cc"
+    fi
+  fi
+elif [[ $1 =~ [0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3} ]] ; then
   IPTABLES="$(which iptables)"
-  GEOIPLOOKUP="$(which geoiplookup)"
+  GEOIPLOOKUP="$(which geoiplookup 2>/dev/null)"
+  if [ -n "$IPV6CALC" ]; then
+    if $IPV6CALC -v 2>&1 | grep -wq "DB_IPV4_CC"; then
+      GEOIPLOOKUP="$IPV6CALC -q --addr2cc"
+    fi
+  fi
+else
+  [ -t 0 ] || logger -t "$logtag" -p $LOGDENY_FACILITY_ERROR "given IP address not supported: $1"
+  [ -t 0 ] && echo "given IP address not supported: $1"
+  exit 0
 fi
 
 if [ -z "$GEOIPLOOKUP" ]; then
@@ -91,22 +110,29 @@ if [ -n "$CHAIN" -a ! -x "$IPTABLES" ]; then
   exit 0
 fi
 
-COUNTRY=`$GEOIPLOOKUP "$1" | awk -F ": " '{ print $2 }' | awk -F "," '{ print $1 }' | head -n 1`
+case $GEOIPLOOKUP in
+  geoiplookup*)
+    COUNTRY=`$GEOIPLOOKUP "$1" | awk -F ": " '{ print $2 }' | awk -F "," '{ print $1 }' | head -n 1`
+    ;;
+  *)
+    COUNTRY=`$GEOIPLOOKUP "$1"`
+    ;;
+esac
 [[ $COUNTRY = "IP Address not found" || $ALLOW_COUNTRIES =~ $COUNTRY ]] && RESPONSE="ALLOW" || RESPONSE="DENY"
 
 if [[ "$RESPONSE" == "ALLOW" ]] ; then
-  [ -t 0 ] || logger -t "$logtag" -p $LOGDENY_FACILITY "$RESPONSE $2 connection from $1 ($COUNTRY)"
-  [ -t 0 ] && echo "$RESPONSE $2 connection from $1 ($COUNTRY)"
+  [ -t 0 ] || logger -t "$logtag" -p $LOGDENY_FACILITY "$RESPONSE $2 connection from $1 ('$COUNTRY' retrieved with $GEOIPLOOKUP)"
+  [ -t 0 ] && echo "$RESPONSE $2 connection from $1 ('$COUNTRY' retrieved with $GEOIPLOOKUP)"
   exit 0
 else
-  [ -t 0 ] || logger -t "$logtag" -p $LOGDENY_FACILITY "$RESPONSE $2 connection from $1 ($COUNTRY)"
-  [ -t 0 ] && echo "$RESPONSE $2 connection from $1 ($COUNTRY)"
+  [ -t 0 ] || logger -t "$logtag" -p $LOGDENY_FACILITY "$RESPONSE $2 connection from $1 ('$COUNTRY' retrieved with $GEOIPLOOKUP)"
+  [ -t 0 ] && echo "$RESPONSE $2 connection from $1 ('$COUNTRY' retrieved with $GEOIPLOOKUP)"
 
   if [ -n "$CHAIN" ]; then
     # create comment for iptables
-    COMMENT="$(/usr/bin/date -u -Iseconds)"
+    COMMENT="$(/usr/bin/date -u -Iseconds) $COUNTRY"
     # add iptables rule because it's not working without
-    OUTPUT=$($IPTABLES -I $CHAIN 1 -s $1 -j DROP -m comment --comment "$COMMENT $logtag" 2>&1)
+    OUTPUT=$($IPTABLES -w 5 -I $CHAIN 1 -s $1 -j DROP -m comment --comment "$COMMENT $logtag" 2>&1)
     if [ $? -ne 0 ]; then
       [ -t 0 ] || logger -t "$logtag" -p $LOGDENY_FACILITY_ERROR "command is not working: $OUTPUT"
       [ -t 0 ] && echo "$IPTABLES is not working: $OUTPUT"
