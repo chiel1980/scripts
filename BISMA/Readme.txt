@@ -7,4 +7,6 @@ Tools needed to run this: Python 3 + Plotly (python3-plotly on Debian distro's) 
 
 Run: python3 bisma.py #a browser tab will open with the plotted graph
 
-10/03/2023 Michiel van Es - mvanes@bol.com
+Note: values given are random values to see if it works, they are not actual values for that specific company!
+
+10/03/2023 Michiel van Es 
