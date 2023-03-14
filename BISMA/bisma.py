@@ -47,7 +47,7 @@ fig = go.Figure(
 
 # Show only rounded numbers, no decimal.s
 # Comment below tickvals if you want to use decimals.
-#fig.layout.polar.radialaxis.tickvals = [1,2,3,4,5]
+fig.layout.polar.radialaxis.tickvals = [1,2,3,4,5]
 #fig.layout.polar.radialaxis.dtick = 1
 
 # show which framework we use and the scoring values used
