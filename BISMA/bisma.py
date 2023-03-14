@@ -81,7 +81,7 @@ fig.add_annotation(text='Security framework used:  <a href="https://en.wikipedia
 #                    borderwidth=1)
 
 # Create a specific html as report so you can store it
-#fig.write_html("BISMA_report-" + str(current_year) + "-" + str(quarter_of_the_year).html)
-fig.write_html("BISMA_report-year-month")
+fig.write_html("BISMA_report-" + str(current_year) + "-" + str(quarter_of_the_year) + ".html")
+#fig.write_html("BISMA_report-year-month")
 
 pyo.plot(fig)
