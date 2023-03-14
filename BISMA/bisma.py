@@ -47,11 +47,17 @@ fig = go.Figure(
 
 # Show only rounded numbers, no decimal.s
 # Comment below tickvals if you want to use decimals.
-fig.layout.polar.radialaxis.tickvals = [0,1,2,3,4,5]
+#fig.layout.polar.radialaxis.tickvals = [1,2,3,4,5]
 #fig.layout.polar.radialaxis.dtick = 1
 
 # show which framework we use and the scoring values used
-fig.add_annotation(text='Security framework used:  <a href="https://en.wikipedia.org/wiki/Standard_of_Good_Practice_for_Information_Security" target="_blank">ISF SOGP 2022</a><br><br>Scoring values:<br><br>1=Not existent<br>2=Some controls in place but not enough<br>3=Controls in place but not easy to demonstrate<br>4=Partially demonstratable in control<br>5=Fully demonstratable in control',
+fig.add_annotation(text='Security framework used:  <a href="https://en.wikipedia.org/wiki/Standard_of_Good_Practice_for_Information_Security" target="_blank">ISF SOGP 2022</a><br> \
+            <br>Scoring values:<br> \
+            <br>1=Not existent \
+            <br>2=Some controls in place but not enough \
+            <br>3=Controls in place but not easy to demonstrate \
+            <br>4=Partially demonstratable in control \
+            <br>5=Fully demonstratable in control',
                     align='left',
                     showarrow=False,
                     xref='paper',
@@ -60,6 +66,8 @@ fig.add_annotation(text='Security framework used:  <a href="https://en.wikipedia
                     y=0.8,
                     bordercolor='red',
                     borderwidth=1)
+
+#)
 
 # show a link to every ISF SGOP 2022 category linked to an Ironman control overview - evidence why we think we are in control
 #fig.add_annotation(text='ISF SGOP 2022 Security Governance: <a href="https://ironman.bol.io/" target="_blank">ISF SOGP 2022 Security Governance Ironman controls</a><br>',
@@ -71,5 +79,9 @@ fig.add_annotation(text='Security framework used:  <a href="https://en.wikipedia
 #                    y=2.3,
 #                    bordercolor='blue',
 #                    borderwidth=1)
+
+# Create a specific html as report so you can store it
+#fig.write_html("BISMA_report-" + str(current_year) + "-" + str(quarter_of_the_year).html)
+fig.write_html("BISMA_report-year-month")
 
 pyo.plot(fig)
