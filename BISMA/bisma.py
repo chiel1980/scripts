@@ -1,7 +1,7 @@
 # 17 values needed for above ISF SGOP 2022 categories - https://en.wikipedia.org/wiki/Standard_of_Good_Practice_for_Information_Security
 # Value_1 = Company name
 # Value_2 = The Ambition you have as a company
-# Value_3 = The Market standard aka similar companies in your market area
+# Value_3 = The Industry standard aka similar companies in your market area
 # Values range from 1 (non existent controls) -> 5 (fully demonstratable in control)
 
 import plotly.graph_objects as go
@@ -41,7 +41,7 @@ categories = [*categories, categories[0]]
 Value_1 = [4, 4, 5, 4, 3, 2, 3, 5, 4, 3, 2, 1, 2, 2, 3, 4, 5]
 # Same but with ambition for your company
 Value_2 = [5, 5, 4, 5, 4, 5, 5, 4, 5, 4, 5, 4, 5, 4, 4, 4, 4]
-# Same but now with the market standard
+# Same but now with the industry standard
 Value_3 = [3, 4, 5, 3, 5, 3, 2, 3, 3, 3, 4, 3, 4, 2, 3, 2, 3]
 #
 Value_1 = [*Value_1, Value_1[0]]
@@ -53,7 +53,7 @@ fig = go.Figure(
     data=[
         go.Scatterpolar(r=Value_1, theta=categories, name='Bol.com'),
         go.Scatterpolar(r=Value_2, theta=categories, name='Ambition'),
-        go.Scatterpolar(r=Value_3, theta=categories, name='Market standard')
+        go.Scatterpolar(r=Value_3, theta=categories, name='Industry standard')
     ],
     layout=go.Layout(
         title=go.layout.Title(text="BISMA - Bol.com Information Security Maturity Application<br>generated at" + " " + str(current_year) + " " + str(quarter_of_the_year)),
@@ -63,7 +63,7 @@ fig = go.Figure(
  )
 
 # Show only rounded numbers, no decimal.s
-# Comment below tickvals if you want to use decimals.
+# Comment the line below tickvals if you want to use decimals.
 fig.layout.polar.radialaxis.tickvals = [1,2,3,4,5]
 #fig.layout.polar.radialaxis.dtick = 1
 
@@ -99,6 +99,6 @@ fig.add_annotation(text='Security framework used:  <a href="https://en.wikipedia
 
 # Create a specific html as report so you can store it
 fig.write_html("BISMA_report-" + str(current_year) + "-" + str(quarter_of_the_year) + ".html")
-#fig.write_html("BISMA_report-year-month")
 
+# Plot the graph with above data and show it in a browser tab - next to creating a specific html above
 pyo.plot(fig)
