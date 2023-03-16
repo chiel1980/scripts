@@ -17,7 +17,24 @@ current_year = now.year
 
 
 # ISF SGOP 2022 main categories
-categories = ['Security Governance', 'Information Risk Assessment', 'Security Management', 'People Management', 'Information Management', 'Physical Asset Management', 'System Development', 'Business Application Management', 'System Access', 'System Management', 'Networks and Communications', 'Supply Chain Management', 'Technical Security Management', 'Threat and Incident Management', 'Physical and Environmental Management', 'Business Continuity', 'Security Assurance']
+categories = ['Security Governance', \
+             'Information Risk Assessment', \
+              'Security Management', \
+              'People Management', \
+              'Information Management', \
+              'Physical Asset Management', \
+              'System Development', \
+              'Business Application Management', \
+              'System Access', \
+              'System Management', \
+              'Networks and Communications', \
+              'Supply Chain Management', \
+              'Technical Security Management', \
+              'Threat and Incident Management', \
+              'Physical and Environmental Management', \
+              'Business Continuity', \
+              'Security Assurance']
+              
 categories = [*categories, categories[0]]
 
 # Company value per above categorie
