@@ -4,6 +4,11 @@
 
 #
 ### expects mmdblookup package and a cronjob to keep the GeoIP2 database up-to-date
+# GeoIP2 database lookup directories:
+#  /var/local/share/GeoIP /var/share/GeoIP /usr/share/GeoIP
+# GeoIP2 database lookup files:
+#  GeoIP2-City.mmdb GeoIP2-Country.mmdb GeoLite2-City.mmdb GeoLite2-Country.mmdb
+#
 ### expects hosts.deny and hosts.allow to set up correctly aka https://tecadmin.net/allow-server-access-based-on-country/
 #
 
@@ -48,6 +53,7 @@
 # 20210611/pbiering: fix if called without a proper IP address
 # 20240113/pbiering: replace legacy "geoiplookup" with "mmdblookup" incl. database lookup loop
 # 20240113/pbiering: add environment support IPV6CALC_SKIP (at least for testing)
+# 20240113/pbiering: implement GeoIP2 database precedence mechanism to avoid using an outdated one, add support for DEBUG, add 3rd location for GeoIP2 database lookup
 
 ## TODO
 # provide script for regular cleanup of iptables chain by checking inserted timestamp
@@ -108,7 +114,7 @@ fi
 
 if [ ! -x "$GEOIPLOOKUP" ]; then
   [ -t 0 ] || logger -t "$logtag" -p $LOGDENY_FACILITY_ERROR "not executable: $GEOIPLOOKUP"
-  [ -t 0 ] && echo "missing executable: $GEOIPLOOKUP"
+  [ -t 0 ] && echo "not executable: $GEOIPLOOKUP"
   exit 0
 fi
 
@@ -125,19 +131,59 @@ fi
 
 case $GEOIPLOOKUP in
   */mmdblookup)
-    for dir in /var/local/share/GeoIP /usr/share/GeoIP; do
+    for dir in /var/local/share/GeoIP /var/share/GeoIP /usr/share/GeoIP; do
       for db in GeoIP2-City.mmdb GeoIP2-Country.mmdb GeoLite2-City.mmdb GeoLite2-Country.mmdb; do
+        [ -n "$DEBUG" ] && echo "probe: $dir/$db"
         if [ -f $dir/$db -a -s $dir/$db ]; then
-	  COUNTRY=`$GEOIPLOOKUP --file $dir/$db --ip $1 country iso_code | awk '$2 != "" { gsub("\"", "", $1); print $1 }'`
-	  if [ -n "$COUNTRY" ]; then
-            # extend info
-            COUNTRY_SOURCE="$dir/$db"
-            break
+          [ -n "$DEBUG" ] && echo "found: $dir/$db"
+
+          RESULT=`$GEOIPLOOKUP --file $dir/$db -v --ip $1 country iso_code 2>/dev/null`
+          [ $? -eq 0 ] || continue
+
+          re_countrycode='\s*\"(.*)\"\s*<utf8_string>'
+          if [[ $RESULT =~ $re_countrycode ]]; then
+            countrycode=${BASH_REMATCH[1]}
+            [ -n "$DEBUG" ] && echo "country  $dir/$db: $countrycode"
           fi
-	fi
+
+          re_db_epoch='\s*Build epoch:\s*([0-9]+)'
+          if [[ $RESULT =~ $re_db_epoch ]]; then
+             db_epoch=${BASH_REMATCH[1]}
+            [ -n "$DEBUG" ] && echo "db_epoch $dir/$db: $db_epoch"
+          fi
+
+          if [ -n "$countrycode" ]; then
+            if [ -n "$db_epoch" -a -z "$COUNTRY_SOURCE_EPOCH" ]; then
+              # empty
+              COUNTRY_SOURCE="$dir/$db"
+              COUNTRY="$countrycode"
+              COUNTRY_SOURCE_EPOCH="$db_epoch"
+              [ -n "$DEBUG" ] && echo "db_epoch $dir/$db: $db_epoch (new)"
+            elif [ -n "$COUNTRY_SOURCE_EPOCH" -a -n "$db_epoch" ]; then
+              if [ $db_epoch -gt $COUNTRY_SOURCE_EPOCH ]; then
+                # newer
+                COUNTRY_SOURCE="$dir/$db"
+                COUNTRY="$countrycode"
+                COUNTRY_SOURCE_EPOCH="$db_epoch"
+                [ -n "$DEBUG" ] && echo "db_epoch $dir/$db: $db_epoch (overwrite)"
+              else
+                [ -n "$DEBUG" ] && echo "db_epoch $dir/$db: $db_epoch (keep)"
+              fi
+            elif [ -z "$db_epoch" ]; then
+              # should not happen, fill at least source
+              COUNTRY="$countrycode"
+              COUNTRY_SOURCE="$dir/$db"
+              COUNTRY_SOURCE_EPOCH="0"
+              [ -n "$DEBUG" ] && echo "db_epoch $dir/$db: 0 (empty/strange)"
+            fi
+          fi
+        fi
       done
-      [ -n "$COUNTRY" ] && break
     done
+
+    if [ -n "$COUNTRY_SOURCE_EPOCH" -a "$COUNTRY_SOURCE_EPOCH" != 0 ]; then
+      COUNTRY_SOURCE="$COUNTRY_SOURCE built $(date --utc '+%Y-%m-%d %H:%M:%S %Z' --date @$COUNTRY_SOURCE_EPOCH)"
+    fi
     ;;
   */ipv6calc)
     if [[ $1 =~ : ]] ; then
@@ -178,3 +224,5 @@ else
 
   exit 1
 fi
+
+# vim: tabstop=2 smartindent shiftwidth=2 expandtab
