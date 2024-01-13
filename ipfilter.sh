@@ -178,3 +178,5 @@ else
 
   exit 1
 fi
+
+# vim: tabstop=2 smartindent shiftwidth=2 expandtab
