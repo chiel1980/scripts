@@ -108,7 +108,7 @@ fi
 
 if [ ! -x "$GEOIPLOOKUP" ]; then
   [ -t 0 ] || logger -t "$logtag" -p $LOGDENY_FACILITY_ERROR "not executable: $GEOIPLOOKUP"
-  [ -t 0 ] && echo "missing executable: $GEOIPLOOKUP"
+  [ -t 0 ] && echo "not executable: $GEOIPLOOKUP"
   exit 0
 fi
 
