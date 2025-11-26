@@ -12,7 +12,7 @@ echo ''
 echo 'Answer with Y or N'
 echo ''
 read $answer
-if [[ $answer == Y ]]; then 
+if [[ $answer == Y ]] || [[ $answer == y ]]; then 
 	echo 'you answered Y, so we will extract the website and add it to our gitlab repository..'
 	mkdir ~/websites/ 1>/dev/null 2>&1 && cd ~/websites/
 	wget -qr https://thatspecificsound.wordpress.com
