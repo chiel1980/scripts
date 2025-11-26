@@ -15,7 +15,7 @@ read $answer
 if $answer != Y; then echo 'you have not chosen Y as answer so we exit now..'; exit
 else
 	echo 'you answered Y, so we will extract the website and add it to our gitlab repository..'
-	mkdir ~/websites/ && cd websites/
+	mkdir ~/websites/ 1>/dev/bull 2>&1 && cd ~/websites/
 	wget -r https://thatspecificsound.wordpress.com
 	cd thatspecificsound.wordpress.com/ && find . -type f -print0 | xargs -0 sed -i 's/thatspecificsound.wordpress.com/thatspecificsound.nl/g'
 	cp -frp thatspecificsound.wordpress.com/* ~/git-repos/thatspecificsound.github.io/
