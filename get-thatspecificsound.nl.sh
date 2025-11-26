@@ -12,12 +12,15 @@ echo ''
 echo 'Answer with Y or N'
 echo ''
 read $answer
-if $answer != Y; then echo 'you have not chosen Y as answer so we exit now..'; exit
-else
+if [[ $answer == Y ]]; then 
 	echo 'you answered Y, so we will extract the website and add it to our gitlab repository..'
-	mkdir ~/websites/ 1>/dev/bull 2>&1 && cd ~/websites/
-	wget -r https://thatspecificsound.wordpress.com
+	mkdir ~/websites/ 1>/dev/null 2>&1 && cd ~/websites/
+	wget -qr https://thatspecificsound.wordpress.com
+	echo 'done copying the website locally..'
+	sleep 2
+	echo 'now fixing the links..'
 	cd thatspecificsound.wordpress.com/ && find . -type f -print0 | xargs -0 sed -i 's/thatspecificsound.wordpress.com/thatspecificsound.nl/g'
+	echo 'now copying the contents to our git repo..'
 	cp -frp thatspecificsound.wordpress.com/* ~/git-repos/thatspecificsound.github.io/
 	cd ~/git-repos/thatspecificsound.github.io/
 	git add *
@@ -26,4 +29,6 @@ else
 	echo 'code deployed! Check https://thatspecificsound.nl/ for the new content'
 	echo 'make sure you refresh the website with F5 etc'
 	echo ''
+else
+	echo 'you did not answer Y so we exit the script now..'
 fi
