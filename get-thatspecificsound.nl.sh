@@ -9,19 +9,23 @@ echo ''
 echo ''
 echo 'Are you sure you want to make a static copy of the website and the interviewee is ok with the draft on the wordpress website?'
 echo ''
-echo 'Answer with Y or N'
 echo ''
-read $answer
-if [[ $answer == Y ]] || [[ $answer == y ]]; then 
-	echo 'you answered Y, so we will extract the website and add it to our gitlab repository..'
-	mkdir ~/websites/ 1>/dev/null 2>&1 && cd ~/websites/
+read -r -p "Are you sure? [y/N] " -n 1
+echo
+if [[ "$REPLY" =~ ^[Yy]$ ]]; then
+    echo "Operation continues"
+	echo "you answered $REPLY , so we will extract the website and add it to our gitlab repository"
+	mkdir ~/websites/ 1>/dev/null 2>&1
+       	cd ~/websites/
 	wget -qr https://thatspecificsound.wordpress.com
+	echo ''
 	echo 'done copying the website locally..'
 	sleep 2
 	echo 'now fixing the links..'
-	cd thatspecificsound.wordpress.com/ && find . -type f -print0 | xargs -0 sed -i 's/thatspecificsound.wordpress.com/thatspecificsound.nl/g'
+	cd ~/websites/thatspecificsound.wordpress.com/ 
+	find . -type f -print0 | xargs -0 sed -i 's/thatspecificsound.wordpress.com/thatspecificsound.nl/g'
 	echo 'now copying the contents to our git repo..'
-	cp -frp thatspecificsound.wordpress.com/* ~/git-repos/thatspecificsound.github.io/
+	cp -frp ~/websites/thatspecificsound.wordpress.com/* ~/git-repos/thatspecificsound.github.io/
 	cd ~/git-repos/thatspecificsound.github.io/
 	git add *
 	git commit -m "`date` new interview"
@@ -30,5 +34,5 @@ if [[ $answer == Y ]] || [[ $answer == y ]]; then
 	echo 'make sure you refresh the website with F5 etc'
 	echo ''
 else
-	echo 'you did not answer Y so we exit the script now..'
+	echo 'you did not answer Y or y so we exit the script now..'
 fi
