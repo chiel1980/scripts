@@ -17,7 +17,8 @@ if [[ "$REPLY" =~ ^[Yy]$ ]]; then
 	echo "you answered $REPLY , so we will extract the website and add it to our gitlab repository"
 	mkdir ~/websites/ 1>/dev/null 2>&1
        	cd ~/websites/
-	wget -qr https://thatspecificsound.wordpress.com
+	#wget -qr https://thatspecificsound.wordpress.com
+	wget -q -r -p -e robots=off https://thatspecificsound.wordpress.com
 	echo ''
 	echo 'done copying the website locally..'
 	sleep 2
