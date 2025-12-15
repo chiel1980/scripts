@@ -26,8 +26,13 @@ if [[ "$REPLY" =~ ^[Yy]$ ]]; then
 	cd ~/websites/thatspecificsound.wordpress.com/ 
 	find . -type f -print0 | xargs -0 sed -i 's/thatspecificsound.wordpress.com/thatspecificsound.nl/g'
 	echo 'now copying the contents to our git repo..'
+	echo ''
+	echo ''
 	cp -frp ~/websites/thatspecificsound.wordpress.com/* ~/git-repos/thatspecificsound.github.io/
 	cd ~/git-repos/thatspecificsound.github.io/
+	echo ''
+	echo 'done copying...now adding it to our github pages repo..'
+	echo ''
 	git add *
 	git commit -m "`date` new interview"
 	git push
