@@ -31,9 +31,14 @@ if [[ "$REPLY" =~ ^[Yy]$ ]]; then
 	git add *
 	git commit -m "`date` new interview"
 	git push
+	echo ''
+	echo ''
 	echo 'code deployed! Check https://thatspecificsound.nl/ for the new content'
 	echo 'make sure you refresh the website with F5 etc'
 	echo ''
+	echo ''
 else
+	echo ''
 	echo 'you did not answer Y or y so we exit the script now..'
+	echo ''
 fi
