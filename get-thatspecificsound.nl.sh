@@ -31,6 +31,13 @@ if [[ "$REPLY" =~ ^[Yy]$ ]]; then
 	cp -frp ~/websites/thatspecificsound.wordpress.com/* ~/git-repos/thatspecificsound.github.io/
 	cd ~/git-repos/thatspecificsound.github.io/
 	echo ''
+	echo ''
+    echo 'changing remote wordpress urls to local files instead..'
+    sed -i'' -e 's,https://s2.wp.com,\/,g' index.html
+    sed -i'' -e 's,https://fonts.wp.com,\/,g' index.html
+    sed -i'' -e 's,https://s0.wp.com,\/,g' index.html
+    sed -i'' -e 's,https://stats.wp.com,\/,g' index.html
+    sed -i'' -e 's,https://pixel.wp.com,\/,g' index.html
 	echo 'done copying...now adding it to our github pages repo..'
 	echo ''
 	git add *
