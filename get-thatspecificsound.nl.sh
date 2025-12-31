@@ -24,7 +24,7 @@ if [[ "$REPLY" =~ ^[Yy]$ ]]; then
 	sleep 2
 	echo 'now fixing the links..'
 	cd ~/websites/thatspecificsound.wordpress.com/ 
-	find . -type f -print0 | xargs -0 sed -i 's/thatspecificsound.wordpress.com/thatspecificsound.nl/g'
+	find . -type f -print0 | LC_ALL=C xargs -0 sed -i'' -e 's/thatspecificsound.wordpress.com/thatspecificsound.nl/g'
 	echo 'now copying the contents to our git repo..'
 	echo ''
 	echo ''
