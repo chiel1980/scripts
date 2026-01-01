@@ -1,4 +1,16 @@
 #!/bin/bash
+#
+#
+# A simple script to get the contents of our Wordpress website
+# - it tries to change *.wordpress.com -> thatspecificsound.nl
+# - it tries to remove some typical wordpress links in the code
+# -- I still need to clean up some of the wordpress links but 
+# -- I noticed the website and styling breaks if you remove too much
+# 
+# PS works with sed -i '' for OS X sed, might need to change that for linux
+# PS2 need to fix above by checking which OS we are using and change the sed
+# arguments properly - too lazy atm :) 
+############################################################################
 echo ''
 echo ''
 echo ''
