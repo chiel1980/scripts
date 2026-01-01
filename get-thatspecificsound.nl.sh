@@ -29,7 +29,17 @@ if [[ "$REPLY" =~ ^[Yy]$ ]]; then
 	echo "you answered $REPLY , so we will extract the website and add it to our gitlab repository"
 	mkdir ~/websites/ 1>/dev/null 2>&1
 	cd ~/websites/
-	wget -q -r -p -e robots=off https://thatspecificsound.wordpress.com
+	#wget -q -r -p -e robots=off https://thatspecificsound.wordpress.com
+	#
+wget https://thatspecificsound.wordpress.com/ \
+--mirror \
+--page-requisites \
+--convert-links \
+--adjust-extension \
+--exclude-directories="feed,*/feed/,*/*/feed,wp-json,search" \
+--reject-regex="\/\?(s|replytocom)=*" \
+--reject=php,xml
+	#
 	echo ''
 	echo 'done copying the website locally..'
 	echo ''	
