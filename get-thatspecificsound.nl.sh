@@ -32,7 +32,7 @@ if [[ "$REPLY" =~ ^[Yy]$ ]]; then
 	wget -q -r -p -e robots=off https://thatspecificsound.wordpress.com
 	echo ''
 	echo 'done copying the website locally..'
-	sleep 2
+	echo ''	
 	echo 'now fixing the links..'
 	cd ~/websites/thatspecificsound.wordpress.com/ 
 	# fix very long wget-ed index.html files in _static that caused sed to break
