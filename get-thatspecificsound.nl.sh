@@ -30,7 +30,10 @@ if [[ "$REPLY" =~ ^[Yy]$ ]]; then
     find . -type f -print0 | LC_ALL=C xargs -0 sed -i'' -e 's/(s|s2|s0|s1|stats|fonts|pixel).wp.com/thatspecificsound.nl/g'
 	# remove code in the html files with the following words
 	# note: this is pretty ambigious and can also remove proper code or sentences in the interview if used by any - need to improve this
-	find . -type f -print0 | LC_ALL=C xargs -0 sed -i'' -e '/(dns-prefetch|Design|Blog|Created)/d'
+	find . -type f -print0 | LC_ALL=C xargs -0 sed -i'' -e '/dns-prefetch/d'
+	find . -type f -print0 | LC_ALL=C xargs -0 sed -i'' -e '/Design/d'
+	find . -type f -print0 | LC_ALL=C xargs -0 sed -i'' -e '/Created/d'
+
     # done sanitizing
 	echo ''
 	echo 'now copying the contents to our git repo..'
