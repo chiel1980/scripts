@@ -22,6 +22,7 @@ if [[ "$REPLY" =~ ^[Yy]$ ]]; then
 	echo 'done copying the website locally..'
 	sleep 2
 	echo 'now fixing the links..'
+	rm ./_static/index.html??-eJyFj9EOgjAMRX%2FIUTWgvBg%2FxYxtIRvdutANft8ZkSgP+NTcm57eW5ijUBSSCQk6pF5EzL0NDDONWmoWCiWzYXDFkgnFdK4cH+AL83mFnElRqmHR4IkCPGxQ0GWLGpQcKbPBde9jVN6GnbOKvC+WQDu8m%2FwYW%2FDfG8pHmM6vUXU5aDR7yUtBMceSuZGFu%2Fvb6Xpp2qat66N7AuNte+M=-e-e-e-e-e-e-e
 	cd ~/websites/thatspecificsound.wordpress.com/ 
 	find . -type f -print0 | LC_ALL=C xargs -0 sed -i'' -e 's/thatspecificsound.wordpress.com/thatspecificsound.nl/g'
     echo ''
