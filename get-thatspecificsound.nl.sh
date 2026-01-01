@@ -64,6 +64,7 @@ wget -q https://thatspecificsound.wordpress.com/ \
 	find . -type f -print0 | LC_ALL=C xargs -0 sed -i'' -e '/wpcom_marketing_bar_impression/d'
 	find . -type f -print0 | LC_ALL=C xargs -0 sed -i'' -e '/\#marketingbar/d'
 	find . -type f -print0 | LC_ALL=C xargs -0 sed -i'' -e '/link.addEventListener/d'
+	find . -type f -print0 | LC_ALL=C xargs -0 sed -i'' -e '/link\.addEventListener/d'
     # done sanitizing
 	echo ''
 	echo 'now copying the contents to our git repo..'
