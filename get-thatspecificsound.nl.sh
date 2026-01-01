@@ -49,6 +49,7 @@ if [[ "$REPLY" =~ ^[Yy]$ ]]; then
 	find . -type f -print0 | LC_ALL=C xargs -0 sed -i'' -e '/Design/d'
 	find . -type f -print0 | LC_ALL=C xargs -0 sed -i'' -e '/Created/d'
 	find . -type f -print0 | LC_ALL=C xargs -0 sed -i'' -e '/window._tkq = window._tkq/d'
+	find . -type f -print0 | LC_ALL=C xargs -0 sed -i'' -e '/wpcom_marketing_bar_cta_click/d'
     # done sanitizing
 	echo ''
 	echo 'now copying the contents to our git repo..'
