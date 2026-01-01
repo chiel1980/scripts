@@ -16,8 +16,7 @@ if [[ "$REPLY" =~ ^[Yy]$ ]]; then
     echo "Operation continues"
 	echo "you answered $REPLY , so we will extract the website and add it to our gitlab repository"
 	mkdir ~/websites/ 1>/dev/null 2>&1
-       	cd ~/websites/
-	#wget -qr https://thatspecificsound.wordpress.com
+	cd ~/websites/
 	wget -q -r -p -e robots=off https://thatspecificsound.wordpress.com
 	echo ''
 	echo 'done copying the website locally..'
@@ -28,6 +27,7 @@ if [[ "$REPLY" =~ ^[Yy]$ ]]; then
     echo ''
 	echo 'some sanitizing with sed..'
     find . -type f -print0 | LC_ALL=C xargs -0 sed -i'' -e 's/(s|s2|s0|s1|stats|fonts|pixel).wp.com/thatspecificsound.nl/g'
+	find . -type f -print0 | LC_ALL=C xargs -0 sed -i'' -e '/dns-prefetch/d'
     # done sanitizing
 	echo ''
 	echo 'now copying the contents to our git repo..'
