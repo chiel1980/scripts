@@ -27,7 +27,7 @@ if [[ "$REPLY" =~ ^[Yy]$ ]]; then
     echo ''
 	echo 'some sanitizing with sed..'
     find . -type f -print0 | LC_ALL=C xargs -0 sed -i'' -e 's/(s|s2|s0|s1|stats|fonts|pixel).wp.com/thatspecificsound.nl/g'
-	find . -type f -print0 | LC_ALL=C xargs -0 sed -i'' -e '/dns-prefetch/d'
+	find . -type f -print0 | LC_ALL=C xargs -0 sed -i'' -e '/(dns-prefetch|Design|Blog|Created)/d'
     # done sanitizing
 	echo ''
 	echo 'now copying the contents to our git repo..'
