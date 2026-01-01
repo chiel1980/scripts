@@ -28,6 +28,7 @@ if [[ "$REPLY" =~ ^[Yy]$ ]]; then
     echo "Operation continues"
 	echo "you answered $REPLY , so we will extract the website and add it to our gitlab repository"
 	mkdir ~/websites/ 1>/dev/null 2>&1
+	rmdir ~/websites/thatspecificsound.wordpress.com/ 1>/dev/null 2>&1
 	cd ~/websites/
 	#wget -q -r -p -e robots=off https://thatspecificsound.wordpress.com
 	#
