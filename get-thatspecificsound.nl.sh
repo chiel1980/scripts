@@ -25,6 +25,11 @@ if [[ "$REPLY" =~ ^[Yy]$ ]]; then
 	echo 'now fixing the links..'
 	cd ~/websites/thatspecificsound.wordpress.com/ 
 	find . -type f -print0 | LC_ALL=C xargs -0 sed -i'' -e 's/thatspecificsound.wordpress.com/thatspecificsound.nl/g'
+    echo ''
+	echo 'some sanitizing with sed..'
+    find . -type f -print0 | LC_ALL=C xargs -0 sed -i'' -e 's/(s|s2|s0|s1|stats|fonts|pixel).wp.com/thatspecificsound.nl/g'
+    # done sanitizing
+	echo ''
 	echo 'now copying the contents to our git repo..'
 	echo ''
 	echo ''
@@ -32,12 +37,6 @@ if [[ "$REPLY" =~ ^[Yy]$ ]]; then
 	cd ~/git-repos/thatspecificsound.github.io/
 	echo ''
 	echo ''
-    echo 'changing remote wordpress urls to local files instead..'
-    sed -i'' -e 's,https://s2.wp.com,\/,g' index.html
-    sed -i'' -e 's,https://fonts.wp.com,\/,g' index.html
-    sed -i'' -e 's,https://s0.wp.com,\/,g' index.html
-    sed -i'' -e 's,https://stats.wp.com,\/,g' index.html
-    sed -i'' -e 's,https://pixel.wp.com,\/,g' index.html
 	echo 'done copying...now adding it to our github pages repo..'
 	echo ''
 	git add *
