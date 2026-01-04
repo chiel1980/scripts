@@ -32,14 +32,25 @@ if [[ "$REPLY" =~ ^[Yy]$ ]]; then
 	cd ~/websites/
 	#wget -q -r -p -e robots=off https://thatspecificsound.wordpress.com
 	#
-wget -q https://thatspecificsound.wordpress.com/ \
+#wget -q https://thatspecificsound.wordpress.com/ \
+#--mirror \
+#--page-requisites \
+#--convert-links \
+#--adjust-extension \
+#--exclude-directories="feed,*/feed/,*/*/feed,wp-json,search" \
+#--reject-regex="\/\?(s|replytocom)=*" \
+#--reject=php,xml
+wget -q \
 --mirror \
---page-requisites \
 --convert-links \
 --adjust-extension \
---exclude-directories="feed,*/feed/,*/*/feed,wp-json,search" \
---reject-regex="\/\?(s|replytocom)=*" \
---reject=php,xml
+--page-requisites \
+--no-parent \
+--no-clobber \
+--wait=0.5 \
+--reject-regex=".*/(\?p=|wp-json|feed|xmlrpc).*" \
+--domains=thatspecificsound.wordpress.com \
+https://thatspecificsound.wordpress.com
 	#
 	echo ''
 	echo 'done copying the website locally..'
@@ -53,18 +64,25 @@ wget -q https://thatspecificsound.wordpress.com/ \
     echo ''
 	echo 'some sanitizing with sed..'
 	# rename *.wp.com to thatspecificsound.nl so we fetch contents local
-    find . -type f -print0 | LC_ALL=C xargs -0 sed -i'' -e 's/(s|s2|s0|s1|stats|fonts|pixel).wp.com/thatspecificsound.nl/g'
+    	#find . -type f -print0 | LC_ALL=C xargs -0 sed -i'' -e 's/(s|s2|s0|s1|stats|fonts|pixel).wp.com/thatspecificsound.nl/g'
+    	find . -type f -print0 | LC_ALL=C xargs -0 sed -i'' -e 's/s0.wp.com/thatspecificsound.nl/g'
+    	find . -type f -print0 | LC_ALL=C xargs -0 sed -i'' -e 's/s1.wp.com/thatspecificsound.nl/g'
+    	find . -type f -print0 | LC_ALL=C xargs -0 sed -i'' -e 's/s2.wp.com/thatspecificsound.nl/g'
+    	find . -type f -print0 | LC_ALL=C xargs -0 sed -i'' -e 's/stats.wp.com/thatspecificsound.nl/g'
+    	find . -type f -print0 | LC_ALL=C xargs -0 sed -i'' -e 's/fonts.wp.com/thatspecificsound.nl/g'
+    	find . -type f -print0 | LC_ALL=C xargs -0 sed -i'' -e 's/pixel.wp.com/thatspecificsound.nl/g'
+    	find . -type f -print0 | LC_ALL=C xargs -0 sed -i'' -e 's/widgets.wp.com/thatspecificsound.nl/g'
 	# remove code in the html files with the following words
 	# note: this is pretty ambigious and can also remove proper code or sentences in the interview if used by any - need to improve this
 	find . -type f -print0 | LC_ALL=C xargs -0 sed -i'' -e '/dns-prefetch/d'
-	find . -type f -print0 | LC_ALL=C xargs -0 sed -i'' -e '/Design/d'
-	find . -type f -print0 | LC_ALL=C xargs -0 sed -i'' -e '/Created/d'
-	find . -type f -print0 | LC_ALL=C xargs -0 sed -i'' -e '/window._tkq = window._tkq/d'
-	find . -type f -print0 | LC_ALL=C xargs -0 sed -i'' -e '/wpcom_marketing_bar_cta_click/d'
-	find . -type f -print0 | LC_ALL=C xargs -0 sed -i'' -e '/wpcom_marketing_bar_impression/d'
-	find . -type f -print0 | LC_ALL=C xargs -0 sed -i'' -e '/\#marketingbar/d'
-	find . -type f -print0 | LC_ALL=C xargs -0 sed -i'' -e '/link.addEventListener/d'
-	find . -type f -print0 | LC_ALL=C xargs -0 sed -i'' -e '/link\.addEventListener/d'
+#	find . -type f -print0 | LC_ALL=C xargs -0 sed -i'' -e '/Design/d'
+#	find . -type f -print0 | LC_ALL=C xargs -0 sed -i'' -e '/Created/d'
+#	find . -type f -print0 | LC_ALL=C xargs -0 sed -i'' -e '/window._tkq = window._tkq/d'
+#	find . -type f -print0 | LC_ALL=C xargs -0 sed -i'' -e '/wpcom_marketing_bar_cta_click/d'
+#	find . -type f -print0 | LC_ALL=C xargs -0 sed -i'' -e '/wpcom_marketing_bar_impression/d'
+#	find . -type f -print0 | LC_ALL=C xargs -0 sed -i'' -e '/\#marketingbar/d'
+#	find . -type f -print0 | LC_ALL=C xargs -0 sed -i'' -e '/link.addEventListener/d'
+#	find . -type f -print0 | LC_ALL=C xargs -0 sed -i'' -e '/link\.addEventListener/d'
     # done sanitizing
 	echo ''
 	echo 'now copying the contents to our git repo..'
