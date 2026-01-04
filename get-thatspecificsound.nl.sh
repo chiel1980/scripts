@@ -46,9 +46,8 @@ wget -q \
 --adjust-extension \
 --page-requisites \
 --no-parent \
---no-clobber \
---wait=0.5 \
---reject-regex=".*/(\?p=|wp-json|feed|xmlrpc).*" \
+--exclude-directories="feed,*/feed/,*/*/feed,wp-json,search" \
+--reject-regex=".*/(\?p=|wp-json|feed|xmlrpc|replytocom).*" \
 --domains=thatspecificsound.wordpress.com \
 https://thatspecificsound.wordpress.com
 	#
@@ -75,7 +74,7 @@ https://thatspecificsound.wordpress.com
 	# remove code in the html files with the following words
 	# note: this is pretty ambigious and can also remove proper code or sentences in the interview if used by any - need to improve this
 	find . -type f -print0 | LC_ALL=C xargs -0 sed -i'' -e '/dns-prefetch/d'
-#	find . -type f -print0 | LC_ALL=C xargs -0 sed -i'' -e '/Design/d'
+#	find . -type f -print0 | LC_ALL=C xargs -0 sed -i'' -e '/Design a site/d'
 #	find . -type f -print0 | LC_ALL=C xargs -0 sed -i'' -e '/Created/d'
 #	find . -type f -print0 | LC_ALL=C xargs -0 sed -i'' -e '/window._tkq = window._tkq/d'
 #	find . -type f -print0 | LC_ALL=C xargs -0 sed -i'' -e '/wpcom_marketing_bar_cta_click/d'
