@@ -20,6 +20,13 @@ Debian / Ubuntu packages:
 
 Install with apt:
     sudo apt install python3 python3-requests python3-bs4
+
+macOS (Homebrew) packages:
+- python
+
+Install with Homebrew:
+    brew install python
+    pip3 install requests beautifulsoup4
 """
 
 import os
