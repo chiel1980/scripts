@@ -43,20 +43,21 @@ from bs4 import BeautifulSoup, Comment
 
 
 class WordPressScraper:
-    def __init__(self, base_url, output_dir='scraped_site', max_pages=None, delay=1.0, remove_footer=True):
+    def __init__(self, base_url, output_dir='scraped_site', max_pages=None, delay=1.0, remove_footer=True, dry_run=False):
         self.base_url = base_url.rstrip('/')
         self.domain = urlparse(base_url).netloc
         self.output_dir = Path(output_dir)
         self.max_pages = max_pages
         self.delay = delay
         self.remove_footer = remove_footer
+        self.dry_run = dry_run  # <-- new
 
         self.visited_urls = set()
         self.to_visit = deque([self.base_url])
         self.downloaded_resources = set()
 
-        # Create output directory
-        self.output_dir.mkdir(parents=True, exist_ok=True)
+        if not self.dry_run:
+            self.output_dir.mkdir(parents=True, exist_ok=True)
 
         # Session with retries
         self.session = requests.Session()
@@ -116,12 +117,13 @@ class WordPressScraper:
             response.raise_for_status()
 
             filepath = self.url_to_filepath(abs_url)
-            filepath.parent.mkdir(parents=True, exist_ok=True)
-            with open(filepath, 'wb') as f:
-                f.write(response.content)
+            if not self.dry_run:
+                filepath.parent.mkdir(parents=True, exist_ok=True)
+                with open(filepath, 'wb') as f:
+                    f.write(response.content)
 
             self.downloaded_resources.add(norm_url)
-            print(f"  Resource downloaded: {url}")
+            print(f"  Resource downloaded: {url}" if not self.dry_run else f"  [Dry-run] Would download: {url}")
 
         except Exception as e:
             print(f"  Failed to download {url}: {e}")
@@ -207,11 +209,11 @@ class WordPressScraper:
             soup = self.update_links(soup, url)
 
             filepath = self.url_to_filepath(url)
-            filepath.parent.mkdir(parents=True, exist_ok=True)
-            with open(filepath, 'w', encoding='utf-8') as f:
-                f.write(soup.prettify())
-
-            print(f"Saved: {filepath}")
+            if not self.dry_run:
+                filepath.parent.mkdir(parents=True, exist_ok=True)
+                with open(filepath, 'w', encoding='utf-8') as f:
+                    f.write(soup.prettify())
+            print(f"Saved: {filepath}" if not self.dry_run else f"[Dry-run] Would save: {filepath}")
             return True
         except Exception as e:
             print(f"Failed to scrape {url}: {e}")
@@ -220,8 +222,11 @@ class WordPressScraper:
     # ----------------- Move Output ----------------- #
     def move_output(self, target_dir='../thatspecificsound.github.io'):
         target_path = Path(target_dir).resolve()
-        target_path.mkdir(parents=True, exist_ok=True)
+        if self.dry_run:
+            print(f"[Dry-run] Would move scraped site from {self.output_dir} to {target_path}")
+            return
 
+        target_path.mkdir(parents=True, exist_ok=True)
         print(f"Moving scraped site from {self.output_dir} to {target_path}")
 
         for item in self.output_dir.iterdir():
@@ -233,7 +238,6 @@ class WordPressScraper:
 
         if not any(self.output_dir.iterdir()):
             self.output_dir.rmdir()
-
         print("Move complete!")
 
     # ----------------- Main Scraper Loop ----------------- #
@@ -274,6 +278,7 @@ def main():
     parser.add_argument('-m', '--max-pages', type=int, default=None, help='Maximum pages to scrape')
     parser.add_argument('-d', '--delay', type=float, default=1.0, help='Delay between requests (seconds)')
     parser.add_argument('--keep-footer', action='store_true', help='Keep WordPress footer and attribution')
+    parser.add_argument('--dry-run', action='store_true', help='Simulate scraping without writing files')
 
     args = parser.parse_args()
 
@@ -287,7 +292,8 @@ def main():
         output_dir=args.output,
         max_pages=args.max_pages,
         delay=args.delay,
-        remove_footer=not args.keep_footer
+        remove_footer=not args.keep_footer,
+        dry_run=args.dry_run
     )
     scraper.scrape()
 
