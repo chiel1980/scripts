@@ -66,6 +66,7 @@ import platform
 import subprocess
 import importlib.util
 import argparse
+import tempfile
 from urllib.parse import urljoin, urlparse, urlunparse
 from pathlib import Path
 from collections import deque
@@ -236,8 +237,8 @@ def check_dependencies(verbose=True):
 
 class WordPressScraper:
     def __init__(self, base_url, output_dir='scraped_site', max_pages=None, delay=1.0, remove_footer=True,
-                 dry_run=False, ensure_responsive=True, validate_w3c=False, validation_output='w3c_validation_report.json',
-                 autofix=False, default_lang='en', strict_w3c=False):
+                 dry_run=False, ensure_responsive=True, validate_w3c=True, validation_output='w3c_validation_report.json',
+                 autofix=True, default_lang='en', strict_w3c=True, remove_unused=True):
         self.base_url = base_url.rstrip('/')
         self.domain = urlparse(base_url).netloc
         self.output_dir = Path(output_dir)
@@ -251,10 +252,12 @@ class WordPressScraper:
         self.autofix = autofix  # <-- new: apply common markup fixes before saving/validating
         self.default_lang = default_lang  # <-- new: lang value used when <html> is missing one
         self.strict_w3c = strict_w3c  # <-- new: fail the run if any page still has W3C errors
+        self.remove_unused = remove_unused  # <-- new: delete downloaded resources no HTML file references
 
         self.visited_urls = set()
         self.to_visit = deque([self.base_url])
         self.downloaded_resources = set()
+        self.downloaded_resource_files = set()  # local file Paths written by download_resource
         self.found_responsive_css = False  # tracks whether any downloaded stylesheet has @media rules
         self.validation_results = []  # collected W3C validation results, one entry per validated page
         self.autofix_count = 0  # total number of individual fixes applied across the whole site
@@ -324,6 +327,7 @@ class WordPressScraper:
                 filepath.parent.mkdir(parents=True, exist_ok=True)
                 with open(filepath, 'wb') as f:
                     f.write(response.content)
+                self.downloaded_resource_files.add(filepath.resolve())
 
             if filepath.suffix.lower() == '.css' and not self.found_responsive_css:
                 if '@media' in response.text:
@@ -685,6 +689,87 @@ class WordPressScraper:
             print(f"Failed to scrape {url}: {e}")
             return False
 
+    # ----------------- Cleanup ----------------- #
+    def _resolve_local_ref(self, html_file, value):
+        """Resolve an href/src value found in an already-saved HTML file to a local
+        Path. Returns None for anything that isn't a local file reference (external
+        URLs, anchors, mailto:, data: URIs, etc.)."""
+        if not value:
+            return None
+        if value.startswith(('http://', 'https://', '//', 'mailto:', 'tel:', 'javascript:', 'data:', '#')):
+            return None
+        path_part = value.split('#', 1)[0].split('?', 1)[0]
+        if not path_part:
+            return None
+        try:
+            return (html_file.parent / path_part).resolve()
+        except (OSError, ValueError):
+            return None
+
+    def prune_unused_resources(self):
+        """Delete downloaded resource files (CSS, JS, images, etc.) that no saved HTML
+        page actually references. HTML pages themselves are never removed by this step —
+        only the supporting resource files. Runs after all pages are saved so link
+        rewriting has already turned every reference into a local relative path."""
+        if not self.remove_unused:
+            return
+        if self.dry_run:
+            print("\n[Dry-run] Skipping unused-resource cleanup (nothing was written to disk)")
+            return
+
+        referenced = set()
+        html_files = list(self.output_dir.rglob('*.html'))
+        for html_file in html_files:
+            try:
+                with open(html_file, 'r', encoding='utf-8') as f:
+                    soup = BeautifulSoup(f.read(), 'html.parser')
+            except Exception as e:
+                print(f"  Could not parse {html_file} while checking for unused resources: {e}")
+                continue
+
+            for tag, attr in [('link', 'href'), ('script', 'src'), ('img', 'src'), ('a', 'href')]:
+                for t in soup.find_all(tag, **{attr: True}):
+                    resolved = self._resolve_local_ref(html_file, t[attr])
+                    if resolved:
+                        referenced.add(resolved)
+
+            for img in soup.find_all(attrs={'srcset': True}):
+                for item in img['srcset'].split(','):
+                    parts = item.strip().split()
+                    if parts:
+                        resolved = self._resolve_local_ref(html_file, parts[0])
+                        if resolved:
+                            referenced.add(resolved)
+
+        removed = []
+        for path in self.output_dir.rglob('*'):
+            if path.is_dir() or path.suffix.lower() == '.html':
+                continue
+            if path.resolve() not in referenced:
+                removed.append(path)
+
+        for path in removed:
+            try:
+                path.unlink()
+            except OSError as e:
+                print(f"  Could not remove {path}: {e}")
+
+        # Clean up any directories left empty by the removals above.
+        for d in sorted([p for p in self.output_dir.rglob('*') if p.is_dir()], reverse=True):
+            try:
+                if not any(d.iterdir()):
+                    d.rmdir()
+            except OSError:
+                pass
+
+        print()
+        if removed:
+            print(f"Removed {len(removed)} unused resource file(s) not referenced by any saved HTML page:")
+            for p in removed:
+                print(f"  - {p.relative_to(self.output_dir)}")
+        else:
+            print("Unused-resource check: every downloaded resource is referenced by at least one saved page.")
+
     # ----------------- Move Output ----------------- #
     def move_output(self, target_dir='../thatspecificsound.github.io'):
         target_path = Path(target_dir).resolve()
@@ -742,35 +827,94 @@ class WordPressScraper:
             print(f"Autofix: {self.autofix_count} fix(es) applied across {pages_scraped} page(s)")
         print(f"{'=' * 60}")
 
+        self.prune_unused_resources()
         self.write_validation_report()
         strict_ok = self.check_strict_w3c()
         self.move_output()
         return strict_ok
 
 
+DEFAULT_URL = 'https://thatspecificsound.wordpress.com'
+# The scrape is a temporary working copy (the real destination is the
+# ../thatspecificsound.github.io move at the end), so it belongs in /tmp rather
+# than cluttering whatever directory the script happens to be run from.
+DEFAULT_OUTPUT_DIR = str(Path(tempfile.gettempdir()) / 'wordpress_scraper_output')
+
+
+def build_scraper(args, dry_run):
+    """Construct a WordPressScraper from parsed CLI args, with dry_run forced to the
+    given value (used so the preview pass and the real pass each get a clean instance)."""
+    return WordPressScraper(
+        base_url=args.url,
+        output_dir=args.output,
+        max_pages=args.max_pages,
+        delay=args.delay,
+        remove_footer=not args.keep_footer,
+        dry_run=dry_run,
+        ensure_responsive=not args.no_responsive,
+        validate_w3c=not args.no_validate,
+        validation_output=args.validation_output,
+        autofix=not args.no_autofix,
+        default_lang=args.lang,
+        strict_w3c=not args.no_strict_w3c,
+        remove_unused=not args.keep_unused_resources
+    )
+
+
+def print_options_summary(args):
+    """Verbose summary of every option in effect for this run, and whether it's at its
+    default or was explicitly overridden, so nothing is silently on/off."""
+    def line(label, value, is_default):
+        tag = "(default)" if is_default else "(overridden)"
+        print(f"  {label:<28}: {value:<6} {tag}")
+
+    print("=" * 60)
+    print("Run configuration")
+    print("=" * 60)
+    print(f"  {'Target URL':<28}: {args.url} {'(default)' if args.url == DEFAULT_URL else '(overridden)'}")
+    print(f"  {'Output directory':<28}: {args.output} {'(default)' if args.output == DEFAULT_OUTPUT_DIR else '(overridden)'}")
+    line("Responsive viewport fix", "ON" if not args.no_responsive else "OFF", not args.no_responsive)
+    line("Autofix", "ON" if not args.no_autofix else "OFF", not args.no_autofix)
+    line("W3C validation", "ON" if not args.no_validate else "OFF", not args.no_validate)
+    line("Strict W3C check", "ON" if not args.no_strict_w3c else "OFF", not args.no_strict_w3c)
+    line("Remove unused resources", "ON" if not args.keep_unused_resources else "OFF", not args.keep_unused_resources)
+    line("Keep WordPress footer", "ON" if args.keep_footer else "OFF", not args.keep_footer)
+    print(f"  {'Max pages':<28}: {args.max_pages if args.max_pages else 'unlimited':<6} "
+          f"{'(default)' if args.max_pages is None else '(overridden)'}")
+    print(f"  {'Request delay (s)':<28}: {args.delay:<6} {'(default)' if args.delay == 1.0 else '(overridden)'}")
+    print("=" * 60)
+
+
 # ----------------- CLI ----------------- #
 def main():
     parser = argparse.ArgumentParser(description="Recursively scrape a WordPress website into static HTML.")
-    parser.add_argument('url', nargs='?', help='Base URL of the WordPress site to scrape')
-    parser.add_argument('-o', '--output', default='scraped_site', help='Output directory')
+    parser.add_argument('url', nargs='?', default=DEFAULT_URL,
+                         help=f'Base URL of the WordPress site to scrape (default: {DEFAULT_URL})')
+    parser.add_argument('-o', '--output', default=DEFAULT_OUTPUT_DIR,
+                         help=f'Output directory for the temporary scraped copy (default: {DEFAULT_OUTPUT_DIR})')
     parser.add_argument('-m', '--max-pages', type=int, default=None, help='Maximum pages to scrape')
     parser.add_argument('-d', '--delay', type=float, default=1.0, help='Delay between requests (seconds)')
     parser.add_argument('--keep-footer', action='store_true', help='Keep WordPress footer and attribution')
-    parser.add_argument('--dry-run', action='store_true', help='Simulate scraping without writing files')
+    parser.add_argument('--dry-run', action='store_true',
+                         help='Only run the dry-run preview (no confirmation prompt, no real scrape)')
+    parser.add_argument('-y', '--yes', action='store_true',
+                         help='Skip the "continue?" confirmation after the dry-run preview')
     parser.add_argument('--no-responsive', action='store_true',
-                         help='Skip injecting a responsive viewport meta tag into pages')
-    parser.add_argument('--validate', action='store_true',
-                         help='Validate each scraped page against the W3C Nu Markup Validator (requires internet access)')
+                         help='Skip injecting a responsive viewport meta tag into pages (on by default)')
+    parser.add_argument('--no-validate', action='store_true',
+                         help='Skip W3C Nu Markup Validator checks (on by default; requires internet access)')
     parser.add_argument('--validation-output', default='w3c_validation_report.json',
-                         help='Path to write the W3C validation report JSON (only used with --validate)')
-    parser.add_argument('--strict-w3c', action='store_true',
-                         help='With --validate: exit with a non-zero status and print full details for any '
-                              'page that still has W3C errors after autofix, instead of finishing silently')
-    parser.add_argument('--autofix', action='store_true',
-                         help='Automatically fix common markup issues (missing lang/charset/title/alt attributes, '
-                              'duplicate ids, target="_blank" without rel) before saving and validating pages')
+                         help='Path to write the W3C validation report JSON')
+    parser.add_argument('--no-strict-w3c', action='store_true',
+                         help='Do not fail the run if W3C errors remain after autofix (strict checking is on by default)')
+    parser.add_argument('--no-autofix', action='store_true',
+                         help='Skip automatic markup fixes (lang/charset/title/alt, duplicate ids, deprecated tags, '
+                              'obsolete presentational attributes, etc. — on by default)')
     parser.add_argument('--lang', default='en',
                          help='Language code to use when adding a missing lang attribute (default: en)')
+    parser.add_argument('--keep-unused-resources', action='store_true',
+                         help='Do not delete downloaded resource files that no saved HTML page references '
+                              '(cleanup is on by default)')
     parser.add_argument('--check-deps', action='store_true',
                          help='Check Python version, OS/distro, and required dependencies via the appropriate '
                               'package manager, then exit without scraping')
@@ -794,27 +938,31 @@ def main():
         print("  pip install requests beautifulsoup4")
         sys.exit(1)
 
-    if not args.url:
-        args.url = input("Enter WordPress site URL: ").strip()
     if not args.url.startswith(('http://', 'https://')):
         args.url = 'https://' + args.url
 
-    scraper = WordPressScraper(
-        base_url=args.url,
-        output_dir=args.output,
-        max_pages=args.max_pages,
-        delay=args.delay,
-        remove_footer=not args.keep_footer,
-        dry_run=args.dry_run,
-        ensure_responsive=not args.no_responsive,
-        validate_w3c=args.validate,
-        validation_output=args.validation_output,
-        autofix=args.autofix,
-        default_lang=args.lang,
-        strict_w3c=args.strict_w3c
-    )
-    success = scraper.scrape()
-    if args.strict_w3c and not success:
+    print_options_summary(args)
+
+    if args.dry_run:
+        print("\n--dry-run was passed: running the preview only, no confirmation, no real scrape.\n")
+        preview = build_scraper(args, dry_run=True)
+        preview.scrape()
+        return
+
+    print("\nRunning a dry-run preview first (no files will be written yet)...\n")
+    preview = build_scraper(args, dry_run=True)
+    preview.scrape()
+
+    if not args.yes:
+        answer = input("\nProceed with the actual scrape now? [y/N]: ").strip().lower()
+        if answer not in ('y', 'yes'):
+            print("Aborted — no files were written.")
+            return
+
+    print("\nStarting the real scrape...\n")
+    real = build_scraper(args, dry_run=False)
+    success = real.scrape()
+    if not args.no_strict_w3c and not success:
         sys.exit(2)
 
 
