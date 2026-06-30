@@ -267,7 +267,7 @@
           "lastColumn": 78,
           "firstColumn": 3,
           "message": "Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.",
-          "extract": "tion\"/>\n  <meta content=\"https://thatspecificsound.wordpress.com/\" property=\"og:url\"/>\n  <me",
+          "extract": "tion\"/>\n  <meta content=\"https://thatspecificsound.wordpress.com/\" property=\"og:url\"/>\n",
           "hiliteStart": 10,
           "hiliteLength": 76
         },
@@ -2501,7 +2501,7 @@
           "lastColumn": 59,
           "firstColumn": 3,
           "message": "Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.",
-          "extract": "mage\"/>\n  <meta content=\"summary_large_image\" name=\"twitter:card\"/>\n  <",
+          "extract": "mage\"/>\n  <meta content=\"summary_large_image\" name=\"twitter:card\"/>\n  <!-",
           "hiliteStart": 10,
           "hiliteLength": 57
         },
@@ -3790,7 +3790,7 @@
           "lastColumn": 322,
           "firstColumn": 3,
           "message": "Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.",
-          "extract": "/style>\n  <link crossorigin=\"anonymous\" href=\"../_static/index_?-eJx9jVEOAiEMRC8kFmOI/hjPwpLKVgsl0NV4e1ETXTXxb+a1MwOXYoJkxayQJlN4ipQbBEmpI8N0wu7aF1l2sgCCLEo93V7ieZh16oipN5RpAF/DSGdqCk2vjD+vs/mKA0vsMj623/ZfKKIYluCVJH8Yc2BP9R7dp91qs7XOWrd2xxtJC13f_cssminify-yes.html\" id=\"all-css-44-1\" media=\"all\" rel=\"stylesheet\" type=\"text/css\"/>\n  <st",
+          "extract": "/style>\n  <link crossorigin=\"anonymous\" href=\"../_static/index_?-eJx9jVEOAiEMRC8kFmOI/hjPwpLKVgsl0NV4e1ETXTXxb+a1MwOXYoJkxayQJlN4ipQbBEmpI8N0wu7aF1l2sgCCLEo93V7ieZh16oipN5RpAF/DSGdqCk2vjD+vs/mKA0vsMj623/ZfKKIYluCVJH8Yc2BP9R7dp91qs7XOWrd2xxtJC13f_cssminify-yes.html\" id=\"all-css-44-1\" media=\"all\" rel=\"stylesheet\" type=\"text/css\"/>",
           "hiliteStart": 10,
           "hiliteLength": 320
         },
@@ -4011,7 +4011,7 @@
           "lastColumn": 97,
           "firstColumn": 3,
           "message": "Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.",
-          "extract": "sher\"/>\n  <meta content=\"Interview \u2013 Scott Mellinger \u2013 Zao/Lonely\u00a0Ghost/Pack\" name=\"twitter:text:title\"/>\n  <me",
+          "extract": "sher\"/>\n  <meta content=\"Interview \u2013 Scott Mellinger \u2013 Zao/Lonely\u00a0Ghost/Pack\" name=\"twitter:text:title\"/>\n ",
           "hiliteStart": 10,
           "hiliteLength": 95
         },
@@ -8394,7 +8394,7 @@
           "lastColumn": 106,
           "firstColumn": 8,
           "message": "Attribute \u201cmask-type\u201d not allowed on element \u201cmask\u201d at this point.",
-          "extract": "\">\n       <mask height=\"12\" id=\"maskNext\" mask-type=\"alpha\" maskunits=\"userSpaceOnUse\" width=\"8\" x=\"8\" y=\"6\">\n     ",
+          "extract": "\">\n       <mask height=\"12\" id=\"maskNext\" mask-type=\"alpha\" maskunits=\"userSpaceOnUse\" width=\"8\" x=\"8\" y=\"6\">\n   ",
           "hiliteStart": 10,
           "hiliteLength": 99
         },
@@ -9428,7 +9428,7 @@
           "lastColumn": 322,
           "firstColumn": 3,
           "message": "Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.",
-          "extract": "/style>\n  <link crossorigin=\"anonymous\" href=\"../_static/index_?-eJx9jVEOAiEMRC8kFmOI/hjPwpLKVgsl0NV4e1ETXTXxb+a1MwOXYoJkxayQJlN4ipQbBEmpI8N0wu7aF1l2sgCCLEo93V7ieZh16oipN5RpAF/DSGdqCk2vjD+vs/mKA0vsMj623/ZfKKIYluCVJH8Yc2BP9R7dp91qs7XOWrd2xxtJC13f_cssminify-yes.html\" id=\"all-css-44-1\" media=\"all\" rel=\"stylesheet\" type=\"text/css\"/>\n  <s",
+          "extract": "/style>\n  <link crossorigin=\"anonymous\" href=\"../_static/index_?-eJx9jVEOAiEMRC8kFmOI/hjPwpLKVgsl0NV4e1ETXTXxb+a1MwOXYoJkxayQJlN4ipQbBEmpI8N0wu7aF1l2sgCCLEo93V7ieZh16oipN5RpAF/DSGdqCk2vjD+vs/mKA0vsMj623/ZfKKIYluCVJH8Yc2BP9R7dp91qs7XOWrd2xxtJC13f_cssminify-yes.html\" id=\"all-css-44-1\" media=\"all\" rel=\"stylesheet\" type=\"text/css\"/>\n  <st",
           "hiliteStart": 10,
           "hiliteLength": 320
         },
