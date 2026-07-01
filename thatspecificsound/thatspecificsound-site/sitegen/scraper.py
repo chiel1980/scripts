@@ -405,9 +405,15 @@ def parse_interview(html: str, url: str) -> dict:
             if not text:
                 continue
 
+            # Preserve any links inside this element (e.g. "check them out
+            # on Instagram/YouTube" lines, which are commonly the last
+            # paragraph of an interview) as [label](url) markers, which the
+            # `linkify` template filter turns back into real <a> tags.
+            linked_text = strip_inline_links(el)
+
             lower=text.lower()
             if lower.startswith("photo credit"):
-                photo_credit=text
+                photo_credit=linked_text
                 continue
 
             # Questions are normally bold, uppercase, or end with ?
@@ -420,7 +426,7 @@ def parse_interview(html: str, url: str) -> dict:
             if is_question:
                 blocks.append({"kind":"question","text":text})
             else:
-                blocks.append({"kind":"answer","text":text})
+                blocks.append({"kind":"answer","text":linked_text})
 
     qa=[]
     intro=[]
