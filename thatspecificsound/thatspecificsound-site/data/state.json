@@ -1,0 +1,122 @@
+{
+  "last_run": "2026-07-01T06:50:59+00:00",
+  "pages": {
+    "https://thatspecificsound.wordpress.com/": {
+      "content_hash": "2e97e1f3a6f394da2ed60995de9f02b05675c2393c1d2dcaa8b6e426c417a228",
+      "etag": null,
+      "first_seen": "2026-07-01T06:50:32+00:00",
+      "last_changed": "2026-07-01T06:50:32+00:00",
+      "last_modified": null,
+      "title": "That Specific Sound",
+      "type": "home"
+    },
+    "https://thatspecificsound.wordpress.com/about/": {
+      "content_hash": "275a2f2f18fc67ca55e7d9de42fa83ad21df6c5ec636357b6669fcccfcabdbb7",
+      "etag": null,
+      "first_seen": "2026-07-01T06:50:33+00:00",
+      "last_changed": "2026-07-01T06:50:33+00:00",
+      "last_modified": null,
+      "title": "About",
+      "type": "about"
+    },
+    "https://thatspecificsound.wordpress.com/interview-adam-tanbouz-he-is-legend/": {
+      "content_hash": "e1eaeaf9f02ca7683faffce188228b7f69e8180d30d0ae4c9f58c711aeb5b592",
+      "etag": null,
+      "first_seen": "2026-07-01T06:50:50+00:00",
+      "last_changed": "2026-07-01T06:50:50+00:00",
+      "last_modified": "Wed, 01 Jul 2026 06:50:41 GMT",
+      "title": "Interview – Adam Tanbouz – He is Legend",
+      "type": "interview"
+    },
+    "https://thatspecificsound.wordpress.com/interview-bo-lueders-harms-way/": {
+      "content_hash": "ed577209814cc987c7f365f260180d6564c830c4c01cab03e32753aa3e7426db",
+      "etag": null,
+      "first_seen": "2026-07-01T06:50:51+00:00",
+      "last_changed": "2026-07-01T06:50:51+00:00",
+      "last_modified": "Wed, 01 Jul 2026 06:50:43 GMT",
+      "title": "Interview – Bo Lueders – Harm’s Way",
+      "type": "interview"
+    },
+    "https://thatspecificsound.wordpress.com/interview-boudewijn-bonebakker-gorefest/": {
+      "content_hash": "aa405b4918c4c5ab14fc0bbddeb3bf7a978dfcfc51a2031a2c62d369d5b6d2f4",
+      "etag": null,
+      "first_seen": "2026-07-01T06:50:52+00:00",
+      "last_changed": "2026-07-01T06:50:52+00:00",
+      "last_modified": "Wed, 01 Jul 2026 06:50:46 GMT",
+      "title": "Interview – Boudewijn Bonebakker – Gorefest",
+      "type": "interview"
+    },
+    "https://thatspecificsound.wordpress.com/interview-kurt-ballou-converge/": {
+      "content_hash": "257a32dd6f8f9c83a7f74c50ac0b7faf941ad6cf1cb63e6805857061eab5d185",
+      "etag": null,
+      "first_seen": "2026-07-01T06:50:53+00:00",
+      "last_changed": "2026-07-01T06:50:53+00:00",
+      "last_modified": "Wed, 01 Jul 2026 06:50:48 GMT",
+      "title": "Interview – Kurt Ballou – Converge",
+      "type": "interview"
+    },
+    "https://thatspecificsound.wordpress.com/interview-matthew-wood-one-king-down/": {
+      "content_hash": "e0222a9750a378987cc7e686ec9b36381572bdd201b2479d71135721c372befc",
+      "etag": null,
+      "first_seen": "2026-07-01T06:50:54+00:00",
+      "last_changed": "2026-07-01T06:50:54+00:00",
+      "last_modified": "Wed, 01 Jul 2026 06:50:48 GMT",
+      "title": "Interview – Matthew Wood – One King Down",
+      "type": "interview"
+    },
+    "https://thatspecificsound.wordpress.com/interview-michael-scoville-one-king-down/": {
+      "content_hash": "553d169e0e67f902ac24d6a40020d02281341cec7acb6fbfa6c2602bdca0f93a",
+      "etag": null,
+      "first_seen": "2026-07-01T06:50:55+00:00",
+      "last_changed": "2026-07-01T06:50:55+00:00",
+      "last_modified": "Wed, 01 Jul 2026 06:50:50 GMT",
+      "title": "Interview – Michael Scoville – One King Down",
+      "type": "interview"
+    },
+    "https://thatspecificsound.wordpress.com/interview-mike-mckenzie-the-red-chord-stomach-earth/": {
+      "content_hash": "9eb94badecbc171f63be47b0a6693e9c2f8c9e6157b6aae19f04731bcffc4712",
+      "etag": null,
+      "first_seen": "2026-07-01T06:50:56+00:00",
+      "last_changed": "2026-07-01T06:50:56+00:00",
+      "last_modified": "Wed, 01 Jul 2026 06:50:44 GMT",
+      "title": "Interview – Mike McKenzie – The Red Chord/Stomach Earth/Umbra Vitae/Wear your Wounds",
+      "type": "interview"
+    },
+    "https://thatspecificsound.wordpress.com/interview-rogier-stevens-driven/": {
+      "content_hash": "d9fee80f55e0b9a681505aa7c5b5a513ae6913464bb053812a3b3f8405f43df5",
+      "etag": null,
+      "first_seen": "2026-07-01T06:50:57+00:00",
+      "last_changed": "2026-07-01T06:50:57+00:00",
+      "last_modified": "Wed, 01 Jul 2026 06:50:45 GMT",
+      "title": "Interview – Rogier Stevens – Driven",
+      "type": "interview"
+    },
+    "https://thatspecificsound.wordpress.com/interview-scott-crouse-earth-crisis-sect/": {
+      "content_hash": "9da86e73cb6d7dbdb49581bf2a28040a2299270824a52473227e88783ef43115",
+      "etag": null,
+      "first_seen": "2026-07-01T06:50:58+00:00",
+      "last_changed": "2026-07-01T06:50:58+00:00",
+      "last_modified": "Wed, 01 Jul 2026 06:50:40 GMT",
+      "title": "Interview – Scott Crouse – Earth Crisis/Sect",
+      "type": "interview"
+    },
+    "https://thatspecificsound.wordpress.com/interview-scott-mellinger-zao-lonely-ghost-pack/": {
+      "content_hash": "095268dfd6312058796613ec4b050c228832902eab6b6e14934b79a71908d661",
+      "etag": null,
+      "first_seen": "2026-07-01T06:50:59+00:00",
+      "last_changed": "2026-07-01T06:50:59+00:00",
+      "last_modified": "Wed, 01 Jul 2026 06:50:42 GMT",
+      "title": "Interview – Scott Mellinger – Zao/Lonely Ghost/Pack",
+      "type": "interview"
+    },
+    "https://thatspecificsound.wordpress.com/interviews/": {
+      "content_hash": "c6ba1aa2595e473187f5942a693256ffdb2d694a086ab992ef2af29ebd27bb2f",
+      "etag": null,
+      "first_seen": "2026-07-01T06:50:34+00:00",
+      "last_changed": "2026-07-01T06:50:34+00:00",
+      "last_modified": null,
+      "title": "Interviews",
+      "type": "interviews_index"
+    }
+  }
+}
