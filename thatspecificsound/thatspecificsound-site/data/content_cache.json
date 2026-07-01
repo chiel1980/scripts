@@ -1,0 +1,2558 @@
+{
+  "https://thatspecificsound.wordpress.com/": {
+    "links": {
+      "About": "https://thatspecificsound.wordpress.com/about/",
+      "Interviews": "https://thatspecificsound.wordpress.com/interviews/"
+    },
+    "paragraphs": [
+      "Welcome to That Specific Sound : a website dedicated to some of the world’s greatest hardcore and metal guitarists, showcasing their rigs used in both studio recordings and live performances — revealing the secrets behind the unique sounds you’ve always wondered about. Check the Interviews sections to see the short interviews I conducted. See the About page to get a bit more detailed information why I decided to start this page. Enjoy! Michiel"
+    ],
+    "tagline": "",
+    "title": "That Specific Sound",
+    "type": "home"
+  },
+  "https://thatspecificsound.wordpress.com/about/": {
+    "paragraphs": [
+      "A bit more background on why I started this website — so here goes:",
+      "My name is Michiel van Es. I’m an avid guitar player and hobbyist with a lifelong love for hardcore and metal bands from the 90s up to today. Music has always been my passion, and I especially enjoy playing guitar, experimenting and tinkering with pickups, pedals, and amps, and exploring different sounds.",
+      "Back in the 90s, I was fascinated by the “secrets” behind the gear my favorite guitarists used—what equipment they recorded with on certain albums, and what rigs they brought on stage.",
+      "I figured that many others would also be interested in the specific gear these guitarists used, what they’re currently playing, what inspired them as kids, and which techniques shaped their style. The idea is to get a deeper sense of the person behind those furious riffs that stick in your head.",
+      "A quick note: the interviews on this site may feel more static and less entertaining than video interviews, but that’s intentional. This way, fellow “rig-o-philes” (if that’s even a word) can quickly and efficiently read about the gear their favorite players use and get straight to the information they’re after.",
+      "My hope is that this website will serve as an archive for anyone who shares a passion for heavy guitar sounds. If you have any questions or feedback, feel free to reach out through one of my other personal websites or shoot me an email at mve@thatspecificsound.nl ."
+    ],
+    "title": "About",
+    "type": "about"
+  },
+  "https://thatspecificsound.wordpress.com/interview-adam-tanbouz-he-is-legend/": {
+    "full_html": "",
+    "hero_image": "https://thatspecificsound.wordpress.com/wp-content/uploads/2025/09/he-is-legend-edit-1.jpg?w=1024",
+    "intro": [],
+    "outro": [],
+    "photo_credit": null,
+    "qa": [
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I started playing when I was 12, my first guitar was a Yamaha strat copy and a small 15 watt Marshall combo amp purchased from a pawn shop as a Christmas present"
+          }
+        ],
+        "question": "When did you start playing guitar and what guitar and equipment did you start on?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Nirvana and all the big Seattle bands at the time were probably the reason me and my friends started playing, later on SRV became an influence because at the time there was a decent blues scene in our town, then a few years later hearing Pantera and Meshuggah for the first time was super influential for me"
+          }
+        ],
+        "question": "Which bands inspired you to start playing guitar and are there certain riffs or songs that specifically motivated you to start playing guitar?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "When I got my first Mesa Dual Rectifier half stack, it was the heaviest thing I’d ever heard, such a wall of sound"
+          }
+        ],
+        "question": "When did you really feel your guitar playing and equipment got more professional and you thought: “Yes, this is the sound I really like!” ?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I definitely think the right gear is important for the specific sound you’re going for, it’s also just about what gear resonates with you, I’ve always been into the crushing enormity of the Mesa sound so it just makes sense to me"
+          }
+        ],
+        "question": "Do these 2 go hand in hand or did it evolve differently for your playing and your equipment?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Hollywood was a 5150 and Tubescreamer for main rhythms, a bit of Framus for certain parts, Ltd MH 400 with EMGs plus a strat for some parts."
+          },
+          {
+            "kind": "answer",
+            "text": "SOTP was a Bogner with various pedals mostly a Rat I think, Fernandes with EMGs,"
+          },
+          {
+            "kind": "answer",
+            "text": "IHY was a Dual Rec and a Ltd MH 400 with EMGs,"
+          },
+          {
+            "kind": "answer",
+            "text": "HF was a mix of Dual Rec and 5150 Ltd Eclipse with Duncan JB,"
+          },
+          {
+            "kind": "answer",
+            "text": "Few was mostly 5150 a bit of Dual Rec Ltd Eclipse with Duncan JB,"
+          },
+          {
+            "kind": "answer",
+            "text": "White Bat was 5150 Ltd Eclipse with Duncan JB and Mojotone pickups,"
+          },
+          {
+            "kind": "answer",
+            "text": "EH was 5150 Ltd Eclipse Mojotone 44 magnum pickup"
+          }
+        ],
+        "question": "Do you recall using what kind of amps, guitars, pedals and pickups on the albums? If so, would you mind sharing them? (for example: for album X we used a peavey 5150 mixed with a mesa dual rec and a TS9 and I was using a ESP LTD MH-400 with JB in the bridge)"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "In the studio you often play what’s available, then around IHY we found the recording team we like so we’ve stuck with them for all the records since then and we use what works well for the studio mic which for our sound is the 5150 and Dual Rec"
+          }
+        ],
+        "question": "I have noticed the difference in sounds over years of your albums; did you switch to other amps but do you also feel the amps were a better fit for you, the songs and your playing?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Yes, 2 multi watts one as backup, no mods"
+          }
+        ],
+        "question": "I see you currently use a Mesa Boogie Dual Rectifier – multiwatt as main amp and an older 2 channel or another Multiwatt as backup?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "No mods"
+          }
+        ],
+        "question": "Any mods done to the amp or changes to the tubes?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I use a set of custom Dunlop strings 70-48-36-18-14-11 in drop C, I pick very hard and I enjoy the tension,clarity, and resonance from having thicker gauges for the 3 wound strings, we also play fairly loud live so I find that thicker strings help the guitar sit well in a mix with other instruments"
+          }
+        ],
+        "question": "Can you tell me a bit more about the thick strings you use; how do they help your tone and does it help with playing as well? (why would a thinner set of strings won’t work for you?)"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I use a Mojotone Grand Canyon 4×12 and twin canyon 2×12 loaded with Eminence EM-12 speakers rated at 200 watts per speaker, those cabs are super clear and powerful and it’s important for our sound to push air"
+          }
+        ],
+        "question": "How relevant is the speaker cab for you? Do you use what is at the venue or do you prefer to play a default cab like a Mesa 4×12 with V30 speakers or something else?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "That’s a tough question as I love all my Ltds, and they each have attributes they do well that make them unique. I’d say the Ltd Eclipse is probably the guitar that’s best suited to what I do. It’s super solid and tracks really well."
+          }
+        ],
+        "question": "What is your favorite guitar atm and why?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Probably the Dual Rec multi watt, it’s my favorite version of the recto features and tone wise"
+          }
+        ],
+        "question": "If you could choose one amp to play for the rest of your life; which one would it be for you and why?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Guitar wise I’d say I’m most proud of the last 3 albums Few, White Bat, Endless Hallway"
+          }
+        ],
+        "question": "Which album are you most proud of as a guitar player?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "lol There have been many of those moments but I’d say learning more about intonation and setup in the last 10 years has really shown me how important it is to anything you’re trying to do on guitar"
+          }
+        ],
+        "question": "Is there something you learned over the years about guitar gear (for example: using a tubescreamer, specific pickup or strings, amps, cabs, passive vs active pickups etc.) and you wished you knew before and gave you an ‘AHA!’ moment?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Passives. To me they have the character I seek in my tone, the Mojotone 44 Magnum is my favorite bridge humbucker"
+          }
+        ],
+        "question": "Passive vs Active pickups: which one do you prefer for your style and band and why?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Other than the Ltd guitars and Mesa amps, I’d say I have to have a tuner, green OD(I like the Maxon 808) and a noise gate(I like the decimator 2."
+          }
+        ],
+        "question": "What is the most consistent item in your guitar rig and why?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Thats an impossible question for me lol, I’m proud of many of my riffs but I don’t have a favorite"
+          }
+        ],
+        "question": "Which riff of one of the songs you wrote are you most proud of and why?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I think it’s probably how I hold the pick, I’m a trailing edge player and also hold the pick with 3 fingers"
+          }
+        ],
+        "question": "Do you use a certain guitar playing technique that is instantly recognizable for who you are as a guitar player? (damping, blues licks, power chords/barre chords, pinch harmonics)"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Oh damn dude, there’s literally too many to mention, that list is so long lol. Pretty much every guitarist out there that’s doing awesome stuff inspire me. Vogg, Brandon Ellis, Jordan Ziff, Aaron Marshall just to name a few etc etc I could go on"
+          }
+        ],
+        "question": "Which guitar players of current existing bands inspire you as a guitar player and why?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Find your strengths and what excites you about the instrument and pour heavy into those cups, strive for excellence in delivering what makes you unique"
+          },
+          {
+            "kind": "answer",
+            "text": "Check Adam’s Instagram page to see/read/listen more about Adam and He is Legend."
+          }
+        ],
+        "question": "Last but not least: any last words or tips for guitar players out there?"
+      }
+    ],
+    "title": "Interview – Adam Tanbouz – He is Legend",
+    "type": "interview",
+    "url": "https://thatspecificsound.wordpress.com/interview-adam-tanbouz-he-is-legend/"
+  },
+  "https://thatspecificsound.wordpress.com/interview-bo-lueders-harms-way/": {
+    "full_html": "",
+    "hero_image": "https://thatspecificsound.wordpress.com/wp-content/uploads/2025/10/200tigerspix._harms_way_._copenhell_2024-48_.jpeg?w=1024",
+    "intro": [],
+    "outro": [],
+    "photo_credit": null,
+    "qa": [
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I got my first guitar when I was 10 years old, it was a white squire Stratocaster that my dad gave me. I eventually gave it to my high school girlfriend who held onto it, and then eventually gave it back to me over the pandemic so I have it once again. Pretty cool. My first amp was a Fender Princeton 65 combo amp which was so loud and awesome. I sold it for like $300 in 2010 in order to pay rent and regret it all the time. Sell pedals or cabs, never sell guitars or amps."
+          }
+        ],
+        "question": "When did you start playing guitar and what guitar and equipment did you start on?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "At the time I got into it, I was really into Led Zeppelin. The song “Over the hills and far away” off of Houses of the Holy was the song that made me wonder if I could play it. My dad had given me 2 lessons, one was basically how to hold a pick and how to position my hands on the instrument, the other was trying to learn the bar chord progression to Semisonic’s “Closing Time”. I guess that would be the first song I ever actually learned. Then, in 7th grade I discovered Blink 182 and POWER CHORDS, which were the key to unlocking the next 25 years of my life. I remember another guitar player in my class asking me if I knew any power chords and I said “yeah a couple” because I had no idea what they were yet."
+          },
+          {
+            "kind": "answer",
+            "text": "The blink song i remember playing the most was dumpweed, carousel and pathetic."
+          }
+        ],
+        "question": "Which bands inspired you to start playing guitar and are there certain riffs or songs that specifically motivated you to start playing guitar?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "My first half stack was a crate G something, it was solid state and sucked. Bought it from Roselle Music in my hometown. Eventually I got a 5150 II when I was in high school and that was the beginning of it for me. Then slowly but surely pedals started getting added into my chain. It’s funny to see pictures of early shows we played and I have pedals in total nonsense order just loose on the ground. The final piece was a mesa cab under the 5150 II, green channel with a tube screamer cranked. That was the initial tone."
+          },
+          {
+            "kind": "answer",
+            "text": "This is the Crate amp and cab."
+          },
+          {
+            "kind": "answer",
+            "text": "The first real guitar after the strat was a Les Paul studio my dad gifted me for 8th grade graduation. It was an incredible guitar that I learned how to really play on. Triplets, little lead bits, pinch harmonics. It was all learned on the tune-o-matic bridge in that bad boy to the point where when I play another style these days I’m a little sloppy."
+          },
+          {
+            "kind": "answer",
+            "text": "Playing wise, AFI was pretty catalytic. As was misfits songs and minor threat songs. Eventually as I got older (14/15) TERROR, CARRY ON, and NO WARNING made their way onto my iPod and lord would I play along to their first records. We’re talking every day after school for years."
+          }
+        ],
+        "question": "When did you really feel your guitar playing and equipment got more professional and you thought: “Yes, this is the sound I really like!” ?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I’d say a bigger part of my evolution as a player was just discovering the kind of music I wanted to play, or at least was able to. Like, I’m not a great player, there’s a ton of stuff I don’t understand or can’t play to this day so getting into hardcore as a young player definitely pigeon holed me a little bit, but that’s ok. It’s taken me all over the world with my best friends so I can’t really complain."
+          },
+          {
+            "kind": "answer",
+            "text": "Do you recall using what kind of amps, guitars, pedals and pickups on the albums? If so, would you mind sharing them? (for example: f or album X we used a peavey 5150 mixed with a mesa dual rec and a HM-2 and I was using a ESP LTD MH-400 with JB in the bridge )"
+          },
+          {
+            "kind": "answer",
+            "text": "I will try my best, some of the stuff is almost 20 years old so bear with me."
+          },
+          {
+            "kind": "answer",
+            "text": "For the Demo and Imprisoned 7”, I definitely used that 5150 II, an Ibanez TS9 and the Les Paul Studio with stock everything. Probably the same on the self titled 2 song 7” we put out in 2007 or 2008."
+          },
+          {
+            "kind": "answer",
+            "text": "There’s that Les Paul, it was a Halloween show and I was Marty McFly."
+          },
+          {
+            "kind": "answer",
+            "text": "Another pic of the studio."
+          },
+          {
+            "kind": "answer",
+            "text": "Reality Approaches would be a similar setup. We used my 5150 and my Les Paul on my tracks, our other guitar player used a Dean dimebag lightning guitar and an orange head that screamed constantly. I would imagine we used Andy’s model T as well for a third track on that LP because it’s such a sick head."
+          },
+          {
+            "kind": "answer",
+            "text": "By No Gods, I was getting more into actual gear so this started to change. My Les Paul Studio I’ve been talking about was stolen from a show another band I was in while at the Fubar in St. Louis (which is where we are currently headed as I type this up, different venue but the city will always have an aftertaste for me because of the guitar). I got a LTD EC-1000 after that happened, it had EMG 81/85’s in it and I played it for a few years. I was still using the 5150 II. On No Gods, I played all guitars and bass. We for sure used the 5150, a soldano Andy at bricktop has, and probably that model T. Bass, it had to have been an SVT classic."
+          },
+          {
+            "kind": "answer",
+            "text": "Isolation and the Breeding Grounds single was when the HM-2 started creeping into our brains like the symbiote. Nails, Trap Them, rotten sound and of course Entombed were all using it and it fit well with what we were doing in Isolation. For that record I did all of the guitars and figured out the tone with Andy in the studio. We had a second guitar player at the time, Saba, but he didn’t track anything on the record. He did however also love the HM-2 tone and would just dime his MIJ version for live shows. For sure used a 5150 block letter for this record as well as a jcm-800 that the studio owned. Probably a model T or that same soldano as well. Cabs were emperor 4×12”s with v30’s."
+          },
+          {
+            "kind": "answer",
+            "text": "This is the isolation HM-2."
+          },
+          {
+            "kind": "answer",
+            "text": "For blinded things changed a little. Our van was stolen from Chicago which had my trusty 5150 II in it, a shitty Marshall cab with white Rolex as well as a black LTD EC-1000 that I got to replace the previous orange one I mentioned earlier because it broke at the headstock. For the record I used a newly acquired JCM-800 2203 that was supposedly owned by the Gin Blossoms prior, a stencil on the head case indeed says “GIN BLOSSOMS” and there’s a sticker on the head from a music shop in AZ. I tried reaching out to them to confirm but never heard back. We did that, with a MIJ HM-2 and this new EC-1000 for one side. Jay played on this record and he had a pretty sick Soldano SLO 100 that sounded awesome for the other side and then I think."
+          },
+          {
+            "kind": "answer",
+            "text": "The JCM-800 2203. Still have it, it lives in our practice space."
+          },
+          {
+            "kind": "answer",
+            "text": "This was taken during the blinded session. We loved these SKB boards at the time because they came with a built in power supply and also had a lifetime warranty. They stopped making them though."
+          },
+          {
+            "kind": "answer",
+            "text": "This was bass tracking but you can see the Soldano, the Model T and a Sunn concert bass or lead that we used as well."
+          },
+          {
+            "kind": "answer",
+            "text": "There’s the final EC-1000 with the SKB board, 800 and a mesa stack."
+          },
+          {
+            "kind": "answer",
+            "text": "Rust was finally when I started to actually figure stuff out personally. I was still using the 800, HM-2 and the EC-1000 but I was trying to manage the noise on the HM-2 with an NS-2, ended up using the loop with one and then a SECOND NS-2 at the end of the chain. We had played with Black Breath a couple of times and they used the same setup but somehow never had feedback issues and always sounded so good. It was a total mystery to me. That was until i discovered the Empress HEAVY pedal. That thing fuckin rocks and changed my shit. It’s an amp in a box with 2 engines on either side and independent EQ, but also independent noise gates per side so I had a loose setting and then a tight setting. Most of the recording and touring from rust was done with that setup."
+          },
+          {
+            "kind": "answer",
+            "text": "SKB setup. It was a mess."
+          },
+          {
+            "kind": "answer",
+            "text": "Here’s the Empress on a flight board."
+          },
+          {
+            "kind": "answer",
+            "text": "Here’s some variations of the board at this time:"
+          },
+          {
+            "kind": "answer",
+            "text": "Loved tape apparently."
+          },
+          {
+            "kind": "answer",
+            "text": "Posthuman had a pretty big overhaul for us. We started working with Ibanez and I grabbed a made in Japan Les Paul shape they were making called the ARZ6UCS. It came stock with either the bareknuckle nailbomb pickups in it. We used that guitar for the majority of the record. The amps used were a PRS Archon, a Marshal JVM, a Diesel and I think a block letter 5150."
+          },
+          {
+            "kind": "answer",
+            "text": "We also were introduced to the WayHuge Swollen Pickle by Will Putney who did Posthuman with us and that replaced the HM-2 for its’ reliability and control."
+          },
+          {
+            "kind": "answer",
+            "text": "After this record I got fixated on the Joe Satriani JVM head because it had 4 channels and a noise gate built in. Used that for 2018 including warped tour."
+          },
+          {
+            "kind": "answer",
+            "text": "Amp not pictured because it was 117 on the stage in phoenix that day and it fried the second I turned it on. But this was warped tour 2018 with the prestige model Ibanez. During the posthuman touring cycle i switched over to Fishman fluences and those are what are in essentially all of my guitars that i use for HW."
+          },
+          {
+            "kind": "answer",
+            "text": "There’s the JVM. This head rocks."
+          },
+          {
+            "kind": "answer",
+            "text": "At the end of 2018, we started a tour with a routing show in Vegas and had our entire trailer full of gear and merch stolen. So that rocked. Ended up getting the guitar back thankfully. Since we had to get new heads though I ended up on a Peavey Invective 120 which was a very fun head. It’s built with a guitar player in mind."
+          },
+          {
+            "kind": "answer",
+            "text": "There’s my board that I assembled from donations from friends and random shit at guitar center. That tour almost broke us."
+          },
+          {
+            "kind": "answer",
+            "text": "This was taken on the cannibal corpse tour we did in 2018 after the theft. That iron label FR was my main backup. That’s the invective there."
+          },
+          {
+            "kind": "answer",
+            "text": "I liked the invective because it was built for someone like me, like i said. Misha put 2 9v power supply outputs and 2 FX loops on the back of the head. So i had a midi controlled EQ pedal made by Source Audio that lived on there and would switch between presets via midi. This began my obsessed with switchers and MIDI. I would control a source audio delay, the EQ pedal and the channel or gate on my head with a single touch and that was kind of blowing my mind."
+          },
+          {
+            "kind": "answer",
+            "text": "I started with the JOYO midi and effects switcher, these are all just variations of the same thing. Eventually i got the Boss switcher which is much more popular and common."
+          },
+          {
+            "kind": "answer",
+            "text": "The mini volume pedal was an expression pedal for the pitchfork which we started using and writing with for the follow up to Posthuman."
+          },
+          {
+            "kind": "answer",
+            "text": "In 2022 I eventually got another ARZ from Ibanez that I still use today in tandem with the LP shape, this one’s a strat with a tram bar."
+          },
+          {
+            "kind": "answer",
+            "text": "Plays so good. I eventually put the Heafy Fluences in it and i love it."
+          },
+          {
+            "kind": "answer",
+            "text": "THEN something big happened in 2020, can’t remember what. Joking of course, but over the pandemic I got really into amp modelers and that brings us to today."
+          },
+          {
+            "kind": "answer",
+            "text": "For common suffering Nick used two different 5150 III’s, one 6L6 and one EL34 and then a couple parts on a badcat amp. There’s was also a 6505 used throughout. For the chugs we used my Les Paul Ibanez again, and for most of the songs it was Nick’s ARZ."
+          },
+          {
+            "kind": "answer",
+            "text": "Then I got a quad cortex in 2023 and it’s been amazing. I love it."
+          },
+          {
+            "kind": "answer",
+            "text": "This is my current board. Excuse the pic I’m on tour and it’s on stage. I use a temple audio board with some mods on the side for a simple patch bay. I run vocal effects for our singer via my board so there’s an XLR in and a wet/dry out. I use the Seymour Duncan power stage 200 for my power amp into a mesa standard cab. There’s a signature pedal of mine on there by Oneder effects called the HW-2 which is awesome and I use it every night. Next to that is the boss DD-6 which i use for the home effect, you’ll notice that’s been on every board over the years. I use it to make noise."
+          },
+          {
+            "kind": "answer",
+            "text": "So with the quad cortex on top, i at first had a Seymour Duncan power stage 700 mounted underneath the temple audio board along with a furman AC215A power conditioner. I watched this amazing video with an old guy talking about his mods to his board and it convinced me to try it. The issue was, the way the power amp was mounted underneath the board, i couldn’t physically reach the volume pot so i had to set it and tape it in place. Naturally, i set it to 100% and used rh quad’s master volume as a fader but this effects the tone of the quad. And also, when you have a 700w amp dimed you’re gonna head lots of noise, grounding issues and microphonic shit. So after 2 tours I swapped it to the 200w version of the power stage and am very happy with it."
+          },
+          {
+            "kind": "answer",
+            "text": "Here’s that video with the old wizard by the way, for anyone interested in this kind of thing he’s a legitimate genius: https://l.instagram.com/?u=https%3A%2F%2Fyoutu.be%2FnAI-rVqrKy8%3Fsi%3DwKeMvyonOafWZN5t%26fbclid%3DPARlRTSANcCvpleHRuA2FlbQIxMAABp-Nl62HCN9PjIJtgaF5uJd729VML-2ikpQZ9MYeSPI7p0vLrcA4-Nf0AqNJh_aem_vHYlMbyLL7KPHHUzQxy49A&e=AT0Yfw6OQaX5NJRtkT3Epvn7lTLj7t0S1hswvADVRfvXkvB4uwem4vJKghJJCAZQi7q5xx8CaA691P1uTU8KJRskrJ6DtWby2lBMxUVsAX6r9wxvGBfvOJtdV3r8"
+          },
+          {
+            "kind": "answer",
+            "text": "t video with the old wizard by the way, for anyone interested in this kind of thing he’s a legitimate genius"
+          },
+          {
+            "kind": "answer",
+            "text": "What I like about the Quad is being able to change every amp and pedal according to the respective song and record on the setlist. You can scroll up now and see what I use for every song because it’s all there."
+          }
+        ],
+        "question": "Do these 2 go hand in hand or did it evolve differently for your playing and your equipment?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "See above baby."
+          }
+        ],
+        "question": "I have noticed the difference in sounds over years of your albums; did you switch to other amps but do you also feel the amps were a better fit for you, the songs and your playing?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I used it in front of every pre amp I ever used because I didn’t know better."
+          }
+        ],
+        "question": "I see you used the famous Boss HM-2; did you use it mainly on a clean channel or on a slightly overdriven channel in former albums?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I use my pedal now instead of a Boss one. The key is to NOT dime it. Blend it. Control it."
+          }
+        ],
+        "question": "Do you still use a HM-2 or any other pedal next to the amp’s overdrive sound? Your sound is so massive but I do hear a difference on the albums from a typical HM-2 sound to a much more refined overdriven sound but still sound evil and thick"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Yeah we’ve thought about it but to be honest it’s really not needed. You’d be surprised how many bands just use digital drop pedals to down tune. Drop B works real well for us."
+          }
+        ],
+        "question": "Have you ever considered moving from 6 strings to 7 strings for Harm’s Way or use baritone guitars?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "The 800 i was using came hot rodded but i took it all out to make it stock. I did a couple mods on some pedals over the years but my brain can’t understand schematics."
+          }
+        ],
+        "question": "Have you modded any of the guitar gear you have or you use the stock/default setup of the guitars, amps or pedals?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Like i said we are in drop B so i like thicker strings. I use 13-62’s, with a 4th wound string. I just like the tension and beat the hell out of them honestly. I tend to squeeze the fuck out of the neck and lighter strings would bend sharp if I used them."
+          }
+        ],
+        "question": "Can you tell me a bit more about the thick strings you use; how do they help your tone and does it help with playing as well? (why would a thinner set of strings won’t work for you?)"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I prefer a mesa oversized 4×12 with v30’s. I still push an amp so i don’t worry too much about IR cab sims on stage through FOH. Orange cabs are actually the best but they’re so heavy and annoying."
+          }
+        ],
+        "question": "How relevant is the speaker cab for you? Do you use what is at the venue, hook up to the FOH or do you prefer to play a default cab like a Mesa 4×12 with V30 speakers or something else?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I didn’t even tell the story behind my 30th birthday present to myself. I got a 1988 Les Paul Standard for myself. I love that thing. Doesn’t handle drop b very well so it lives at home."
+          },
+          {
+            "kind": "answer",
+            "text": "Here it is with some Lace pickups in it, i forget what they were. I changed it back to stock hardware after I retired it. I used it around 2016/2017 on the road."
+          }
+        ],
+        "question": "What is your favorite guitar atm and why?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "That would definitely be the quad cortex. I really love the thing. If not a modeler then the classic 5150."
+          }
+        ],
+        "question": "If you could choose one amp to play for the rest of your life (can also be a modeler or profiler); which one would it be for you and why?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Oh I think Posthuman is what in the proudest of. I played like half of the stuff and Nick, who is a much better player than me, did the rest. I just really liked that record and the process therein."
+          }
+        ],
+        "question": "Which album are you most proud of as a guitar player?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I’ll give you a little trick I really like. Get a 6 band or 10 band EQ pedal, dial it in however sounds best and put it in the fx loop of your head and enjoy. It sounds like taking a thick blanket off of the cab."
+          },
+          {
+            "kind": "answer",
+            "text": "I also really had an aha when I realized that less gain is typically the answer. You don’t need THAT much saturation all the time."
+          }
+        ],
+        "question": "Is there something you learned over the years about guitar gear (for example: using a tubescreamer, specific pickup or strings, amps, cabs, passive vs active pickups etc.) and you wished you knew before and gave you an ‘AHA!’ moment?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "For this kind of thing with HW I’ve always been an active guy. I just like them hot!"
+          }
+        ],
+        "question": "Passive vs Active pickups: which one do you prefer for your style and band and why?"
+      },
+      {
+        "answers": [],
+        "question": "What is the most consistent item in your guitar rig and why?"
+      },
+      {
+        "answers": [],
+        "question": "Honestly it’s the Boss DD-6 set to that hold feature. We use it constantly during the set in between songs for noise, some songs like infestation or mind control we use it during the song. I think I’ve had one on my board since 2010?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "“Infestation” was fun. The intro riff and verse was one I came to practice with and we very quickly turned it into the song you hear. I had an idea for what became “Call My Name” too but the actual riff got totally reworked and changed, the vibe was similar though and I think that song ended up really cool."
+          }
+        ],
+        "question": "Which riff of one of the songs you wrote are you most proud of and why?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Lots of barre chords, but we’re in drop so we do that almost triangular shape with the first 3 fingers. (5-3-5 for example.)"
+          }
+        ],
+        "question": "Do you use a certain guitar playing technique that is instantly recognizable for who you are as a guitar player? (damping, blues licks, power chords/barre chords, pinch harmonics)"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Nick is a really amazing player and he inspires me all the time tbh. Taylor Young is also great and so good at dialing in a tone that is absolutely inarguable."
+          }
+        ],
+        "question": "Which guitar players of current existing bands inspire you as a guitar player and why?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Whenever you hear a riff you like, any genre, record it in your phone or make a note of it somehow. Go home, figure it out by ear. It will help."
+          },
+          {
+            "kind": "answer",
+            "text": "Also learn Kirk Hammett guitar solos. They’re relatively easy but sound great once you get them down and will give you a good basis for leads. In fact, learn all Metallica songs they’re fantastic learning exp"
+          },
+          {
+            "kind": "answer",
+            "text": "– Bo Check out Bo’s band Harm’s Way here and check out some video’s of them here , he also does a really nice podcast with interviews together with Colin Young, check it out here"
+          }
+        ],
+        "question": "Last but not least: any last words or tips for guitar players out there?"
+      }
+    ],
+    "title": "Interview – Bo Lueders – Harm’s Way",
+    "type": "interview",
+    "url": "https://thatspecificsound.wordpress.com/interview-bo-lueders-harms-way/"
+  },
+  "https://thatspecificsound.wordpress.com/interview-boudewijn-bonebakker-gorefest/": {
+    "full_html": "",
+    "hero_image": "https://thatspecificsound.wordpress.com/wp-content/uploads/2026/01/wouterromeijnders.nl_20191215_monomyth-27.jpeg?w=1024",
+    "intro": [
+      {
+        "kind": "answer",
+        "text": "Picture from Wouterromeijnders.nl"
+      }
+    ],
+    "outro": [],
+    "photo_credit": null,
+    "qa": [
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "My first guitar was a Les Paul model by Custom. I played through a tube radio. I started when I was about 15/16 years old. My goal was to write songs."
+          }
+        ],
+        "question": "When did you start playing guitar and what guitar and equipment did you start on?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Wire, The Lyres, The Nomads, especially the songs Rat Fink a Boo-Boo and Five Years Ahead Of My Time (Third Bardo cover) gave me the urge to make similar noise. Killing Joke felt way beyond my league but I adored their sound."
+          }
+        ],
+        "question": "Which bands inspired you to start playing guitar and are there certain riffs or songs that specifically motivated you to start playing guitar?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "With Erase when we bought Les Pauls and Dual Rectifiers. But it was more of a feeling like “this is getting in the right direction, I still have a lot to learn”."
+          }
+        ],
+        "question": "When did you really feel your guitar playing and equipment got more professional and you thought: “Yes, this is the sound I really like!” ?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "It is a development I re-experienced a couple of times. Later, when I started to use Marshalls again the sound evolved more into what came directly from me, the player, meaning my fingers and plectrum. Things got more organic you could say. Equipment started to become less important (maybe because of the equipment). For me the notes, the playing had become the point of what was going on."
+          },
+          {
+            "kind": "answer",
+            "text": "I played a lot on rental amps and cabs at fly-in shows and festivals. Those rentals worked fine most of the time. The sound wasn’t all that different apart from the odd nuance. Of course those nuances were very noticeable for me. But that had as much as anything to do with the acoustics (or lack thereof) and cables that were too long. In the trenches, through the p.a. systems I don’t think it was all that noticeable. Besides, the ear adapts fast and perfect conditions can barely be achieved in the studio, let alone on stage. So better focus on playing good. Which is difficult enough."
+          },
+          {
+            "kind": "answer",
+            "text": "Playing music and dealing with different circumstances had its effect: letting go of trying to control what cannot be perfectly controlled, gaining confidence. Adapting and improvising was the challenge, not perfection."
+          },
+          {
+            "kind": "answer",
+            "text": "Much later, after Gorefest, I solely used vintage amps and cabs and that made a huge difference. Way more distinct sparkle and punch, totally different reaction from the strings. But that’s another story."
+          }
+        ],
+        "question": "Do these two go hand in hand or did it evolve differently for your playing and your equipment?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "When I joined Gorefest I had a JCM900. It wasn’t very reliable, or rather, the general electricity/power situation still varied at places in the early nineties, so I blew the occasional fuse."
+          },
+          {
+            "kind": "answer",
+            "text": "I switched to a 19” rack with a Tube Works MosValve MV962 power amp/Peavey T.G. Raxx Tube Preamp combination which I used on the False recordings. Lots of knobs to give me the illusion of control. I think I used a Marshall Guv’nor pedal at some point as well, for better gain."
+          },
+          {
+            "kind": "answer",
+            "text": "My guitars at the time were a Bich copy and a blue Ibanez Strat-like thing with SSH configuration and a Floyd Rose trem. A Boss EQ pedal was used for boost."
+          },
+          {
+            "kind": "answer",
+            "text": "For Erase Frank and me both got a ’92 Les Paul Standard and a first generation Dual Rectifier. And with Soul Survivor our set-up was completed with two stacks of purple Marshall reissue cabs with greenbacks (extended bottom cabs which we used up till Rise to Ruin). They came with a JMP1959 (if memory is correct) which I didn’t really know what to do with. That gear put us into a certain direction sound wise. The Les Paul was a relief because of the hard tail. No more counter bends when bending strings."
+          },
+          {
+            "kind": "answer",
+            "text": "Soul Survivor was full on Les Pauls with the Standard and a Classic Plus Burst. All with stock pu’s at the time. Later I switched to Seymour Duncan “Seth Lover” pu’s on the Burst. Pedals varied. Whatever was needed. My live set-up was with a CryBaby and a tuner. Gain was still quite maxed out. Somehow that made me feel less insecure about my playing. In my mind I was still learning to become a proper player."
+          },
+          {
+            "kind": "answer",
+            "text": "With Chapter 13 the Boss HyperFuzz and a MXR phaser was added. Live I started to become reluctant to bring the Burst. On the album I used a ’86 Telecaster so I used that live as well. It held the drop-A tuning better. Thinking about it, that one must have cut through the mix properly."
+          },
+          {
+            "kind": "answer",
+            "text": "The two reunion albums were full on Marshall 50w Plexi and Les Paul vs. Flying V. My pedalboard got an upgrade with a Flanger (Aria) and a MXR Dynacomp which I used as a boost. I really loved the Flying V and still kind of regret selling it. That guitar played like a dream."
+          }
+        ],
+        "question": "Do you recall using what kind of amps, guitars, pedals and pickups on the albums? If so, would you mind sharing them? (for example: for album X we used a Mesa Boogie Dual Rectifier (2 channel) and Gibson Les Paul standard with a TS9 as overdrive pedal with Marshall 1960A cabs)"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "We rolled back on the gain, hence the more punchy sound, and the Marshall had a lot less low-end. Low-end, as it appeared, wasn’t needed that much as we thought. I started realizing that the low tuning did the trick well enough. It interfered severely with the kick drum though. Also my playing had gotten a lot more advanced. That had an effect on the sound as well."
+          }
+        ],
+        "question": "I have noticed the difference in sounds over years of your albums; did you switch to other amps, guitar and pickups and do you also feel the amps were a better fit for you over the years? Specifically the later albums the guitars sounded more fierce and direct and with more sustain."
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "During the hiatus I sold all my gear. I needed a new amp for the reunion and Arjan Lucassen lent me a heavy modded Marshall 1987x reissue that used to belong to Accept. It had an extra gain stage. After a while I found a 1987x from 1979 which I used alongside to the one from Arjan. It is more or less a 50w version of the super lead. Due to the so called “brown sound mod’ it has, that one sounds a lot beefier opposed to the very snarly midrange of the Accept Marshall. I kept using my own 1987x till ’21 or so. Very, very nice amp."
+          }
+        ],
+        "question": "If I remember correctly and saw the video’s, you moved from Mesa Boogie Dual/Triple rectifiers to Marshall’s: can you tell me a bit more about this change?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I’ve always been on the hunt for a cut-through sound. My dogmatic views prevented me from making certain choices. For instance, single coils have long been taboo for me. Also knowledge wasn’t that widespread back then. Pots and caps in the guitar, speakers, it all was unknown territory for me. I knew this though: the Mesa lacked the edge I was looking for. Somehow a bit too neat for my taste. I like the throaty snarl that Marshalls can have."
+          },
+          {
+            "kind": "answer",
+            "text": "But in the end it was just how things presented themselves. Frank kept using his Dual Rectifier simply because he didn’t sell his. And it worked. We never gave it too much thought. It just worked. Or at least the studio people thought so. Or maybe they didn’t but just made it work. A trick we used for La Muerte and Rise to Ruin was: do one channel with the rectifier on the clean channel and volume maxed out and double that with a channel with Marshall in high gain setting."
+          }
+        ],
+        "question": "Did you notice a better sound when using 2 different amps/sounds in the overall band setting? (Marshall more EL34 mid sound and the Mesa Boogie Dual Rectifier 6L6 lower mids sound)"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Mostly stock/default. As said before I used a SD-SethLover pick-up on my Burst but that’s about it. The Marshalls were modded when I got (to use) them."
+          }
+        ],
+        "question": "Have you modded any of the guitar gear you have or do you use the stock/default setup of the guitars, amps or pedals?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "As soon as I joined Gorefest we tuned down to B. Regular strings were too thin and too flabby to play in tune. Simple as that. I think Frank used 011. The thickest round wound available to me at the time was 012 so I used those for a long time (I think up to Soul Survivor). After that 056 got available for the sixth string. So I combined that one with a 010 set, which made sense to me, and I saved the 010 strings. I still have a pile left for breakage. When 7-string sets became a regular thing, supply got easier. For me it was always a tuning thing. After Gorefest I even played 014 for B-tuning. Of course thinner strings give a snappier sound but I learned that later on. It would probably have helped in the production on some albums to use thinner strings because we tended to cluster in the bottom-end."
+          }
+        ],
+        "question": "Can you tell me a bit more about the thick strings you use; how do they help your tone and does it help with playing as well? (why wouldn’t a thinner set of strings work for you?)"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "In recent years I’ve had the privilege of playing a vintage cab with G12H-30 pre-Rola Celestions. I can tell you, nothing compares. Nothing comes even close. The G12H-30 already have been my speaker of choice since the 2000’s or so. They sound more “brown”. During the Soul Survivor/Ch13 days I played greenbacks most of the time, using my own cabs. But these were all new made… I’ve always hated V30’s."
+          }
+        ],
+        "question": "How relevant is the speaker cab for you? Do you use what is at the venue, hook up to the FOH or do you prefer to play a default cab like a Mesa 4×12 with V30 speakers or something else?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "All the guitars I kept are favorite. I recently bought a Guild X-175B which I love. The closest I will ever get to a Gibson ES295. But if I had to bring with me one guitar to a deserted island it would be my black LP Standard. I more or less fused with that guitar."
+          }
+        ],
+        "question": "What is your favorite guitar atm and why?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Oh I don’t know, playing a 50’s tweed one time would make me happy. Other than that I’m ok with whatever is available (up to a certain standard)."
+          }
+        ],
+        "question": "If you could choose one amp to play for the rest of your life (can also be a modeler or profiler); which one would it be for you and why?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I’m proud of all the albums I played on. They all fit to the edge of my abilities of the period."
+          }
+        ],
+        "question": "Which album are you most proud of as a guitar player?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I would say Soul Survivor was more of a research album, a schooling you could also say. And for me that has been most of the motivation. We needed to advance on our writing skills and by studying the songs of Thin Lizzy, the riffs of Trouble, Sabbath and other doomers we tried to get back to basics. Speaking of ‘my classic roots’ is a bit of a stretch. At the time our thoughts were: the classic roots of metal are not something to be neglected."
+          },
+          {
+            "kind": "answer",
+            "text": "My own ‘roots’ would be sixties garage-rock, Sonics, 13th floor Elevators, fuzz and tremolo sounds. On the other hand I came from the industrial and noise sounds of Einstürzende Neubauten, Birthday Party and Big Black. Biggest subliminal influences have been early Killing Joke and Wire. I got to know both their music around 1982 and it changed me forever. They shaped my ideal for sound, the noise I always chased. Later I recognized something similar in Neil Young’s Crazy Horse. Something massive, humongous."
+          }
+        ],
+        "question": "The direction of the albums changed a lot over time for Gorefest which I really liked; it showed that you want to try different things and don’t want to stick to 1 genre or style: how do you perceive this? For example I think the soul survivor album showed more of your classic roots as the former albums but later on the albums were more brutal again. Is that how you guys felt at the moment or more something you wanted to try as a band?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Passive, low output. No further comment."
+          }
+        ],
+        "question": "Passive vs Active pickups: which one do you prefer for your style and band and why?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Green Tortex triangle picks. Never change a winning team. I hardly ever lose one and they sound perfect to me, organic."
+          }
+        ],
+        "question": "What is the most consistent item in your guitar rig and why?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Babylons Whores because it started as a wink towards Nile Rodgers’ funk/disco style and exploded into an orgy of doom. I originally wanted the blast-riff to stay on the same chord but got won over by Ed to do otherwise. We weren’t that convincing in the monotone riffing. Groove is way more important if you go monotone and we couldn’t deliver grooves dominant enough to transcend beyond harmony. So when the vocals kick in, the riff got up a few notes and you get a more harmonic result. I’m glad we made that choice. I think that whole song is monumental and that contribution gave it balance and completed it."
+          }
+        ],
+        "question": "Which (riff of) one of the songs you wrote are you most proud of and why?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I use regular and fairly traditional rock and metal techniques. Nothing special. I’m a strong advocate for alternate picking. I hope I’m somewhat recognizable for my sense of melody, harmony and counterpoint."
+          }
+        ],
+        "question": "Do you use a certain guitar playing technique that is instantly recognizable for who you are as a guitar player? (muting, blues licks, power chords/barre chords, pinch harmonics)"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Nowadays I like to hear Tom Bukovac play every now and then. Maybe also Brian Setzer needs mentioning."
+          }
+        ],
+        "question": "Which guitar players of current existing bands inspire you as a guitar player and why?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Write songs and riffs, as much as you can. And learn to use alternate picking consistently."
+          },
+          {
+            "kind": "answer",
+            "text": "Listen to Gorefest on Spotify here Listen and view some Gorefest clips on Youtube here"
+          }
+        ],
+        "question": "Last but not least: any last words or tips for guitar players out there?"
+      }
+    ],
+    "title": "Interview – Boudewijn Bonebakker – Gorefest",
+    "type": "interview",
+    "url": "https://thatspecificsound.wordpress.com/interview-boudewijn-bonebakker-gorefest/"
+  },
+  "https://thatspecificsound.wordpress.com/interview-kurt-ballou-converge/": {
+    "full_html": "",
+    "hero_image": "https://thatspecificsound.wordpress.com/wp-content/uploads/2026/01/kurt.webp?w=650",
+    "intro": [
+      {
+        "kind": "answer",
+        "text": "Image credit: Olly Curtis/Future"
+      }
+    ],
+    "outro": [],
+    "photo_credit": null,
+    "qa": [
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I was about 15 when I started. I wanted to play bass, so I restrung my dad’s acoustic guitar with 4 strings to try to practice bass. I ended up getting a Kramer Strat shortly thereafter. I didn’t have an amp, so I’d just plug into the mic input on my cassette deck and put it in record pause. Eventually, after borrowing some actual amps from friends, I ended up getting a grey stripe Peavey Bandit."
+          }
+        ],
+        "question": "When did you start playing guitar and what guitar and equipment did you start on?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I mostly learned by playing along with the early Suicidal Tendencies, Metallica, and Slayer albums."
+          }
+        ],
+        "question": "Which bands inspired you to start playing guitar and are there certain riffs or songs that specifically motivated you to start playing guitar?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "There’s been lots of moments like that over the years, but they’ve never lasted long! I think the first one was when I plugged an EQ pedal into the effects loop of my Peavey Bandit and scooped those mids!"
+          }
+        ],
+        "question": "When did you really feel your guitar playing and equipment got more professional and you thought: “Yes, this is the sound I really like!” ?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "There’s always a back and forth between guitar, playing style, and song writing."
+          }
+        ],
+        "question": "Do these 2 go hand in hand or did it evolve differently for your playing and your equipment?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Too many to list, but generally it’s been hot pickups (EMG 85 in the early days and GCI Slug Jammer more recently) into some sort of overdrive that cuts lows and boosts mids, and usually a medium gain tube amp like a JMP, Bad Cat, Traynor or V4. I did use a Rectifier for some tracks in the WFCC – Jane Doe era."
+          }
+        ],
+        "question": "Do you recall using what kind of amps, guitars, pedals and pickups on the albums? If so, would you mind sharing them? (for example: for album X we used a peavey 5150 mixed with a mesa dual rec and a TS9 and I was using a ESP LTD MH-400 with JB in the bridge)"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I think no matter what I’m playing I end up making it sound like me. I usually just line up whatever I think might sound good, try it all and pick my favorites."
+          }
+        ],
+        "question": "I have noticed the difference in sounds over years of your albums; did you switch to other amps, guitar and pickups but do you also feel the amps were a better fit for you, the songs and your playing?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "There’s very little gear I couldn’t live without. I’m always trying new stuff. I love finding new inspiration in gear I haven’t used before or new ways to use gear I’ve had for a while."
+          }
+        ],
+        "question": "I see you know a lot about amps and pedals and I presume you tried out a lot of different amps, pedals and guitars over time for Converge and in the studio; do you have specific learnings of that equipment you tried out during the years on the records? (what works best for you or for recording guitars)"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Sure, if something isn’t working for me, but I want to keep it, I may change values in amps or pedals, swap speakers in cabs, change pickups in guitars, etc. But I also love touring with easy to replace gear, so if something happens, I’m not stuck. Lately I’ve just been using Helix as my amp and I have my settings backed up, so if something goes wrong, I’m fine."
+          }
+        ],
+        "question": "Have you modded any of the guitar gear you have or you use the stock/default setup of the guitars, amps or pedals?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I’d love to try Joe Perry’s gold-plated Dumble."
+          }
+        ],
+        "question": "Is there an amp, pedal or guitar you would still like to try out and which one is it and why?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I like D’Addario NYXL 11-56. I generally play 25.5 scale guitars in D standard or drop C and those seem to cover it pretty well. They’re the right balance of stability and bendability for my hands."
+          }
+        ],
+        "question": "Can you tell me a bit more about the thick strings you use; how do they help your tone and does it help with playing as well? (why would a thinner set of strings won’t work for you?)"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Speakers and cabinet matter a lot, of course. But for live, they’re only for stage volume. FOH gets IR’s from Helix."
+          }
+        ],
+        "question": "How relevant is the speaker cab for you? Do you use what is at the venue, hook up to the FOH or do you prefer to play a default cab like a Mesa 4×12 with V30 speakers or something else?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "GCI Craftsman! I’ve designed a bunch of guitars over the years, but this one best suits me these days. It’s light, lively, simple, and dependable!"
+          }
+        ],
+        "question": "What is your favorite guitar atm and why?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "A well maintained Marshall 2204 can do just about anything I’d ever need."
+          }
+        ],
+        "question": "If you could choose one amp to play for the rest of your life (can also be a modeler or profiler); which one would it be for you and why?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Probably Axe to Fall. That’s one of the more athletic Converge records. That or Bloodmoon 1 because I got to play a bunch of styles I don’t usually do."
+          }
+        ],
+        "question": "Which album are you most proud of as a guitar player?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I like them both. That’s one of the first things in the signal path, so it’s going to influence your decisions for everything that comes after them, though. If you build a sound with passive pickups, then swap guitars for something with actives, good chance you’re not going to love it. But if you build something from the ground up with actives, then switch to passive, the same thing is gonna happen. It’s really tough to AB just one thing in the signal path without tweaking all of it."
+          }
+        ],
+        "question": "Passive vs Active pickups: which one do you prefer for your style and band and why?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I’ll have eras where I play the same things for a while, but nothing lasts forever!"
+          }
+        ],
+        "question": "What is the most consistent item in your guitar rig and why?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I’m mostly just proud of the whole body of work and that I get to keep making music with my friends!"
+          }
+        ],
+        "question": "Which riff of one of the songs you wrote are you most proud of and why?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Not that I’m aware of."
+          }
+        ],
+        "question": "Do you use a certain guitar playing technique that is instantly recognizable for who you are as a guitar player? (damping, blues licks, power chords/barre chords, pinch harmonics)"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I’m loving Nuno Bettencourt these days!"
+          }
+        ],
+        "question": "Which guitar players of current existing bands inspire you as a guitar player and why?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "If you feel like your skills have plateaued, don’t throw money at the problem. New gear isn’t going to make you better. Practice practice practice."
+          },
+          {
+            "kind": "answer",
+            "text": "Kurt is also an amazing producer, check out his studio website here . To read and hear more about Converge, see their Instagram website here And check out their videos here on YouTube here."
+          }
+        ],
+        "question": "Last but not least: any last words or tips for guitar players out there?"
+      }
+    ],
+    "title": "Interview – Kurt Ballou – Converge",
+    "type": "interview",
+    "url": "https://thatspecificsound.wordpress.com/interview-kurt-ballou-converge/"
+  },
+  "https://thatspecificsound.wordpress.com/interview-matthew-wood-one-king-down/": {
+    "full_html": "",
+    "hero_image": "https://thatspecificsound.wordpress.com/wp-content/uploads/2026/01/matt.jpg?w=1024",
+    "intro": [
+      {
+        "kind": "answer",
+        "text": "< Picture: Danielle Dombrowski >"
+      }
+    ],
+    "outro": [],
+    "photo_credit": null,
+    "qa": [
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Although I started out playing drums when I was 9 years old, my mother had a Hondo II acoustic guitar that I messed around on starting at around 13 or 14 years old. My mother taught me all of the Major chords that weren’t barre chords, haha. My first store-bought guitar was a Gibson Les Paul Studio."
+          }
+        ],
+        "question": "When did you start playing guitar and what guitar and equipment did you start on?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Van Halen and Rush made me really want to play guitar. Ed’s tapping and the constant smile on his face made me want to play. I was also a huge Rush fan back then, so I wanted to be able to learn their complex songs. The first VH song/riff I learned was the intro and verse to “Panama”, and I learned “Broon’s Bane” by Rush."
+          }
+        ],
+        "question": "Which bands inspired you to start playing guitar, and are there certain riffs or songs that specifically motivated you?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I knew from a young age that I wanted to play music professionally in some capacity. I believed that to achieve that goal, I was going to need professional equipment. Honestly, looking back, I was right and I was wrong. Mike and I had MONSTER guitar rigs at the beginning of our careers. Huge professional equipment. We needed it and didn’t need it. Who the hell uses a full stack and a wireless unit at a basement show? We did! Now, we can fit our equipment in a guitar case and a grocery bag. To answer your question though, my playing and equipment became more professional the day I bought my Marshall 4×12 in 1993. I bought that cabinet before I even bought my first guitar! (I was borrowing from multiple friends). I felt that to play music professionally, people were going to need to hear me and so the Marshall Cabinet it was!"
+          }
+        ],
+        "question": "When did you feel your guitar playing and equipment became more professional, leading you to think: “Yes, this is the sound I really like!”?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I think it was an evolution. In the beginning, I needed a lot of distortion and it needed to be loud. So I bought a Marshall Amp and Cabinet. Of course, from there, to get the sound that was in my head out into the world, I needed to do some EQing, and so effects started to come into play. We began adding some pedals and/or rack effects to help us color some of the riffs we were writing."
+          }
+        ],
+        "question": "Do these two elements (playing and equipment) go hand-in-hand, or did they evolve differently for you?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "For the majority of the 90’s and early 2000s, I was using rack-mounted gear: Marshall 8008 Power Amp, Marshall JMP-1 Preamp, Rockman Stereo Chorus, Yamaha D1500 Delay, DOD EG with ,like, a thousand bands, haha, and a Korg Tuner. Eventually added the MXR Phase 90, a VOX Wah, and a Hush pedal."
+          },
+          {
+            "kind": "answer",
+            "text": "For a handful of shows in the 2000s, I was using a Peavey 5150II."
+          },
+          {
+            "kind": "answer",
+            "text": "After reuniting in 2017, I was using a stock Marshall JCM900 Head, MXR EVH Phase 90 Pedal, MXR EVH Chorus Pedal, Dunlop EVH Wah, MXR Compression Pedal, MXR Flanger, and a mini tuner. I now only use/travel with a Blackstar Amped 3, the MXR EVH Chorus, Dunlop EVH Wah, Electro-Harmonix Noise Suppressor, and tuner."
+          },
+          {
+            "kind": "answer",
+            "text": "Bloodlust Revenge:"
+          },
+          {
+            "kind": "answer",
+            "text": "We used a Peavey Bandit 112 amp with the guts pulled out and rack-Mounted for Mike. We used rackmount Rockman Stereo Choruses and MXR Phase 90s. That, you hear heavily on “More Hate Than Fear”. Mike definitely used some other pedals for his parts. I remember a Morley Steve Vai “Bad Horsie” Wah Pedal. I think Mike used that on his solo in “Defiance”. I also believe that we both used his Ibanez Joe Satriani guitar for our rhythm parts, but I remember using a 1978 Gibson SG on some parts just to say I did it, haha. That guitar had an EMG81 at the bridge. We really didn’t change any of the pickups on our guitars. They were almost always stock."
+          },
+          {
+            "kind": "answer",
+            "text": "God Loves Man Kills:"
+          },
+          {
+            "kind": "answer",
+            "text": "Honestly, this one is a huge blur. I know I used my Peavey Wolfgang Special for my guitar parts, but I can’t remember for the life of me what we used for amplification. I know Mike will be able to answer that! I was still using my Rockman Chorus at this time."
+          },
+          {
+            "kind": "answer",
+            "text": "Gravity Wins Again:"
+          },
+          {
+            "kind": "answer",
+            "text": "I know I used my Peavey Wolfgang. I believe I used Mike’s 61′ Reissue SG too. We may have used my Peavey 5150II amp and/or Mike’s Marshall Super Lead. I can’t remember if I bought the 5150II before or after the recording. I used a VOX Wah pedal for the beginning of “Hasp”. As always, I kept rolling with the Rockman Chorus."
+          }
+        ],
+        "question": "Do you recall what amps, guitars, pedals, and pickups were used on your albums? If so, would you mind sharing them? (e.g., for album X we used a Marshall JCM800/Peavey 5150 mixed with a Mesa Dual Rec and a TS9, and I was using an ESP Viper with an EMG81 in the bridge):"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "We recorded all the records at the same studio and with the same engineers. Paul Benedetti at MaxTrax. With God Loves Man Kills, we were definitely trying to get some Pantera-like power. For the Gravity Wins Again record, we were just going for your straight-forward hardcore guitar tone, but with a little of our usual flavor. By the time we got to God Loves and Gravity, we were consistently using my Peavey Wolfgang and Mike’s Gibson SG 61′ Reissue. All stock pickups, no funny business. Effects-wise, all of the same personal gear plus an Electro-Harmonix Delay."
+          }
+        ],
+        "question": "I’ve noticed a difference in sounds across your albums over the years. Did you switch to different amps because you felt they were a better fit for you, the songs, and your playing? For example, comparing the Bloodlust revenge EP to the God loves, man kills CD, there is a difference in gain and sustain. To me, the God kills album sounded heavier. Did you use different amps, guitars, or pickups for those albums, or was the difference primarily due to the studio/producer?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "We were all becoming better players and, as a band, knew we wanted to step up the technicality of the songs. BLR came out in early 97, but by late 98 we had already written the majority of GLMK. We really worked our asses off to write and record that record. Definitely a high point for us."
+          }
+        ],
+        "question": "The God kills album also sounded more technical (in my opinion as a guitar player). Did you raise the bar or set a different strategy in terms of riffs and technicality for that album? I don’t mean to suggest the Bloodlust revenge EP is worse or easier to play, but listening to the God kills album was a “Wow! What a change!” moment for me. It sounded more complex to play to me."
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "We have always done our own setups and tech work. We were never a band that made enough to hire a real crew, haha, but we each REALLY enjoyed working on our own gear. For me, I had my own way of doing things and just really enjoyed working on my guitars, so I didn’t allow anyone else to steal my joy from me."
+          }
+        ],
+        "question": "Do you set up your guitars yourself, or do you have a tech or shop that handles maintenance for you?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "All of the guitars and equipment that I use for One King Down are stock. I’ve always bought equipment that I felt was tried and true and I didn’t need to mess with. With that said, I have modded and “built” some guitars where I’ve swapped out pickups, electronics, and necks just to play around and try to achieve different sounds, but none of them have ever made it to an OKD record."
+          }
+        ],
+        "question": "Have you modded any of your guitar gear, or do you primarily use the stock/default setup for guitars, amps, and pedals?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "For as long as I can remember, I’ve used GHS Boomers. Mike, Bill, and I have had a partial endorsement for decades. I don’t know how they did it, but they always lasted longer and stayed in tune better than all of the other strings we had ever used. I’d name them, but I wouldn’t want to disparage them. I would never stop using GHS ever. For my Wolfgang, I use 9-46 as it has a Floyd Rose, but also the D-Tuna, and the 9s just work better. For my Les Paul Standard, I use 10-52. We tune to Eb, so a little bigger for my Les Paul. When we play live, I like to just use my Les Paul and then the Wolfgang as a backup."
+          }
+        ],
+        "question": "Can you tell me more about the tuning and strings you use? How do they help your tone, and does it also help with playing? (e.g., why would a thinner set of strings not work for you?)"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "To be honest, I have never put a whole lot of thought into the cabinets. Mostly because I had a Marshall that I loved right away, but also because if we needed to use a venue backline, more often than not, it was Marshall. Either that or Mesa. But I love those too, so I never really had to put too much thought into it."
+          }
+        ],
+        "question": "How relevant is the speaker cabinet for your sound? Do you use what is available at the venue, hook up to the FOH, or do you prefer to play a specific cab like a Mesa 4×12 with V30 speakers or something else?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "For playing live, it’s my Les Paul. I’ve loved Les Pauls since I was a kid. However, if I’m able to travel with a backup, I always bring my Wolfgang. That thing is SO easy to play. But for my ABSOLUTE favorite guitar; I own an EVH Frankenstein Relic Strat, and that thing is a MONSTER! By far, the most comfortable, smoothest, and easiest guitar I’ve ever played. I play it stock. However, I added bicycle reflectors to the back and added the 1971 quarter. I sanded off the EVH logo and rubbed it down with graphite powder to match the relicing. Then topped it off with cigarette burns on the headstock."
+          }
+        ],
+        "question": "What is your favorite guitar at the moment and why?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "For the rest of my life? Oh man, that’s tough. My immediate thought is a Marshall Bluesbreaker. I love Blues and Classic Rock and have always wanted that Amp."
+          }
+        ],
+        "question": "If you could choose one amp to play for the rest of your life (including modelers or profilers), which one would it be and why?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Although it doesn’t get the love I feel it deserves, God Loves Man Kills is probably our proudest moment, guitar-wise. We worked really hard on those songs and really tried to step our game up and I think we really did that."
+          }
+        ],
+        "question": "Which album are you most proud of as a guitar player?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Band-wise, we probably could have slimmed down the amplification. No one needs to use a full Marshall stack at a basement show, haha. I currently use a Blackstar Amped 3 and that has been life-changing from a travel standpoint. I don’t have to figure out how to get a huge amp on the plane, but also sacrifice zero sound or tone. It was a huge upgrade and thanks to Scott Crouse for the tip and to Blackstar for the hookup! Guitar playing-wise, I’ve embraced the single coil pickup in my older age, haha. Not for OKD, but for playing the different styles I like."
+          }
+        ],
+        "question": "Is there something you learned over the years about guitar gear (e.g., using a Tube Screamer, specific pickups or strings, amps, cabs, passive vs. active pickups, etc.) that you wished you knew earlier and that gave you an “AHA!” moment?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I only used an active pickup for a very short time, so I can’t say I prefer one over the other, but passive has just been what I’ve used."
+          }
+        ],
+        "question": "Passive vs. Active pickups: which do you prefer for your style and band, and why?"
+      },
+      {
+        "answers": [],
+        "question": "What is the most consistent item in your guitar rig and why?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "30+ years of Marshall cabinets."
+          }
+        ],
+        "question": "30 years of GHS strings use. If your strings are garbage, how can you expect to play well?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "For a riff that I brought to the band, I would have to say the intro of “Deliver Me”. I’m a big rhythm guy and I like crazy time signatures, so I think that was a shining moment for me. If I could pick one for Mike, I think my favorite Mike riff is the verse part of “Deliver Me”. The chords are crazy and that really helped push my playing to another level back in the 90s. And it’s also so signature “Mike” with the dissonant chords."
+          }
+        ],
+        "question": "Which riff of one of the songs you wrote are you most proud of and why?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I mean, it’s hardcore, so our technique isn’t something that is instantly recognizable, but one element that has stayed pretty consistent is our use of Chorus and Phasers to help add a little color to some parts."
+          }
+        ],
+        "question": "Do you use a certain guitar playing technique that is instantly recognizable as your signature? (e.g., damping, blues licks, dissonant power chords, pinch harmonics)"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I definitely hold down a lot of rhythm parts. Mike has a lot of parts that aren’t necessarily leads, but parts that he plays to add to the overall dynamics to a song. At times, Mike has written a riff that we both play together, but if I hear a little something in it that I think to add to it, I may play it slightly differently or add a small harmony to it. There are subtle things like, I may play a riff down an octave. One thing that was really fun to do; there’s a part in “Deliver Me” where, although we are in standard tuning, the riff calls for just playing the open A and open D to bring out a low D tonality (inverted 5th?). But because I had the D-Tuna on my Wolfgang, mid-song I could quickly pop the guitar into Dropped D, play that riff with the low D root, then pop it back into E for the remainder of the song."
+          }
+        ],
+        "question": "Did or do you change your riffs when composing towards having a second guitar player in the band (e.g., for harmonies and melodies, or one playing more rhythm and the other more lead parts)?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Oh man, I go through these seasons where I lock onto a band or artist of a certain genre and consume as much of their music/playing as I can. It could be Guthrie Govan and The Aristocrats, but then it could switch to Whitesnake, and then to Zappa, haha. I really enjoy the playing of Doyle Bramhall II. He’s a monster blues player. But as of this moment, I’ve been listening a ton to Big Wreck. I never really gave them much of a chance when they first came out because I just pegged them as a Canadian Soundgarden, but wow, man. Ian Thornley is an absolute beast of a guitar player and his songwriting and singing just blows me away. So, for about the last two months, I’ve listened to almost nothing but Big Wreck, haha."
+          },
+          {
+            "kind": "answer",
+            "text": "Although he is not “currently” playing in AF or Madball, I’ve always thought Matt Henderson wrote some of the greatest, grooviest hardcore riffs."
+          }
+        ],
+        "question": "Which guitar players from current existing bands inspire you and why?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Thanks so much for including us. Van Halen Forever."
+          },
+          {
+            "kind": "answer",
+            "text": "Check out One King Down’s Instagram page Listen to One King Down on Spotify"
+          }
+        ],
+        "question": "Last but not least: any final words or tips for guitar players out there?"
+      }
+    ],
+    "title": "Interview – Matthew Wood – One King Down",
+    "type": "interview",
+    "url": "https://thatspecificsound.wordpress.com/interview-matthew-wood-one-king-down/"
+  },
+  "https://thatspecificsound.wordpress.com/interview-michael-scoville-one-king-down/": {
+    "full_html": "",
+    "hero_image": "https://thatspecificsound.wordpress.com/wp-content/uploads/2026/01/mike-3.jpeg?w=700",
+    "intro": [
+      {
+        "kind": "answer",
+        "text": "<picture by: Michelle Olaya>"
+      }
+    ],
+    "outro": [],
+    "photo_credit": null,
+    "qa": [
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I first started really playing around age eight or nine. I have these pictures of me playing two guitars that I don’t ever remember acquiring—I think I may have “borrowed” them from a friend’s house. My first real guitar that I went and picked out from a store was a red Fender Squier Strat. I’m pretty sure I had a small Peavey amp to go with it, because everybody had a Peavey in the late 1980s."
+          }
+        ],
+        "question": "When did you start playing guitar and what guitar and equipment did you start on?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I was growing up when MTV was in its prime, so Van Halen was always one of my favorites. 1984 was (and still is!) such an amazing album. Even my parents had the cassette, and we would listen to it on long car trips."
+          },
+          {
+            "kind": "answer",
+            "text": "At the same time, my older brother was bringing home albums from Iron Maiden, Anthrax, Metallica, and other classic metal/thrash bands. Somewhere in Time was a big influence—I was obsessed with the intro to “Wasted Years” and wanted to learn to play it so badly."
+          },
+          {
+            "kind": "answer",
+            "text": "Another highly influential album for me was the New York Hardcore The Way It Is compilation. Some of the first songs I ever learned were “Wise Up” and “Sick People.”"
+          }
+        ],
+        "question": "Which bands inspired you to start playing guitar, and are there certain riffs or songs that specifically motivated you?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "While I was always trying to be a better player, I didn’t have an early appreciation for how much a good amp can help shape your sound. It took some time before I finally saw the light."
+          },
+          {
+            "kind": "answer",
+            "text": "Early on in OKD, I know Matt and I were from the school of “bigger is better.” Speaking for myself, in those early days I prioritized size and lights over actual tone."
+          }
+        ],
+        "question": "When did you feel your guitar playing and equipment became more professional, leading you to think: “Yes, this is the sound I really like!”?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "They definitely evolved at different speeds for me. Like I mentioned earlier, I was more concerned with size and volume. We had full stacks and all this rack gear with dancing lights. While all of this stuff may have looked professional, it didn’t necessarily sound that way."
+          }
+        ],
+        "question": "Do these two elements (playing and equipment) go hand-in-hand, or did they evolve differently for you?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "We were sort of “forced” to use a rented Marshall head and cabinet. This was our first time recording in a real studio, and the engineer had a bit of a hard-on for tube amps, while we were all solid-state at the time. It wasn’t giving us the “feel” we were familiar with, and we definitely protested. This caused a little friction out of the gate, but we ultimately acquiesced and used the Marshall. We were young, cocky, and didn’t know shit yet—but things ended up working out."
+          },
+          {
+            "kind": "answer",
+            "text": "At that time, I was playing a Joe Satriani model Ibanez with a Floyd Rose. It was a pain in the ass to change strings, and if one broke while I was playing, the whole thing fell out of tune."
+          },
+          {
+            "kind": "answer",
+            "text": "We used the same studio and engineer as Absolve , but no tube amp was forced on us this time. That album was originally being recorded for another label, and we were on a pretty tight budget, so I don’t think we spent a ton of time dialing in guitar sounds—we just kind of went with what we had."
+          },
+          {
+            "kind": "answer",
+            "text": "At the time, I was using a Peavey Bandit 112 mounted in a rack with a Rockman EQ and stereo chorus. I was also using a Morley Steve Vai “Bad Horsie” wah pedal, which was used on the solo in “Defiance” and on the intro to “More Hate Than Fear,” along with some other studio effects."
+          },
+          {
+            "kind": "answer",
+            "text": "I was still using the Satriani Ibanez for that recording. For the acoustic part in “Absolve,” I used a Washburn nylon-string classical guitar."
+          },
+          {
+            "kind": "answer",
+            "text": "For this one, I was using an ART rack-mounted preamp/power amp setup with a bunch of built-in effects. I also had a programmable pedal with all my sounds stored—definitely a step up from the Franken-Peavey."
+          },
+          {
+            "kind": "answer",
+            "text": "By this time, I had switched to a Gibson SG ’61 Reissue, which is still my main guitar to this day."
+          },
+          {
+            "kind": "answer",
+            "text": "It was shortly after recording GLMK that I finally ditched the rack gear and graduated to a Marshall Triple Super Lead. I was also using an Electro-Harmonix Deluxe Memory Man, a Crybaby wah, an MXR Phase 100, and an MXR Flanger. I used my SG on this one as well."
+          }
+        ],
+        "question": "Do you recall what amps, guitars, pedals, and pickups were used on your albums?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "We recorded all of our albums at the same studio with the same engineer. We may have gotten off to a rocky start, but we ended up having a great working relationship."
+          },
+          {
+            "kind": "answer",
+            "text": "For Bloodlust Revenge , we were on a tight budget and kept things very simple. There wasn’t much multitracking or many overdubs, so the guitars can sound a little thin at times, at least to me."
+          },
+          {
+            "kind": "answer",
+            "text": "For God Loves, Man Kills , we had more time and money, which meant we could get more ambitious. We recorded four rhythm tracks per side—eight guitar tracks total—before adding overdubs. That’s why it sounds so much fuller."
+          }
+        ],
+        "question": "I’ve noticed differences in sound across your albums. Was that due to gear, studio choices, or both?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "We definitely pushed ourselves hard when putting those songs together. From a riff-writing perspective, I was always trying to improve on ideas and challenge myself."
+          }
+        ],
+        "question": "The God Loves, Man Kills album sounded more technical. Was that intentional?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "There’s a guy in Boston I bring a couple of my guitars to when they need a bigger overhaul, but overall I do most of my own maintenance."
+          }
+        ],
+        "question": "Do you set up your guitars yourself, or do you use a tech?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I’ve been playing the same SG ’61 Reissue since 1997—no mods, all stock."
+          }
+        ],
+        "question": "Have you modded any of your guitar gear?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "For Absolve , we were tuned down a whole step. Bloodlust Revenge and God Loves, Man Kills were in standard tuning, with a couple of GLMK songs in drop D. For Gravity Wins Again , we tuned down a half-step, which is what we still do now."
+          },
+          {
+            "kind": "answer",
+            "text": "As for string gauge, I experimented for a while—straight 9s, then 10s—but I’ve settled on GHS Boomers (9–46). I like being able to bend easily on the upper frets, and the lighter treble strings help with that."
+          }
+        ],
+        "question": "Can you tell me more about the tuning and strings you use?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I’ve always been a fan of Marshall vintage cabinets with Celestion Greenbacks—they really bring out the mid-range bite of my ’57 Classics. That said, I haven’t owned my own cab in over 20 years, so I’m usually at the mercy of the venue or generous friends."
+          }
+        ],
+        "question": "How relevant is the speaker cabinet to your sound?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I don’t think I have a single favorite. The one I play the most is my SG—it’s the most comfortable and the one I’ve had the longest. I also have an EVH Frankenstein relic that’s incredibly fun to play. You can’t help but crank the gain and do your best Eddie impression. When I want something more mellow, I grab my Gibson Les Paul ’56 Reissue Goldtop with P-90s. Those pickups sound great clean or dirty."
+          }
+        ],
+        "question": "What is your favorite guitar at the moment?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Probably a Marshall Super Lead into a cabinet with 25-watt Celestion Greenbacks."
+          }
+        ],
+        "question": "If you could choose one amp to play for the rest of your life, which one would it be?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I’m most proud of Bloodlust Revenge for how long the music has endured. The fact that it still resonates with people today is amazing to me—that’s really all you can ask for when you create something and put it out into the world."
+          }
+        ],
+        "question": "Which album are you most proud of as a guitar player?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "K.I.S.S.—Keep it simple, stupid."
+          }
+        ],
+        "question": "Is there something you learned over the years about guitar gear that gave you an “Aha!” moment?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I’ve only ever used passive pickups. I’ve played guitars with active pickups, but they never really did anything for me."
+          }
+        ],
+        "question": "Passive vs. active pickups: which do you prefer and why?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "My SG. It’s been my main guitar for almost 30 years, and it’s just so comfortable to play."
+          }
+        ],
+        "question": "What is the most consistent item in your guitar rig?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I can’t narrow it down to one. I’m proud of the intro/main riff in “More Hate Than Fear”—I’ll never get tired of playing that one. The verse parts in “Deliver Me” are also a lot of fun, especially how they use all six strings. I’m also proud of some of the riffs in “From Cradle to Grave,” where I used this whole-tone scale I had just learned, and it ended up sounding pretty cool."
+          }
+        ],
+        "question": "Which riff of one of your songs are you most proud of?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I don’t think my style is instantly recognizable, but I do make a conscious effort to avoid typical hardcore tropes. I’m not afraid to use all the strings and add color to chords instead of sticking to power chords the whole time."
+          }
+        ],
+        "question": "Do you use a guitar-playing technique that’s instantly recognizable as your signature?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "One of the perks of having two guitar players is the freedom to play different parts—it adds texture and size. If I come up with a riff, I usually look for a complementary part. If I can’t find one, I’ll leave it up to Matt. Sometimes playing in unison is more impactful, but having the option for harmonies or layers is great."
+          }
+        ],
+        "question": "Did you change how you write knowing there’s a second guitar player in the band?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I’ve got two young kids at home, so I don’t get a lot of time to listen to new music. My Spotify Wrapped was a mix of K-Pop Demon Hunters , Disney soundtracks, Pantera, and Cro-Mags. If Into Another counts as a current band, then Peter Moses has always been a huge inspiration."
+          }
+        ],
+        "question": "Which current guitar players inspire you and why?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Listen to what makes you happy. Play what makes you happy. Van Halen Forever. Check out One King Down’s Instagram page Listen to One King Down on Spotify"
+          }
+        ],
+        "question": "Last but not least: any final words or tips for guitar players out there?"
+      }
+    ],
+    "title": "Interview – Michael Scoville – One King Down",
+    "type": "interview",
+    "url": "https://thatspecificsound.wordpress.com/interview-michael-scoville-one-king-down/"
+  },
+  "https://thatspecificsound.wordpress.com/interview-mike-mckenzie-the-red-chord-stomach-earth/": {
+    "full_html": "",
+    "hero_image": "https://thatspecificsound.wordpress.com/wp-content/uploads/2025/12/mike-mckenzie.jpg?w=1024",
+    "intro": [
+      {
+        "kind": "answer",
+        "text": "Image from Mike’s Facebook page"
+      }
+    ],
+    "outro": [],
+    "photo_credit": null,
+    "qa": [
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I started playing when I was about 11. I was playing around on an old Decca acoustic that my parents had but didn’t play. It was a right-handed guitar but I held it backwards because I didn’t know what I was doing but that felt natural. When I decided to ‘officially’ play guitar, my uncle who was a lefty as well, lent me his Kent Les Paul copy. I didn’t have an amp but my mom used to bring communion to inmates in prison and one of the inmates lent me his amp since he couldn’t use it while he was locked up. I don’t remember what the amp was but it was probably early 70’s or older and had minimal EQ options."
+          },
+          {
+            "kind": "answer",
+            "text": "Which bands inspired you to start playing guitar and are there certain riffs or songs that specifically motivated you to start playing guitar? I usually say Metallica, specifically James Hetfield’s playing is the biggest influence on playing guitar, but I actually wanted to play drums when I started out. My parents didn’t want a drum kit in the house and my neighbor had sort of convinced me that I should play guitar because he wanted to play drums in our ‘band.’ I started getting into hard rock and heavy metal around 1989/1990 and I’d often just record the guitar solos from the songs on the radio. At the time, a lot of the songs on the radio had guitar solos. I loved Skid Row, Ratt, Metallica, Megadeth and anything with heavier guitars. There isn’t really a single riff or solo that made me want to play though, it was mostly just everything I liked."
+          }
+        ],
+        "question": "When did you start playing guitar and what guitar and equipment did you start on?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I’ve don’t think I’ve ever really had that thought. I’m never really satisfied with guitar tone. I settled on the 5150/6505 amps for The Red Chord back when we were touring full time and they’re excellent amps but I’m always trying to improve the tone. That has changed a bit more recently. My playing mainly is just to serve the song. I need to be a capable enough player to play whatever I feel is right for whatever I’m working on. So my growth as a player is largely based on what I’m writing at the time."
+          },
+          {
+            "kind": "answer",
+            "text": "Do these 2 go hand in hand or did it evolve differently for your playing and your equipment? They are pretty related. Tone and ability are both part of the main goal, which is making the sound, really. I want something to sound a certain way and have a certain mood or tell a story so my tone and playing needs to reflect that."
+          }
+        ],
+        "question": "When did you really feel your guitar playing and equipment got more professional and you thought: “Yes, this is the sound I really like!” ?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Not on every record but I do have some documentation here and there. I actually recently released a video on my Patreon of some old footage of TRC in the studio talking through our guitar rig for the record, ‘Prey For Eyes’ – https://www.patreon.com/posts/prey-for-eyes-143430738"
+          },
+          {
+            "kind": "answer",
+            "text": "On every TRC record, I played an LTD EC-1000 for rhythm tones on the bridge pickup which was an EMG 81. Overdubs and leads might have been different; there’s one surf rock-sounding overdub on ‘Prey For Eyes’ that I played on a right-handed telecaster. ‘Clients’ is all 5150 II for the rhythm guitars and I think leads as well. I’m pretty sure we used Mesa Rectifier 4×12 cabs. Those guitars are quad-tracked. ‘Fed Through the Teeth Machine’ was a Mesa Mark IV and an Orange 4×12 for rhythms."
+          },
+          {
+            "kind": "answer",
+            "text": "For other projects, I’ve mostly played my ESP Custom Shop guitar, which is sort of a modified EC-1000. It’s a neck through with an EMG 81 and a 60 in the bridge and neck, respectively and has a few other cosmetic differences. That guitar is set up for C standard, like the projects/bands I play it with: Wear Your Wounds, Stomach Earth & Umbra Vitae."
+          },
+          {
+            "kind": "answer",
+            "text": "I rarely used pedals for rhythm tones but we’ve experimented with plenty of effects for leads. The Wear Your Wounds record, ‘Rust On the Gates of Heaven’ has a lot of different guitar sounds but one delay in particular that I enjoyed was the Source Audio ‘Ventris’ pedal that we layered in a few places. For a lot of clean tones on that record, we used a Sparrows Sons amp that I think was maybe only 1 of 4 made. One of the many interesting amps Kurt Ballou records with at God City."
+          }
+        ],
+        "question": "Do you recall using what kind of amps, guitars, pedals and pickups on the albums? If so, would you mind sharing them? (for example: for album X we used a peavey 5150 mixed with a mesa dual rec and a TS9 and I was using a ESP LTD MH-400 with JB in the bridge)"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "In the studio the goal is split between capturing the natural sound of the band and serving the songs. In my opinion, the 5150/6505 amps are excellent for live shows but not as easy to be happy with in the studio. We’ve tried a lot of methods and gear over the years to get the right sound. There are so many factors to finding a good tone for a record. The tone needs to feel right with the riffs and songs themselves, how we’re going to play, how they sit with the other instruments and tones in the mix and how they serve the overall record. My feelings about tones always change and I’m never 100% happy with my own sound."
+          }
+        ],
+        "question": "I have noticed the difference in sounds over years of your albums; did you switch to other amps but do you also feel the amps were a better fit for you, the songs and your playing? Or was it mostly a different approach during recording the albums?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I don’t play a 5150 with TRC anymore. When we first started out, we were playing through a digital effects type rig, like a lot of players are doing now. We each had a Digitech 2101 FX processor as our preamp and rackmount QSC power amps. The sound worked at the time. I ended up buying a 5150 from a local music store probably around 2002, I think after we recorded our first record. It worked because it was chunky-sounding with a lot of saturation but I could control the sound well. The thick low mids worked really well for chugging riffs and had enough clarity for the technical stuff. We never used any additional overdrive pedals or anything like that because they weren’t needed. EMG 81’s and that amp were plenty of gain and keeping my string tension very tight and lowering the pickup quite a bit allowed for ample control of feedback/noise. The only pedals I used for almost all of TRC’s touring years were a Boss tuner and noise suppressor. The NS-2 is still the best noise suppressor, in my opinion. Later we switched to Peavey 6505+’s, which are almost the same amp."
+          },
+          {
+            "kind": "answer",
+            "text": "In the last 3-4 years, I started using a Helix Floor with a Seymour Duncan Powerstage 700. I can pretty much replicate my 5150 sound with that rig but I can also travel with it easily. I also use the Helix for looping parts and to thicken the sound of just one guitar."
+          }
+        ],
+        "question": "I see you used the famous Peavey 5150 (mk II if I saw it correctly?); what is the main reason you used the 5150 + EMG 81 set up? Have you ever considered using a different amp or is the Peavey 5150 the perfect fit for your music in The Red Chord?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Not a huge one but I did think the original 5150 had a bit more warm saturation."
+          }
+        ],
+        "question": "Any preference for the mk1 or mk2 Peavey 5150’s and if so why?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "There’s not a huge difference really. But I’m a lefty and ESP didn’t have any lefty guitars at the time so they built me that one. It’s an incredible instrument though. The body is a bit heavier and the low end is a bit more present."
+          }
+        ],
+        "question": "If you compare the ESP LTD Eclipse that you used vs the ESP Eclipse (custom?) you currently have: how big of a difference is it actually? Would you recommend one over the other for players looking for the best guitar?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Other than replacement parts for things that wear out, I haven’t done much modification."
+          }
+        ],
+        "question": "Have you modded any of the guitar gear you have or you use the stock/default setup of the guitars, amps or pedals?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I prefer the heaviest string gauge that the guitar and tuning with allow because I pick pretty hard, especially with TRC. TRC is in D standard tuning and I play 12-54 gauge strings with a plain G. I don’t want the strings flopping around when I hit a chord hard and I want to be able to dig in while picking. A lot of my sound in the heavier bands I play in comes from picking aggressively, so I need the strings to stay put and not waver tonally when playing. I’ve been playing D’addario strings for nearly 20 years now and I’ve been using their NYXL strings lately."
+          }
+        ],
+        "question": "Can you tell me a bit more about the thick strings you use; how do they help your tone and does it help with playing as well? (why would a thinner set of strings won’t work for you?)"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I often play through a couple of Orange 4×12’s with Celestion V30’s. I prefer Orange and Marshall cabs, though I’ve been happy with some other nice sounding stuff like Emperor cabs. Most venues don’t have guitar cabs unless it’s a festival with a rented backline. Back when we were touring, I always brought cabs. These days, we do more one off shows and festivals so we’re flying in and can’t bring them. I’ll pretty much make do but luckily most rented backlines have Marshall cabs."
+          }
+        ],
+        "question": "How relevant is the speaker cab for you? Do you use what is at the venue, hook up to the FOH or do you prefer to play a default cab like a Mesa 4×12 with V30 speakers or something else?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Probably my custom because it’s just a really nice sounding instrument."
+          }
+        ],
+        "question": "What is your favorite guitar atm and why?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I’d probably stick with the Helix since it can replicate enough sounds for me. I don’t need that many options so this thing would do it."
+          }
+        ],
+        "question": "If you could choose one amp to play for the rest of your life (can also be a modeler or profiler); which one would it be for you and why?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I think from a strictly guitar playing standpoint it would be ‘Fed Through the Teeth Machine’ as it’s the most technical. But I think my playing on Wear Your Wounds ‘Rust On the Gates of Heaven’ is more tasteful."
+          }
+        ],
+        "question": "Which album are you most proud of as a guitar player?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Not a specific moment but something I began to understand over time was that gear has a lot less to do with sound than I originally thought and that no singular piece of gear is going to do it. The combination of playing style, the gear you’re using and your perspective is really what forms your sound. It’s great to have great tools that work well but ultimately you can make anything work."
+          }
+        ],
+        "question": "Is there something you learned over the years about guitar gear (for example: using a tubescreamer, specific pickup or strings, amps, cabs, passive vs active pickups etc.) and you wished you knew before and gave you an ‘AHA!’ moment?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I’ve been using active pickups for metal for such a long time they’re an easy choice. If you’re playing heavy music, a hot signal is helpful. Though if I switched to passive, I’d just make a few adjustments to my amps. I don’t have a strong preference."
+          }
+        ],
+        "question": "Passive vs Active pickups: which one do you prefer for your style and band and why?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "The guitar. It’s important to feel so comfortable with the instrument that it’s like an appendage. I know what the guitar is going to do and sound like in lots of settings which informs my playing. Everything around it could change and I’d still be able to communicate. Tied with the tuner because it’s essential!"
+          }
+        ],
+        "question": "What is the most consistent item in your guitar rig and why?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I like the second riff in the Red Chord song, “One Robot To Another.” It’s weird and fun to play."
+          }
+        ],
+        "question": "Which riff of one of the songs you wrote are you most proud of and why?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "People tell me it’s my up picking. I up pick everything in place of down picking. It was a weird habit I formed when I started playing and it’s become a staple in my style."
+          }
+        ],
+        "question": "Do you use a certain guitar playing technique that is instantly recognizable for who you are as a guitar player? (damping, blues licks, disonant chords, power chords/barre chords, pinch harmonics)"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Erik Rutan of Hate Eternal/Cannibal Corpse. He has a unique and frenetic playing style that is instantly identifiable. Also I admire his work ethic and work as an engineer. Devin Townsend is another incredibly hardworking and unique player and musician. He seems to view the guitar as just one of his songwriting tools which is a view I share. Serving the music is the ultimate goal."
+          }
+        ],
+        "question": "Which guitar players of current existing bands inspire you as a guitar player and why?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "If you’re playing in a band, especially if you’re writing, don’t forget that a band should be greater than the sum of its parts. Every instrument should work together to create something powerful. Also leave some low end space for the bass player! 😀"
+          },
+          {
+            "kind": "answer",
+            "text": "Listen to Mike’s band The Red Chord here: https://open.spotify.com/artist/3u0I9EqSd1Uo34MItEAIKc Check out Stomach Earth here: https://open.spotify.com/artist/6nSVgAkLlLFkVeSPGax9bQ Check out Wear your Wounds here: https://open.spotify.com/artist/162Upzibi1m79dQDaEUjl3 Check out Umbra Vitae here: https://open.spotify.com/artist/340Q4BNeDs4ePSpBii4yRa Mike is also a great producer! Check out his website here: https://www.nightedthrone.com/"
+          }
+        ],
+        "question": "Last but not least: any last words or tips for guitar players out there?"
+      }
+    ],
+    "title": "Interview – Mike McKenzie – The Red Chord/Stomach Earth/Umbra Vitae/Wear your Wounds",
+    "type": "interview",
+    "url": "https://thatspecificsound.wordpress.com/interview-mike-mckenzie-the-red-chord-stomach-earth/"
+  },
+  "https://thatspecificsound.wordpress.com/interview-rogier-stevens-driven/": {
+    "full_html": "",
+    "hero_image": "https://thatspecificsound.wordpress.com/wp-content/uploads/2025/10/img_3134.jpg?w=1024",
+    "intro": [
+      {
+        "kind": "answer",
+        "text": "Note: This interview is special to me: I am from Amsterdam – the Netherlands myself and I always looked up to Driven, a band by 4 other Amsterdam high school kids that had a sound somewhere in between Earth Crisis meets Meshuggah meets Shai Hulud/Stretch Armstrong. They played multiple festivals in Belgium (Ieper, Vort ‘n Vis) and even Dynamo Open Air in 1998 next to Deftones and Rammstein to name a few. Very proud of this band and it is an absolute honor to have interviewed Rogier Stevens (guitarist). Give them a listen – at the bottom of this page is a link to their EP."
+      }
+    ],
+    "outro": [],
+    "photo_credit": null,
+    "qa": [
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I tried an acoustic guitar for the first time at a friend’s house when I was 13. Learned to play the intro to Nothing Else Matters on the spot. Something “clicked” right away, which didn’t happen to me before with piano lessons."
+          },
+          {
+            "kind": "answer",
+            "text": "My first own guitar was an “Action”, a cheap western acoustic guitar. The name was fitting – it had extremely high action. I got my first electric guitar for my 14th birthday, an Ibanex EX160. It was a budget guitar for rock and metal. A joy to play compared to the Action and perfect to start out on."
+          }
+        ],
+        "question": "When did you start playing guitar and what guitar and equipment did you start on?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Metallica. I remember seeing the Enter Sandman video on MTV for the first time when I was 11. It blew my mind. The first songs I learned to play were Nothing Else Matters and Enter Sandman, and all the big Nirvana songs. Practised a lot in my parent’s garage. After the Black Album, I picked up Master of Puppets. That one really opened the world of metal to me and turned me into a life-long fan."
+          },
+          {
+            "kind": "answer",
+            "text": "Burn my Eyes by Machine Head was also HUGE for me around the time I started playing guitar. The heavy sound and atmospherics of that album are still legendary to me. My first concert was Machine Head in Paradiso in 1995, with Meshuggah as the opening act – best concert ever. I hung around Paradiso after school to get their autographs and got on the guestlist because I showed Logan Mader where the coffee shop was. Meshuggah’s opening song was Humiliative. And Machine Head’s opening song, of course, Davidian. Both got seared into my brain forever."
+          },
+          {
+            "kind": "answer",
+            "text": "I was also heavily into Fear Factory (Demanufacture). I became aware of a lot of bands from watching Beavis and Butthead on MTV."
+          }
+        ],
+        "question": "Which bands inspired you to start playing guitar and are there certain riffs or songs that specifically motivated you to start playing guitar?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I think around 17 years old. With Driven we had band practice in the Melody Lines ( Übenraumte 7 ), a practice space in the east part of Amsterdam that no longer exists (Andreas RIP!). The amps there were Marshall Valvestates, which by coincidence sounded great for metal. After Joris Oonk joined, we really found our sound as a band on those amps."
+          },
+          {
+            "kind": "answer",
+            "text": "At one point I bought a Marshall JCM900, because I thought it was more professional. I used it for a while for our shows, but it just didn’t sound as metal as a Valvestate."
+          },
+          {
+            "kind": "answer",
+            "text": "I still love that sound. Being a dad now with a corporate job, I recently bought a Valvestate again just so I can play some metal in my shed. They can be found for really cheap second-hand. I tried many distortion pedals but a Valvestate still does the trick for metal. One of my other guitar heroes, Chuck Schuldiner of Death played exclusively on Marshall Valvestates – enough said!"
+          }
+        ],
+        "question": "When did you really feel your guitar playing and equipment got more professional and you thought: “Yes, this is the sound I really like!” ?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Equipment did not influence my playing that much, I think. We were broke teenagers, so we used what we had. The sound was just immediately “there” with the Valvestates."
+          }
+        ],
+        "question": "Do these 2 go hand in hand or did it evolve differently for your playing and your equipment?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "On the Cowardice Consumer EP, Joris used a late ‘70s Ibanez Musician and I used a Gibson Les Paul Studio. For amps, see above. For picks, medium Dunlop Tortex. No pedals."
+          },
+          {
+            "kind": "answer",
+            "text": "On the split EP that we released later I used a Gibson Explorer (see below) and whatever amp was available in the studio – I think it was a Koch."
+          }
+        ],
+        "question": "Do you recall using what kind of amps, guitars, pedals and pickups on the albums?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I can’t believe you actually remember this! It is correct. I started with the Ibanez EX160. Moved on to a Gibson Les Paul Studio, a hand-me-down from my friend. Then I bought a matte black Gibson Exlorer Gothic around ’97-’98. That made me feel like a boss and was the first instrument I was REALLY excited about. Finally, around ’99, I traded it in for a more vintage styled Gibson Explorer in an antique natural wood colour. I put active EMG 81/60s in that one. Obviously, I am a total James Hetfield fanboy – the Explorer shape is iconic to me. Both Explorers were great, I wish I had kept them."
+          }
+        ],
+        "question": "I have noticed you changed gear over time with Driven, from, if I recall correctly, Ibanez to Gibson Les Paul Studio and then a Gibson Explorer: can you tell me a bit more why you changed the guitars and what every guitar means/meant to you?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Yes, massively. Joris Oonk is actually way more talented than I am on the guitar and as a musician in general. He now composes film music. I would go as far as to call him a kind of musical genius, in his own way – I recommend you interview him!"
+          },
+          {
+            "kind": "answer",
+            "text": "Joris and I had complementary playing styles; he was capable of soloing and came up with intricate lead parts and melodies, whereas my strength was rhythm guitar. He could play what I played, but I could not play all his parts. Together, I think we were capable of creating some inspired stuff."
+          }
+        ],
+        "question": "Have you changed your guitar writing approach when you had the 2nd guitar player (Joris Oonk) in Driven?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I think we used standard tuning in C for the Cowardice Consumer EP. On our last release (two songs), we went to drop C tuning I believe. We used D’Addario 0.11 or 0.12s."
+          }
+        ],
+        "question": "What kind of tuning did Driven use and what kind of strings did you use for that tuning?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "In Driven I always tried to come up with “different” chords that sparked a certain feeling or emotion; be it melancholic or just evil. Then, Joris often put his special sauce over it, in the form of melodic leads on top of those chords. But Joris came up with a lot of banging chords and riffs as well. Groove was a big factor in our music too – props to our amazing drummer, Nickel van Duijvenboden, for that."
+          },
+          {
+            "kind": "answer",
+            "text": "Our sound was indeed heavily inspired by Earth Crisis – in particular Gomorrah’s Season Ends was a big influence, in terms of riffs and groove. (We were their opening act once, in De Melkweg, and we brought the house down – that was a highlight!). And indeed, Meshuggah (Destroy, Erase, Improve and None) was a huge influence for me – well spotted! Gorefest too, for their evil-sounding harmonies on the low strings."
+          },
+          {
+            "kind": "answer",
+            "text": "For clean parts, the pinnacle of sound to me was the intro of A Nation on Fire by Machine Head. I always tried to get that sinister vibe and sound in my clean parts (never quite got there)."
+          }
+        ],
+        "question": "You used a pretty special technique with chords: dissonant chords but also more emotional kind of chords and all mixed up: how did you come up with this? In that time the slayer metallic guitar sound was really the default sound for most metalcore bands but for me it sounded like earth crisis meets shai hulud and meshuggah. Where those also the bands you listened a lot to?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I forced the band into reggae cover jams sometimes, as I am also a reggae lover. We goofed around all the time on stage."
+          },
+          {
+            "kind": "answer",
+            "text": "After our singer Vincent Hausman moved to the US to study, Driven fell apart. But we started another band, which included me, Joris, Nickel and bass player Max Porcelijn – aka ZITROMAX – who had joined Driven in later years and contributed his own special sauce to the Driven sound, slapping on his funky little Ibanez Soundgear bass. We played other styles of music in that band, mostly indie / alternative. Perhaps that is where some of those rumours come from."
+          },
+          {
+            "kind": "answer",
+            "text": "Luckily, no one was stupid enough to hire us for their wedding party."
+          }
+        ],
+        "question": "There is a rumor that Driven would play Driven songs either acoustic or even reggae songs or on wedding parties: how much of that is true? 🙂"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I treat my guitars like any other random object. Scratches, dents, who bloody cares! It’s about the sound, mayne."
+          }
+        ],
+        "question": "Did you take good care of your guitar or was it ok if it was scratched, dinged up or even broken?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I must admit I didn’t really connect with the music of a lot of the ADHC and H8000 bands. There were a lot of cool bands, for sure, but I can’t say I had a favourite."
+          },
+          {
+            "kind": "answer",
+            "text": "I mostly just remember the nice people! The Amsterdam hardcore scene had a little “thing” for a moment in ’97 – ’98, culminating with a ADHC compilation CD and a sold-out concert at De Melkweg. All those bands were friendly and hung out. The bigger hardcore scene was in Belgium with H8000, we played lots of shows there, sometimes to really passionate crowds. We had a few loyal fans/friends that followed us to all those shows. But also further abroad, people in the scene were always so kind. When we did small tours in Europe and the UK, we were generously hosted every night by people whom our singer Vincent had come to know in the scene."
+          },
+          {
+            "kind": "answer",
+            "text": "Vincent is a super charismatic, passionate guy who was our driving force on stage and behind the scenes. We probably would’ve never made it out of the practice space if it wasn’t for him. Great lyricist, too. After Driven, he started another great metal band in the US called Howl , on Relapse Records. He is still one of my best friends and I hope he moves back to NL soon so we can finally start planning that reunion show…"
+          }
+        ],
+        "question": "Do you remember some of the ADHC and H8000 bands and which ones did you really admire in the 90’s when playing and touring with Driven?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Two vintage guitars: a ’62 Fender Jazzmaster and ’63 Fender Jaguar. I got them years ago, when I was heavily into the vintage offset scene and before the market for vintage Fender offsets exploded. Both are somewhat pieced together, but lovely. The Jaguar is a basket case; the previous owner tried to convert it into a kind of Les Paul-ish monstrosity. Luckily, it had the original pickups and Martijn Vink, who worked at Dijkman Guitars, expertly restored it back to what a vintage Jaguar should be. It still needs work but it’s a special guitar."
+          },
+          {
+            "kind": "answer",
+            "text": "I let a lot of other vintage guitars slip through my hands, when they were still semi-affordable. It makes me cry now, I wish I could have all of them back."
+          }
+        ],
+        "question": "What is your favorite guitar atm and why?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "My 70’s Fender Vibrolux Reverb. It has the best clean sound."
+          }
+        ],
+        "question": "If you could choose one amp to play for the rest of your life; which one would it be for you and why?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "The Cowardice Consumer EP. It was an obscure little release, but it seems there are still a few people out there like yourself that remember it fondly, also judging from Youtube comments. That is nice to know."
+          },
+          {
+            "kind": "answer",
+            "text": "Looking back on it, I do think we crammed way too many riffs in each song. Our high energy made us get bored easily, so we put twists and turns all over each track. I guess I was also inspired by Death / Chuck Schuldiner in that way. But we could have used our riffs more sparingly and released full albums instead."
+          }
+        ],
+        "question": "Which album are you most proud of as a guitar player?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Discovering the Boss SD-1 for low gain drive was a real eye-opener for me, recently. I like the guitar sound of Parquet Courts; turns out, they just use Squiers with SD-1s. It works really well with Fender amps and guitars, is affordable and sounds better than most boutique pedals to me."
+          },
+          {
+            "kind": "answer",
+            "text": "Besides this, I’ve come to appreciate that the quality and sound of vintage Fenders just cannot be matched by modern guitars, unfortunately. It’s a real issue for my wallet."
+          }
+        ],
+        "question": "Is there something you learned over the years about guitar gear (for example: using a tubescreamer, specific pickup or strings, amps, cabs, passive vs active pickups etc.) and you wished you knew before and gave you an ‘AHA!’ moment?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "For metal, active EMGs. Just slightly more powerful and clinical for rhythm guitar. James knows best."
+          }
+        ],
+        "question": "Passive vs Active pickups: which one do/did you prefer for your style and band and why?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "At this point, Fender guitars. I like all Fender models. Leo was a genius; he designed them just perfectly right from the start."
+          }
+        ],
+        "question": "What is the most consistent item in your guitar rig and why?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I like the short intro riff of Pyramid of the Ants; a mean little dissonant intro, simple but effective. Sometimes I’m surprised that we came up with that riff instead of someone else."
+          }
+        ],
+        "question": "Which riff of one of the songs you wrote are you most proud of and why?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Plain old Metallica-style chugging!"
+          }
+        ],
+        "question": "Do you use a certain guitar playing technique that is instantly recognizable for who you are as a guitar player? (damping, blues licks, power chords/barre chords, pinch harmonics)"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Steve Gunn, for his earthy and atmospheric guitar playing. And I love Jeff Parker’s (from Tortoise) solo stuff."
+          },
+          {
+            "kind": "answer",
+            "text": "I listen to lots of new music but haven’t been keeping up with new metal releases. I always go back to the old stuff like Death (Human, Symbolic, The Sound of Perseverance), and Metallica. …And Justice for All is my favourite Metallica album, and one of my all-time favourite pieces of music in general. The music is so uncompromising and relentless and the guitar playing so tight and melodic, it will always inspire me. Contrary to the popular opinion, I adore the production on that record too. I saw them play in Amsterdam last year, they are still on top."
+          }
+        ],
+        "question": "Which guitar players of current existing bands inspire you as a guitar player and why?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Put a guitar in as many rooms of your house as you can. Whenever you have a minute to play, there will be one within reach. Great tip for lazy people like me."
+          },
+          {
+            "kind": "answer",
+            "text": "Check Driven’s ‘Cowardice consumer of the West’ here and for some more information about their discography see this link and also check out their split with Bowling Alone (Also a metalcore band from Amsterdam) and some really cool videos online of some shows ."
+          }
+        ],
+        "question": "Last but not least: any last words or tips for guitar players out there?"
+      }
+    ],
+    "title": "Interview – Rogier Stevens – Driven",
+    "type": "interview",
+    "url": "https://thatspecificsound.wordpress.com/interview-rogier-stevens-driven/"
+  },
+  "https://thatspecificsound.wordpress.com/interview-scott-crouse-earth-crisis-sect/": {
+    "full_html": "",
+    "hero_image": "https://thatspecificsound.wordpress.com/wp-content/uploads/2025/11/img_4378.jpg?w=823",
+    "intro": [],
+    "outro": [],
+    "photo_credit": "Photo credits: @ironyuppy",
+    "qa": [
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I got my first guitar when I was 8, for Christmas, and started taking lessons shortly after. It was a Les Paul knockoff—I forget which brand now, but I want to say Hondo maybe."
+          }
+        ],
+        "question": "When did you start playing guitar and what guitar and equipment did you start on?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "At that age it was 100% Van Halen. My mom was young and listened to a lot of rock, so Styx, Foreigner, and Led Zeppelin all inspired me at the time as well."
+          }
+        ],
+        "question": "Which bands inspired you to start playing guitar and are there certain riffs or songs that specifically motivated you to start playing?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Hahaha—I’ll let you know when that happens! But I’d say around 1993. Our friend Jim Winters from Conviction was a huge inspiration. He had pedals to shape his tone, which I hadn’t considered. I started following his lead and basically have never stopped trying to improve my tone. These days it’s also about combining the best tone possible with convenience."
+          }
+        ],
+        "question": "When did you really feel your guitar playing and equipment got more professional and you thought: “Yes, this is the sound I really like!”?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "They absolutely go hand in hand. If you have a tone that inspires you, you’ll play more and improve. A tone can inspire a certain type of riff or even take the band in a whole new direction."
+          }
+        ],
+        "question": "Do these two go hand in hand, or did it evolve differently for your playing and your equipment?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Firestorm was a Crate head through a Marshall cab of some type."
+          },
+          {
+            "kind": "answer",
+            "text": "Destroy the Machines was the same Crate head but with a Digitech RP-1 processor, using some EQ and compression. I think we may have used my Crate cabinet with Celestions on that one."
+          },
+          {
+            "kind": "answer",
+            "text": "Gomorrah’s was a whole bunch of stuff, but predominantly a Dual Rectifier into the Mesa Rectifier cabs I had at the time."
+          },
+          {
+            "kind": "answer",
+            "text": "The Oath that keeps me free (live album) was a Gibson SG with EMG 81’s."
+          },
+          {
+            "kind": "answer",
+            "text": "Breed the Killers was a 5150 with a TS-9 into a Marshall cabinet."
+          }
+        ],
+        "question": "Do you recall what kind of amps, guitars, pedals, and pickups you used on the albums? If so, would you mind sharing them?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "To The Death was an FJA-modded 5150 and a modded Marshall JCM 900 at the same time. That Marshall sounded amazing."
+          },
+          {
+            "kind": "answer",
+            "text": "Neutralize and Salvation were both EVH 5150s—not sure what cabinet, as Zeuss re-amped from DIs and I wasn’t there."
+          },
+          {
+            "kind": "answer",
+            "text": "The VFTA EP was an ENGL Powerball through a Hiwatt cab."
+          },
+          {
+            "kind": "answer",
+            "text": "The Integrity split was a Diezel through a Hiwatt cab, with a little HM-2 added for character."
+          }
+        ],
+        "question": "Slither was a 5150 mainly, but we also used my Mesa Boogie TriAxis into a Marshall cab. We did a strange thing where we ran the 5150 preamp into my Mesa 2:90 power amp, and the TriAxis into the 5150 power amp. I have no idea why, but also—why not?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "My main rig for the vast majority of Earth Crisis was a giant rack we called “The Death Star.” It was a Mesa Boogie TriAxis, Mesa Boogie 2:90, a Rocktron effects processor, and a BBE Sonic Maximizer."
+          }
+        ],
+        "question": "I have noticed the difference in sounds over the years; did you switch amps because they were a better fit for your playing and the music?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I had that setup from about 1995–2000. I kept adding pieces to shape the tone because I initially didn’t love the TriAxis. I eventually had a pretty killer sound, but it was an unbelievable hassle—expensive to maintain and extremely heavy. I do wish I still had it just to see if I’d still like the sound today."
+          }
+        ],
+        "question": "I see you used a Mesa 2:90 and TriAxis during the Gomorrah Season Ends period. Looking back at that ‘90s gear and sound, do you miss the huge power amps or are you happy with current modelers or simpler high-gain heads?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Thanks! I spend a lot of time tweaking tones, so I really appreciate that. Yes—my goal is for people to go, “Fuuuuuuuck” when I start playing. I’m proud to say I’ve accomplished that a few times. Hahaha."
+          }
+        ],
+        "question": "I always thought you had one of the most fierce and heavy guitar sounds starting with Destroy the Machines. Is that something you have in mind when recording or playing live?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Yes to both. I try to A/B my sound against albums I like or players I respect. I read tips and tricks from players I admire and take mental notes constantly."
+          }
+        ],
+        "question": "Do you pay attention to the guitar sound to make it aggressive, and do you listen to other bands with massive tones (for example Robb Flynn on Breed the Killers)?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I’m not wealthy, so when I want a new guitar something usually has to go. The ones I miss most are my Gibson Les Paul Custom Silverburst, my Carvin/Kiesel DC, and my Japanese Orville Les Paul Custom. The Vipers were great, but I don’t miss them too much. In general I don’t miss old gear as much as I wonder what I’d think of it now. I love my Balaguers and the Charvels I’ve been playing lately."
+          }
+        ],
+        "question": "You’ve had a great collection of premium guitars over the years. How do the Gibsons, ESP Vipers, Ibanez, and now Balaguer guitars compare? Do you miss the old ones?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Occasionally I’ll have a tech do work, but I try to do as much myself as possible. I recently began cutting nut slots to accommodate the thicker strings I use. The only thing I’d still need a tech for is fret work."
+          }
+        ],
+        "question": "Do you set up your guitars yourself, or do you use a tech?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I’ve never modded amps or pedals, but I almost always mod guitars. Pickups almost always get swapped. These days I use a DiMarzio Tone Zone in most guitars. I also try to eliminate the neck pickup when possible and use only one volume knob placed out of the way."
+          }
+        ],
+        "question": "Have you modded your guitars or gear, or do you use everything stock?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "For Earth Crisis we are currently in Drop C, using a custom Stringjoy set: 11–58 with a wound 3rd. That came from years of trial and error—stability and tone were the priority. I want to be able to hit strings hard and have them stay solid. Thicker gauges don’t feel spongy and have a more authoritative tone. For SECT and Tooth & Claw we’re in C Standard with 12–58 wound 3rd, also Stringjoy custom."
+          }
+        ],
+        "question": "Can you tell me more about tuning and strings? How do they impact your tone and playing?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Speaker cabs are incredibly important. I prefer V30s or Creambacks. My main cabinet is a Marshall 1960A loaded with WGS versions of V30s and Creambacks in an X pattern. It sounds great, but I rarely get to use it—most shows are fly-ins, or with SECT there’s no room to bring our own. We often borrow venue cabs, which is usually fine, but occasionally you get a clunker. We also have Old Dog cabinets shaped like a literal X. They sound great and we use them whenever possible, loaded with V30s."
+          }
+        ],
+        "question": "How important is the speaker cabinet for you? Do you use venue cabs, go direct to FOH, or prefer something specific?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Right now I love my Charvel SoCals. Something about the necks and the near-raw feel makes them extremely comfortable to play. I think my Balaguer Espadas might sound a little better, but it’s close. I typically take both on any run."
+          }
+        ],
+        "question": "What is your favorite guitar at the moment and why?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I’d probably choose the HX Stomp, or a modeler in general. Tube amps are amazing and definitely sound better, but not enough better to justify the weight, maintenance, and cost. With a modeler I have hundreds of amps and effects available, direct recording, a tuner, dual-amp routing—the list goes on. The tone difference is minimal these days, and many players can actually get a better tone through a modeler thanks to flexibility."
+          }
+        ],
+        "question": "If you could use only one amp or modeler for the rest of your life, what would it be and why?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "That’s tough—I’m proud of several. Destroy the Machines has songs that still hold up 30 years later. Gomorrah’s has a consistent dark vibe that I’m proud of. To The Death has moments where I felt my playing improved a lot. My solos are better from that album onward, and overall the songwriting got stronger in later albums."
+          }
+        ],
+        "question": "Which album are you most proud of as a guitarist?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I learned a lot through trial and error, and realized many things I eventually figured out were things other players had known for years. For example, with the Mesa TriAxis rig—I couldn’t get it sounding good. I added a Rocktron processor and EQ, which helped, but what really made it come alive was adding a compressor. I wasn’t compressing much—I was boosting the input. I basically added a Tube Screamer to the signal path in a very roundabout way. I wish I had an “old me” around back then to save a lot of time and money."
+          }
+        ],
+        "question": "Is there something you learned about gear over the years that gave you a big “Aha!” moment?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I used EMGs for years and swore by them—until I bought an Ibanez RGA around 2006. I played it stock for a few months before putting EMGs in, and immediately felt like I ruined the guitar. I loved the passive DiMarzios it came with. It just didn’t feel the same with actives. I still like EMGs sometimes, but I’m pretty sold on passives now."
+          }
+        ],
+        "question": "Passive vs. active pickups: which do you prefer for your playing and why?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "A boost pedal of some sort. I don’t really like an amp that isn’t boosted into. I don’t use a ton of gain, but boosting and rolling back the amp gain is the way to go in my opinion."
+          }
+        ],
+        "question": "What is the most consistent item in your guitar rig and why?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "That’s hard—it depends on the day, the year, or even the hour. Sometimes I think everything I’ve ever written is nonsense, and sometimes something surprises me. The first thing that comes to mind is the chorus of “De-Desensitize.” The last time I heard it I thought it sounded pretty classy."
+          }
+        ],
+        "question": "Which riff that you wrote are you most proud of and why?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Not intentionally, but I’ve been told people can identify my playing or my riff-writing. I take that as a huge compliment. These days I do have certain go-to tricks or modes I stay in that help maintain a certain feel."
+          }
+        ],
+        "question": "Do you use certain techniques that make your playing recognizable?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Most of our songs are written with two guitar players in mind. Destroy the Machines was mainly written as a four-piece since Ben was asked to leave halfway through writing. We try to have moments where both guitarists are doing independent things—not just doubling everything."
+          }
+        ],
+        "question": "Do you write riffs differently knowing there is a second guitarist in the band?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I’ve always been a fan of Bill Steer, Anders Björler, and Paul Gilbert. As far as more modern players, I really like Brody Uttley from Rivers of Nihil."
+          }
+        ],
+        "question": "Which guitar players from current bands inspire you and why?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Thanks for caring enough to be interested in my gear and thoughts on all this stuff!"
+          },
+          {
+            "kind": "answer",
+            "text": "Check Scott’s Instagram page to see/read/listen more about Scott and check out the bands he plays in: Earth Crisis and Sect as they have brutal riffs and have a message which inspire me and hopefully you as well. Listen/see one of their clips here on YouTube"
+          }
+        ],
+        "question": "Any last words or tips for guitar players out there?"
+      }
+    ],
+    "title": "Interview – Scott Crouse – Earth Crisis/Sect",
+    "type": "interview",
+    "url": "https://thatspecificsound.wordpress.com/interview-scott-crouse-earth-crisis-sect/"
+  },
+  "https://thatspecificsound.wordpress.com/interview-scott-mellinger-zao-lonely-ghost-pack/": {
+    "full_html": "",
+    "hero_image": "https://thatspecificsound.wordpress.com/wp-content/uploads/2025/09/scott.jpg?w=320",
+    "intro": [],
+    "outro": [],
+    "photo_credit": null,
+    "qa": [
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I started playing guitar when I was 10 but really buckled down with it around 12 years old. My very first electric was a Harmony Discovery, like a cheap super strat with awful selections from EMG single coils. I had some weird no-name little amp, but I eventually got a Gorilla, and then my world opened up!"
+          }
+        ],
+        "question": "When did you start playing guitar, and what guitar and equipment did you start on?"
+      },
+      {
+        "answers": [],
+        "question": "Which bands inspired you to start playing guitar, and are there certain riffs or songs that specifically motivated you to start playing guitar?"
+      },
+      {
+        "answers": [],
+        "question": "Metallica was the first music I heard that made me want to play. I got Master of Puppets from my cousin, and it blew my brains out. The thing that should not be, that palm-muted sound, is still to this day my favorite song from them. When did you really feel your guitar playing and equipment got more professional and you thought , “Yes, this is the sound I really like! ”?"
+      },
+      {
+        "answers": [],
+        "question": "Probably when my parents saved up and I bought myself my Ibanez RG 560. I had a Crate GX1600 half stack, and I swore it was the best, haha. I still have the Ibanez; I’ll never get rid of it. But honestly, once I heard a good tube amp, that really opened my ears. I had an OG 5150 for a long time, and now I play a JCM 800. The truth is tone is a never-ending pursuit. Do these 2 go hand in hand, or did they evolve differently for your playing and your equipment?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "So early on I used whatever I could. I think on my first album, Liberate, I had my Ibanez and used a Marshall Valvestate that our good friend Jason Magnussen had. We had a few other combos, and Russ had a JCM 2000. After that I fell in love with ESP guitars and was able to somehow get a deal through them. I’ve used them on every record since.I also have an old ’85 Gibson Les Paul Custom that is my main recording guitar; it’s on everything now. The last few records have been a mix of Marshall 800 with an early Ibanez Tube Screamer and a Mesa Trem-o-verb."
+          }
+        ],
+        "question": "My playing evolved first for sure. I grew up pretty low middle class. It wasn’t easy to afford this stuff. I got good on the Harmony before I was able to upgrade. Can you tell me a bit about the guitar gear used on the albums of Zao? For example, which amps, guitars, pedals, and pickups did you guys use on the albums you were participating in or aware of being used?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I think the more seasoned you get, the better you understand the frequency ranges of all the instruments. The JCM 800 cuts through everything better than any amp I’ve owned. I try hard to think of the band like that, less about me alone and more about how all the instruments work as a unit. I love every one of those amps still; I’d honestly play a 5150 for the rest of my life."
+          }
+        ],
+        "question": "I have noticed you used a Peavey 5150, then a Mesa Boogie Dual Rectifier (or Tremoverb), and currently a Marshall JCM 800: do the amps also resemble the change of growth of the music you play?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I’ve always wanted an 800 but wasn’t able to afford one; honestly though, when I was looking, they were like 800 to 1000 then. The 5150 I had was 400 dollars and sounded amazing, so I went with that. Once I could afford the 800, I grabbed one."
+          },
+          {
+            "kind": "answer",
+            "text": "I definitely would play a 5150 like I said forever if I had to. I’m on the hunt for one again, and sadly, they’ve jumped in price!"
+          }
+        ],
+        "question": "Can you tell me a bit about why you changed the amps over time, and do you think you might get back to, for example, the 5150? (as it is perhaps much more aggressive-sounding than a JCM 800?)"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "The JCM 800 . Has the clarity and cut I love overall. My 800 has 6550 power tubes, so my low end is really present but doesn’t get muddy. I just think that amp is perfect to my ears."
+          }
+        ],
+        "question": "What is the biggest selling point for you of your current amp? (Why is it preferred over the older used amps?)"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "The well-intentioned virus is easily the most proud. As a guitarist, I think I was able to do exactly what I always wanted to with that record. But I think Crimson is the proudest I’ve been as a songwriter. I don’t know; the last 2 records are easily the best to me."
+          },
+          {
+            "kind": "answer",
+            "text": "Is there something you learned over the years about guitar gear (for example, using a Tube Screamer, specific pickup or strings, amps, cabs, passive vs. active pickups, etc.) that you wished you knew before and gave you an ‘AHA!’ moment? I have an aha moment like every week, honestly. I think for sure a tube amp and passive pickups are the key for me. I definitely love having an overdrive pushing the front of my 800; that is a must-have. I feel simple is usually better. It’s you, a guitar, an ID, and a tube amp; that should be enough."
+          }
+        ],
+        "question": "Which album are you most proud of as a guitar player?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Passive all the way. They just have something more pleasing to my ear. Active pickups are too clean and precise; I like some dirtiness in there."
+          }
+        ],
+        "question": "Passive vs. active pickups: which one do you prefer for your style and band, and why?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I’ve been really excited about Avedissian pickups . Alex is his own company and builds them to order. I had him do some really nice relic’d gold-covered pickups. I use the scythe bridge and a big iron P90 in my neck. Used them for recording and live! Also have used Seymour Duncan JBs and Duncan Distortion for years too."
+          }
+        ],
+        "question": "Which pickups do you use live and during recording?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "I have never changed my pick thickness. I play the 1.13 million. It’s a pretty heavy-duty pick I always have; I just love the power it gives my string attack."
+          }
+        ],
+        "question": "What is the most consistent item in your guitar rig, and why?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "The clean intro to the liberate record. That one was very special to me. I think that part really sets the whole record. There might be way better riffs, but that part for that time, and it being my first record, I’d have to say that one."
+          }
+        ],
+        "question": "Which riff of one of the songs you wrote are you most proud of, and why?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "There are so many, but I’d say Mike Scheidt from the band YOB . He plays with the most pure emotional energy. He’s equally brutal and beautiful. I’ve had the pleasure of talking with him too, and he is so kind and just lovely."
+          }
+        ],
+        "question": "Which guitar players of current existing bands inspire you as a guitar player, and why?"
+      },
+      {
+        "answers": [
+          {
+            "kind": "answer",
+            "text": "Never stop; always move forward. Getting better doesn’t always mean skill alone; songwriting skills are so important for understanding all types of music and different instruments. There is always more to learn. Check Scott’s Instagram page to see/read/listen more about Scott and the amazing bands he plays in."
+          }
+        ],
+        "question": "Last but not least: any last words or tips for guitar players out there?"
+      }
+    ],
+    "title": "Interview – Scott Mellinger – Zao/Lonely Ghost/Pack",
+    "type": "interview",
+    "url": "https://thatspecificsound.wordpress.com/interview-scott-mellinger-zao-lonely-ghost-pack/"
+  },
+  "https://thatspecificsound.wordpress.com/interviews/": {
+    "entries": [],
+    "intro": [
+      "See the interviews below: – Scott Crouse – Earth Crisis/Sect – Adam Tanbouz – He is Legend – Scott Mellinger – Zao – Bo Lueders – Harm’s Way – Mike McKenzie – The Red Chord/Stomach Earth/Umbra Vitae – Rogier Stevens – Driven – Boudewijn Bonebakker – Gorefest – Kurt Ballou – Converge – Matthew Wood – One King Down – Michael Scoville – One King Down",
+      "More interviews to come, so please check this page frequently!"
+    ],
+    "title": "Interviews",
+    "type": "interviews_index"
+  }
+}

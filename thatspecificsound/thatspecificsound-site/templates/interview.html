@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+{% block title %}{{ page.title }} — {{ site_title }}{% endblock %}
+{% block description %}{{ page.title }}: an interview about the guitars, amps and pedals behind the sound.{% endblock %}
+{% block content %}
+<article class="interview">
+  <header class="interview__header{% if not page.hero_image_local %} interview__header--no-image{% endif %}">
+    {% if page.hero_image_local %}
+    <div class="interview__media">
+      <img src="{{ path_prefix|default('') }}{{ page.hero_image_local }}" alt="" width="1170" height="1455">
+    </div>
+    {% endif %}
+    <div class="wrap interview__header-inner">
+      <p class="eyebrow"><a href="index.html">Interviews</a></p>
+      <h1>{{ page.title }}</h1>
+      {% if page.photo_credit %}
+      <p class="interview__credit">{{ page.photo_credit|linkify }}</p>
+      {% endif %}
+    </div>
+  </header>
+
+  <div class="wrap section--narrow">
+    {% if page.intro %}
+    <div class="prose">
+      {% for b in page.intro %}
+        {% if b.kind == "answer" %}<p>{{ b.text|linkify }}</p>{% endif %}
+        {% if b.kind == "list" %}
+        <ul class="gear-list">{% for item in b.list_items %}<li>{{ item|linkify }}</li>{% endfor %}</ul>
+        {% endif %}
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    {% for unit in page.qa %}
+    <section class="qa">
+      <h2 class="qa__question">{{ unit.question }}</h2>
+      {% for b in unit.answers %}
+        {% if b.kind == "answer" %}<p>{{ b.text|linkify }}</p>{% endif %}
+        {% if b.kind == "list" %}
+        <ul class="gear-list">{% for item in b.list_items %}<li>{{ item|linkify }}</li>{% endfor %}</ul>
+        {% endif %}
+      {% endfor %}
+    </section>
+    {% endfor %}
+
+    {% if page.full_html %}
+    <div class="prose interview-original">
+      {{ page.full_html|safe }}
+    </div>
+    {% endif %}
+
+    {% if page.outro %}
+    <div class="signal-chain" aria-hidden="true"><span class="jack"></span><span class="cable"></span><span class="jack"></span></div>
+    <div class="prose prose--outro">
+      {% for o in page.outro %}
+      <p>{{ o.text|linkify }}</p>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+</article>
+
+<nav class="interview-nav wrap" aria-label="More interviews">
+  <a class="button" href="index.html">&larr; All interviews</a>
+</nav>
+{% endblock %}

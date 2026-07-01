@@ -1,0 +1,88 @@
+[
+  {
+    "new": [
+      {
+        "status": "new",
+        "title": "That Specific Sound",
+        "type": "home",
+        "url": "https://thatspecificsound.wordpress.com/"
+      },
+      {
+        "status": "new",
+        "title": "About",
+        "type": "about",
+        "url": "https://thatspecificsound.wordpress.com/about/"
+      },
+      {
+        "status": "new",
+        "title": "Interviews",
+        "type": "interviews_index",
+        "url": "https://thatspecificsound.wordpress.com/interviews/"
+      },
+      {
+        "status": "new",
+        "title": "Interview – Adam Tanbouz – He is Legend",
+        "type": "interview",
+        "url": "https://thatspecificsound.wordpress.com/interview-adam-tanbouz-he-is-legend/"
+      },
+      {
+        "status": "new",
+        "title": "Interview – Bo Lueders – Harm’s Way",
+        "type": "interview",
+        "url": "https://thatspecificsound.wordpress.com/interview-bo-lueders-harms-way/"
+      },
+      {
+        "status": "new",
+        "title": "Interview – Boudewijn Bonebakker – Gorefest",
+        "type": "interview",
+        "url": "https://thatspecificsound.wordpress.com/interview-boudewijn-bonebakker-gorefest/"
+      },
+      {
+        "status": "new",
+        "title": "Interview – Kurt Ballou – Converge",
+        "type": "interview",
+        "url": "https://thatspecificsound.wordpress.com/interview-kurt-ballou-converge/"
+      },
+      {
+        "status": "new",
+        "title": "Interview – Matthew Wood – One King Down",
+        "type": "interview",
+        "url": "https://thatspecificsound.wordpress.com/interview-matthew-wood-one-king-down/"
+      },
+      {
+        "status": "new",
+        "title": "Interview – Michael Scoville – One King Down",
+        "type": "interview",
+        "url": "https://thatspecificsound.wordpress.com/interview-michael-scoville-one-king-down/"
+      },
+      {
+        "status": "new",
+        "title": "Interview – Mike McKenzie – The Red Chord/Stomach Earth/Umbra Vitae/Wear your Wounds",
+        "type": "interview",
+        "url": "https://thatspecificsound.wordpress.com/interview-mike-mckenzie-the-red-chord-stomach-earth/"
+      },
+      {
+        "status": "new",
+        "title": "Interview – Rogier Stevens – Driven",
+        "type": "interview",
+        "url": "https://thatspecificsound.wordpress.com/interview-rogier-stevens-driven/"
+      },
+      {
+        "status": "new",
+        "title": "Interview – Scott Crouse – Earth Crisis/Sect",
+        "type": "interview",
+        "url": "https://thatspecificsound.wordpress.com/interview-scott-crouse-earth-crisis-sect/"
+      },
+      {
+        "status": "new",
+        "title": "Interview – Scott Mellinger – Zao/Lonely Ghost/Pack",
+        "type": "interview",
+        "url": "https://thatspecificsound.wordpress.com/interview-scott-mellinger-zao-lonely-ghost-pack/"
+      }
+    ],
+    "removed": [],
+    "run_at": "2026-07-01T16:46:27+00:00",
+    "unchanged_count": 0,
+    "updated": []
+  }
+]
