@@ -1,13 +1,12 @@
 # Changelog
 Generated automatically by generate_site.py.
 
-## 2026-07-02T14:41:22+00:00
+## 2026-07-02T17:04:17+00:00
 
 **New:**
 - That Specific Sound
 - About
 - Interviews
-- New interview: Scott Crouse of Earth Crisis/Sect!
 - Interview – Adam Tanbouz – He is Legend
 - Interview – Bo Lueders – Harm’s Way
 - Interview – Boudewijn Bonebakker – Gorefest
@@ -18,24 +17,3 @@ Generated automatically by generate_site.py.
 - Interview – Rogier Stevens – Driven
 - Interview – Scott Crouse – Earth Crisis/Sect
 - Interview – Scott Mellinger – Zao/Lonely Ghost/Pack
-- Untitled
-- Untitled
-- Untitled
-- Untitled
-- Untitled
-- Untitled
-- Untitled
-- Untitled
-- Untitled
-- Untitled
-- Untitled
-- Untitled
-- Untitled
-- Untitled
-- Untitled
-- Untitled
-- Untitled
-- Untitled
-- Untitled
-- Untitled
-- Untitled

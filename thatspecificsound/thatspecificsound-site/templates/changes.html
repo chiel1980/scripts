@@ -17,7 +17,7 @@
       <p class="run-entry__date">{{ run.run_at }}</p>
       {% if run.new %}
       <p class="run-entry__label run-entry__label--new">New</p>
-      <ul>{% for e in run.new %}<li>{% set href = changelog_entry_href(e) %}{% if href %}<a href="{{ href }}">{{ e.title }}</a>{% else %}{{ e.title }}{% endif %}</li>{% endfor %}</ul>
+      <ul>{% for e in run.new %}<li>{% set href = changelog_entry_href(e) %}{% if href and e.title != 'Untitled' %}<a href="{{ href }}">{{ e.title }}</a>{% else %}{{ e.title }}{% endif %}</li>{% endfor %}</ul>
       {% endif %}
       {% if run.updated %}
       <p class="run-entry__label run-entry__label--updated">Updated</p>

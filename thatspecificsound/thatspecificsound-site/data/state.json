@@ -1,29 +1,20 @@
 {
-  "last_run": "2026-07-02T14:41:22+00:00",
+  "last_run": "2026-07-02T17:04:17+00:00",
   "pages": {
     "https://thatspecificsound.wordpress.com/": {
-      "content_hash": "1651966cd7fd038e4ded38be6c0c9439187185f4cae768e2f331b8a9d9a0d444",
+      "content_hash": "2cbdc9b40095a32d9ffdf1895fdc8b4478ea03cc60cb16729f3fa7606feddaae",
       "etag": null,
-      "first_seen": "2026-07-02T14:39:23+00:00",
-      "last_changed": "2026-07-02T14:39:23+00:00",
+      "first_seen": "2026-07-02T17:03:50+00:00",
+      "last_changed": "2026-07-02T17:03:50+00:00",
       "last_modified": null,
       "title": "That Specific Sound",
       "type": "home"
     },
-    "https://thatspecificsound.wordpress.com/2025/11/20/new-interview-scott-crouse-of-earth-crisis-sect/": {
-      "content_hash": "26fd048f2da157e4a786d32f968f447a3e532dc0bea96a35854e6b5d5ad5f76d",
-      "etag": null,
-      "first_seen": "2026-07-02T14:39:42+00:00",
-      "last_changed": "2026-07-02T14:39:42+00:00",
-      "last_modified": null,
-      "title": "New interview: Scott Crouse of Earth Crisis/Sect!",
-      "type": "article"
-    },
     "https://thatspecificsound.wordpress.com/about/": {
-      "content_hash": "3d868ec6b9adb14fafdd2fbe015ca0a36667ef01e1f5119d9eb9130a7a8d10db",
+      "content_hash": "a1bd8f4ee6a4c73e3dae52164900f2529bcb4c43a9ae09ffe5ff5aa317e29520",
       "etag": null,
-      "first_seen": "2026-07-02T14:39:24+00:00",
-      "last_changed": "2026-07-02T14:39:24+00:00",
+      "first_seen": "2026-07-02T17:03:51+00:00",
+      "last_changed": "2026-07-02T17:03:51+00:00",
       "last_modified": null,
       "title": "About",
       "type": "about"
@@ -31,8 +22,8 @@
     "https://thatspecificsound.wordpress.com/interview-adam-tanbouz-he-is-legend/": {
       "content_hash": "680ffd537853855fe36864d6219b5862ce96cb7b277dc958a2e9a3b38f91e81c",
       "etag": null,
-      "first_seen": "2026-07-02T14:39:43+00:00",
-      "last_changed": "2026-07-02T14:39:43+00:00",
+      "first_seen": "2026-07-02T17:04:08+00:00",
+      "last_changed": "2026-07-02T17:04:08+00:00",
       "last_modified": null,
       "title": "Interview – Adam Tanbouz – He is Legend",
       "type": "interview"
@@ -40,8 +31,8 @@
     "https://thatspecificsound.wordpress.com/interview-bo-lueders-harms-way/": {
       "content_hash": "a9a8dc3f42f18508ab521df64a4ea5eff3c1f5fedbcecc66448c0afb20fedb4f",
       "etag": null,
-      "first_seen": "2026-07-02T14:39:44+00:00",
-      "last_changed": "2026-07-02T14:39:44+00:00",
+      "first_seen": "2026-07-02T17:04:09+00:00",
+      "last_changed": "2026-07-02T17:04:09+00:00",
       "last_modified": null,
       "title": "Interview – Bo Lueders – Harm’s Way",
       "type": "interview"
@@ -49,8 +40,8 @@
     "https://thatspecificsound.wordpress.com/interview-boudewijn-bonebakker-gorefest/": {
       "content_hash": "ac459cd4119a96c6f0463cc62c1514a618cfd3f36b6d4bfd0906d8d215de831d",
       "etag": null,
-      "first_seen": "2026-07-02T14:39:45+00:00",
-      "last_changed": "2026-07-02T14:39:45+00:00",
+      "first_seen": "2026-07-02T17:04:10+00:00",
+      "last_changed": "2026-07-02T17:04:10+00:00",
       "last_modified": null,
       "title": "Interview – Boudewijn Bonebakker – Gorefest",
       "type": "interview"
@@ -58,8 +49,8 @@
     "https://thatspecificsound.wordpress.com/interview-kurt-ballou-converge/": {
       "content_hash": "6cace7787d6d2f74f3cca673da10b0a07b661e6908237141665bd2e897095576",
       "etag": null,
-      "first_seen": "2026-07-02T14:39:46+00:00",
-      "last_changed": "2026-07-02T14:39:46+00:00",
+      "first_seen": "2026-07-02T17:04:11+00:00",
+      "last_changed": "2026-07-02T17:04:11+00:00",
       "last_modified": null,
       "title": "Interview – Kurt Ballou – Converge",
       "type": "interview"
@@ -67,8 +58,8 @@
     "https://thatspecificsound.wordpress.com/interview-matthew-wood-one-king-down/": {
       "content_hash": "580bd4fb37a2d2cd6340059d414c979d25b885ec87971deb0ec8ebe6d5f4bb61",
       "etag": null,
-      "first_seen": "2026-07-02T14:39:47+00:00",
-      "last_changed": "2026-07-02T14:39:47+00:00",
+      "first_seen": "2026-07-02T17:04:12+00:00",
+      "last_changed": "2026-07-02T17:04:12+00:00",
       "last_modified": null,
       "title": "Interview – Matthew Wood – One King Down",
       "type": "interview"
@@ -76,8 +67,8 @@
     "https://thatspecificsound.wordpress.com/interview-michael-scoville-one-king-down/": {
       "content_hash": "346cfbd2ab66dbfb0c8e4d2e957af7710e65b39305e811934160c6480b6a1ce9",
       "etag": null,
-      "first_seen": "2026-07-02T14:39:48+00:00",
-      "last_changed": "2026-07-02T14:39:48+00:00",
+      "first_seen": "2026-07-02T17:04:13+00:00",
+      "last_changed": "2026-07-02T17:04:13+00:00",
       "last_modified": null,
       "title": "Interview – Michael Scoville – One King Down",
       "type": "interview"
@@ -85,8 +76,8 @@
     "https://thatspecificsound.wordpress.com/interview-mike-mckenzie-the-red-chord-stomach-earth/": {
       "content_hash": "d537f695b68b9f38a11dd293684e1956ab116bd04539322f70e7ac10a112b575",
       "etag": null,
-      "first_seen": "2026-07-02T14:39:49+00:00",
-      "last_changed": "2026-07-02T14:39:49+00:00",
+      "first_seen": "2026-07-02T17:04:14+00:00",
+      "last_changed": "2026-07-02T17:04:14+00:00",
       "last_modified": null,
       "title": "Interview – Mike McKenzie – The Red Chord/Stomach Earth/Umbra Vitae/Wear your Wounds",
       "type": "interview"
@@ -94,8 +85,8 @@
     "https://thatspecificsound.wordpress.com/interview-rogier-stevens-driven/": {
       "content_hash": "0c544ba60c496e767b81778d21f2a56e841b800d89670940cb6f681b7b4976c9",
       "etag": null,
-      "first_seen": "2026-07-02T14:39:50+00:00",
-      "last_changed": "2026-07-02T14:39:50+00:00",
+      "first_seen": "2026-07-02T17:04:15+00:00",
+      "last_changed": "2026-07-02T17:04:15+00:00",
       "last_modified": null,
       "title": "Interview – Rogier Stevens – Driven",
       "type": "interview"
@@ -103,8 +94,8 @@
     "https://thatspecificsound.wordpress.com/interview-scott-crouse-earth-crisis-sect/": {
       "content_hash": "6cbf60745b967f2c9329568c7dd5580e20638e5ce28d9e522ddbe72bb7bc6a7b",
       "etag": null,
-      "first_seen": "2026-07-02T14:39:51+00:00",
-      "last_changed": "2026-07-02T14:39:51+00:00",
+      "first_seen": "2026-07-02T17:04:16+00:00",
+      "last_changed": "2026-07-02T17:04:16+00:00",
       "last_modified": null,
       "title": "Interview – Scott Crouse – Earth Crisis/Sect",
       "type": "interview"
@@ -112,209 +103,20 @@
     "https://thatspecificsound.wordpress.com/interview-scott-mellinger-zao-lonely-ghost-pack/": {
       "content_hash": "c6e1938144260bb26e407e1b87bf9ead8b936e0b386880328ef271572c4dea7b",
       "etag": null,
-      "first_seen": "2026-07-02T14:39:52+00:00",
-      "last_changed": "2026-07-02T14:39:52+00:00",
+      "first_seen": "2026-07-02T17:04:17+00:00",
+      "last_changed": "2026-07-02T17:04:17+00:00",
       "last_modified": null,
       "title": "Interview – Scott Mellinger – Zao/Lonely Ghost/Pack",
       "type": "interview"
     },
     "https://thatspecificsound.wordpress.com/interviews/": {
-      "content_hash": "9a02549483b0c89879bb4299284f381f1c9636c587408b45657cae9bfcdfea6a",
+      "content_hash": "11d995511543ef421e36b5196f145851dd9048aa167a971f50ab36d38259d343",
       "etag": null,
-      "first_seen": "2026-07-02T14:39:25+00:00",
-      "last_changed": "2026-07-02T14:39:25+00:00",
+      "first_seen": "2026-07-02T17:03:52+00:00",
+      "last_changed": "2026-07-02T17:03:52+00:00",
       "last_modified": null,
       "title": "Interviews",
       "type": "interviews_index"
-    },
-    "https://thatspecificsound.wordpress.com/wp-content/uploads/2025/09/he-is-legend-edit-1.jpg": {
-      "content_hash": "ed69dcfa82d3ab5d8764a6eb748c0eb967e4bd3634949e524949a62bff81b62a",
-      "etag": null,
-      "first_seen": "2026-07-02T14:39:53+00:00",
-      "last_changed": "2026-07-02T14:39:53+00:00",
-      "last_modified": "Sat, 13 Sep 2025 11:54:46 GMT",
-      "title": "Untitled",
-      "type": "article"
-    },
-    "https://thatspecificsound.wordpress.com/wp-content/uploads/2025/09/scott.jpg": {
-      "content_hash": "b180826d1e80806ab8dc59e23e72079a50018900504a3d1ad444deccba7c52c7",
-      "etag": null,
-      "first_seen": "2026-07-02T14:39:54+00:00",
-      "last_changed": "2026-07-02T14:39:54+00:00",
-      "last_modified": "Sat, 06 Sep 2025 15:14:48 GMT",
-      "title": "Untitled",
-      "type": "article"
-    },
-    "https://thatspecificsound.wordpress.com/wp-content/uploads/2025/10/image-10.jpeg": {
-      "content_hash": "fa87a29321791360430b77ac15ea3c739ae276e8c27b9e636f672e3aed5281a3",
-      "etag": null,
-      "first_seen": "2026-07-02T14:39:58+00:00",
-      "last_changed": "2026-07-02T14:39:58+00:00",
-      "last_modified": "Tue, 14 Oct 2025 18:07:52 GMT",
-      "title": "Untitled",
-      "type": "article"
-    },
-    "https://thatspecificsound.wordpress.com/wp-content/uploads/2025/10/image-11.jpeg": {
-      "content_hash": "3a927ed859db1e0bd95cf9e62d4c650bdb66ab55f34d729a8dda5e70a4cb28bc",
-      "etag": null,
-      "first_seen": "2026-07-02T14:40:03+00:00",
-      "last_changed": "2026-07-02T14:40:03+00:00",
-      "last_modified": "Tue, 14 Oct 2025 18:07:53 GMT",
-      "title": "Untitled",
-      "type": "article"
-    },
-    "https://thatspecificsound.wordpress.com/wp-content/uploads/2025/10/image-12.jpeg": {
-      "content_hash": "0b375ca48518ed19e486ba9e0fceb3cd7b3342355de47ae3ebd9e0ca5e4479c9",
-      "etag": null,
-      "first_seen": "2026-07-02T14:40:14+00:00",
-      "last_changed": "2026-07-02T14:40:14+00:00",
-      "last_modified": "Tue, 14 Oct 2025 18:07:53 GMT",
-      "title": "Untitled",
-      "type": "article"
-    },
-    "https://thatspecificsound.wordpress.com/wp-content/uploads/2025/10/image-3.png": {
-      "content_hash": "347080674c68cb1c0f3205c03ed0efaa7ff71e1957a787fafa84acec2ff45d1c",
-      "etag": null,
-      "first_seen": "2026-07-02T14:40:17+00:00",
-      "last_changed": "2026-07-02T14:40:17+00:00",
-      "last_modified": "Tue, 14 Oct 2025 18:07:54 GMT",
-      "title": "Untitled",
-      "type": "article"
-    },
-    "https://thatspecificsound.wordpress.com/wp-content/uploads/2025/10/image-4.png": {
-      "content_hash": "66b6718db1aea2b593ed95cf7a36816bc2313d2e78f79738a299c26b5f88fc4d",
-      "etag": null,
-      "first_seen": "2026-07-02T14:40:25+00:00",
-      "last_changed": "2026-07-02T14:40:25+00:00",
-      "last_modified": "Tue, 14 Oct 2025 18:07:54 GMT",
-      "title": "Untitled",
-      "type": "article"
-    },
-    "https://thatspecificsound.wordpress.com/wp-content/uploads/2025/10/image-5.png": {
-      "content_hash": "146ed974849032b3efedeef934da3cfacd8f2eb00b0d541fc6933d00bbc6eef6",
-      "etag": null,
-      "first_seen": "2026-07-02T14:40:34+00:00",
-      "last_changed": "2026-07-02T14:40:34+00:00",
-      "last_modified": "Tue, 14 Oct 2025 18:07:55 GMT",
-      "title": "Untitled",
-      "type": "article"
-    },
-    "https://thatspecificsound.wordpress.com/wp-content/uploads/2025/10/image-6.png": {
-      "content_hash": "2d924c13e4039e0dc68764923816722c8200bd211c7599d6944a3985fa8ff709",
-      "etag": null,
-      "first_seen": "2026-07-02T14:40:42+00:00",
-      "last_changed": "2026-07-02T14:40:42+00:00",
-      "last_modified": "Tue, 14 Oct 2025 18:07:55 GMT",
-      "title": "Untitled",
-      "type": "article"
-    },
-    "https://thatspecificsound.wordpress.com/wp-content/uploads/2025/10/image-9-1.jpeg": {
-      "content_hash": "d4eb505e9c25848fa94e240329b491de4ed71a00334456df49eb3a24f63ce7e3",
-      "etag": null,
-      "first_seen": "2026-07-02T14:40:44+00:00",
-      "last_changed": "2026-07-02T14:40:44+00:00",
-      "last_modified": "Tue, 14 Oct 2025 18:07:52 GMT",
-      "title": "Untitled",
-      "type": "article"
-    },
-    "https://thatspecificsound.wordpress.com/wp-content/uploads/2025/10/image-9-2.jpeg": {
-      "content_hash": "ccd8e543a464f101ee49de69b1af1f15699db99e55e889ac37dd93782598a085",
-      "etag": null,
-      "first_seen": "2026-07-02T14:40:46+00:00",
-      "last_changed": "2026-07-02T14:40:46+00:00",
-      "last_modified": "Tue, 14 Oct 2025 18:07:52 GMT",
-      "title": "Untitled",
-      "type": "article"
-    },
-    "https://thatspecificsound.wordpress.com/wp-content/uploads/2025/10/image-9.jpeg": {
-      "content_hash": "f0e48449584a791612776e07a156da9422c5939481318ee1f8cc268c59699144",
-      "etag": null,
-      "first_seen": "2026-07-02T14:40:48+00:00",
-      "last_changed": "2026-07-02T14:40:48+00:00",
-      "last_modified": "Tue, 14 Oct 2025 18:07:52 GMT",
-      "title": "Untitled",
-      "type": "article"
-    },
-    "https://thatspecificsound.wordpress.com/wp-content/uploads/2025/10/image.png": {
-      "content_hash": "6fc28b1556bfc338c0a82866524aa5349d7b3640a43c735a295dcdd8ca398ec9",
-      "etag": null,
-      "first_seen": "2026-07-02T14:40:48+00:00",
-      "last_changed": "2026-07-02T14:40:48+00:00",
-      "last_modified": "Sat, 11 Oct 2025 16:34:42 GMT",
-      "title": "Untitled",
-      "type": "article"
-    },
-    "https://thatspecificsound.wordpress.com/wp-content/uploads/2025/10/rog-and-jor.jpg": {
-      "content_hash": "4298a6ea4f20505d4a063de638f8b94172777c4d5578fd261ae0aa9821513690",
-      "etag": null,
-      "first_seen": "2026-07-02T14:40:51+00:00",
-      "last_changed": "2026-07-02T14:40:51+00:00",
-      "last_modified": "Sat, 11 Oct 2025 16:31:53 GMT",
-      "title": "Untitled",
-      "type": "article"
-    },
-    "https://thatspecificsound.wordpress.com/wp-content/uploads/2025/10/rogier-driven.jpeg": {
-      "content_hash": "c40db2f565476c1fa13ff697e48964c63cea5b140d993e05849756445129fe65",
-      "etag": null,
-      "first_seen": "2026-07-02T14:40:51+00:00",
-      "last_changed": "2026-07-02T14:40:51+00:00",
-      "last_modified": "Sat, 11 Oct 2025 05:51:01 GMT",
-      "title": "Untitled",
-      "type": "article"
-    },
-    "https://thatspecificsound.wordpress.com/wp-content/uploads/2025/10/screenshot-2025-10-11-at-08.41.43.png": {
-      "content_hash": "508b350a7d4613138fd83e631d21df4aa2472a2b6ad169082067ae47a6f77842",
-      "etag": null,
-      "first_seen": "2026-07-02T14:41:01+00:00",
-      "last_changed": "2026-07-02T14:41:01+00:00",
-      "last_modified": "Sat, 11 Oct 2025 06:42:18 GMT",
-      "title": "Untitled",
-      "type": "article"
-    },
-    "https://thatspecificsound.wordpress.com/wp-content/uploads/2025/11/img_4378.jpg": {
-      "content_hash": "a5c943bc5162168fce1dec04174845fb0b10dda0367141327357bb1ab8e8ed94",
-      "etag": null,
-      "first_seen": "2026-07-02T14:41:03+00:00",
-      "last_changed": "2026-07-02T14:41:03+00:00",
-      "last_modified": "Thu, 20 Nov 2025 17:56:28 GMT",
-      "title": "Untitled",
-      "type": "article"
-    },
-    "https://thatspecificsound.wordpress.com/wp-content/uploads/2025/12/mike-mckenzie.jpg": {
-      "content_hash": "f35da72f7fc967e75fa384d9c08e6bfcdfcf3e4d7b249dc3a75f5a43edc6e280",
-      "etag": null,
-      "first_seen": "2026-07-02T14:41:05+00:00",
-      "last_changed": "2026-07-02T14:41:05+00:00",
-      "last_modified": "Mon, 15 Dec 2025 17:18:33 GMT",
-      "title": "Untitled",
-      "type": "article"
-    },
-    "https://thatspecificsound.wordpress.com/wp-content/uploads/2026/01/kurt.webp": {
-      "content_hash": "ef971cd11fd8eac1eaf2153d262c2f44b4ec64897dbc9586902a3d1d29e67bb9",
-      "etag": null,
-      "first_seen": "2026-07-02T14:41:05+00:00",
-      "last_changed": "2026-07-02T14:41:05+00:00",
-      "last_modified": "Wed, 14 Jan 2026 18:20:25 GMT",
-      "title": "Untitled",
-      "type": "article"
-    },
-    "https://thatspecificsound.wordpress.com/wp-content/uploads/2026/01/matt.jpg": {
-      "content_hash": "26efd76cda7608d8aa868a86b534a25e4303375671994e83096055030c47ab9d",
-      "etag": null,
-      "first_seen": "2026-07-02T14:41:19+00:00",
-      "last_changed": "2026-07-02T14:41:19+00:00",
-      "last_modified": "Thu, 22 Jan 2026 19:45:35 GMT",
-      "title": "Untitled",
-      "type": "article"
-    },
-    "https://thatspecificsound.wordpress.com/wp-content/uploads/2026/01/wouterromeijnders.nl_20191215_monomyth-27.jpeg": {
-      "content_hash": "333415719dd756fcaa5a50532c1b4d61a375046c712874714a7c74b058830b49",
-      "etag": null,
-      "first_seen": "2026-07-02T14:41:22+00:00",
-      "last_changed": "2026-07-02T14:41:22+00:00",
-      "last_modified": "Wed, 07 Jan 2026 15:18:59 GMT",
-      "title": "Untitled",
-      "type": "article"
     }
   }
 }
