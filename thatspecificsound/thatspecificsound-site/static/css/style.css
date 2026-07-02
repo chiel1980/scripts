@@ -1,20 +1,21 @@
 /* =========================================================================
    That Specific Sound — design tokens
-   Espresso / cream: deep coffee-brown ground, warm cream text, tan accent —
-   warm but restrained, editorial rather than genre-loud.
+   Ember: warm brown ground with a red primary accent (links, buttons, tags)
+   and a gold secondary accent (hover states, "new" emphasis) -- think
+   glowing coals rather than a flat single-hue accent.
    ========================================================================= */
 :root {
-  --bg: #171008;
-  --bg-raised: #1f150c;
-  --bg-card: #241a10;
-  --border: #3a2a1a;
-  --border-soft: #2a1e12;
-  --text: #f0e6d6;
-  --text-muted: #a08765;
-  --accent: #c8935a;
-  --accent-strong: #dcaf75;
-  --accent-soft: rgba(224, 178, 120, 0.16);
-  --signal: #ad9478;
+  --bg: #140d09;
+  --bg-raised: #1a120b;
+  --bg-card: #1f150d;
+  --border: #3f2818;
+  --border-soft: #2c1d11;
+  --text: #f0e2d0;
+  --text-muted: #b0805a;
+  --accent: #c8452c;
+  --accent-strong: #e0a83a;
+  --accent-soft: rgba(200, 69, 44, 0.16);
+  --signal: #8a6a52;
 
   --font-display: "Oswald", "Arial Narrow", sans-serif;
   --font-body: "Source Serif 4", Georgia, serif;
@@ -31,7 +32,7 @@ body {
   margin: 0;
   background: var(--bg);
   background-image:
-    radial-gradient(ellipse 900px 500px at 50% -10%, rgba(220,175,117,0.08), transparent 60%);
+    radial-gradient(ellipse 900px 500px at 50% -10%, rgba(200,69,44,0.09), transparent 60%);
   color: var(--text);
   font-family: var(--font-body);
   font-size: 17px;
@@ -86,7 +87,7 @@ img { max-width: 100%; height: auto; display: block; }
   position: relative;
   width: 14px; height: 14px; border-radius: 50%;
   background: radial-gradient(circle at 35% 30%, var(--accent-strong), var(--signal) 75%);
-  box-shadow: 0 0 8px rgba(220,175,117,0.6);
+  box-shadow: 0 0 8px rgba(224,168,58,0.6);
   overflow: hidden;
   flex: none;
 }
@@ -143,7 +144,7 @@ img { max-width: 100%; height: auto; display: block; }
 .hero__lead { color: var(--text-muted); max-width: 60ch; font-size: 1.1rem; margin: 1.2rem 0 0; }
 
 .signal-chain { display: flex; align-items: center; gap: 0; margin: 2rem 0; max-width: 260px; }
-.signal-chain .jack { width: 10px; height: 10px; border-radius: 50%; background: var(--accent); flex: none; box-shadow: 0 0 6px rgba(220,175,117,0.7); }
+.signal-chain .jack { width: 10px; height: 10px; border-radius: 50%; background: var(--accent); flex: none; box-shadow: 0 0 6px rgba(224,168,58,0.7); }
 .signal-chain .cable { flex: 1; height: 2px; background: repeating-linear-gradient(90deg, var(--border) 0 6px, transparent 6px 10px); }
 
 .button {
