@@ -226,17 +226,49 @@ def discover_wordpress_content(fetcher):
             page += 1
 
     try:
-        status, html, _, _ = fetcher.get(BASE_URL + "/sitemap.xml")
-        if status == "new" and html:
-            soup = BeautifulSoup(html, "xml")
-            for loc in soup.find_all("loc"):
-                url = loc.text.strip()
-                if url.startswith(BASE_URL):
-                    found.add(url)
+        _collect_sitemap_urls(fetcher, BASE_URL + "/sitemap.xml", found, set())
     except Exception:
         pass
 
     return found
+
+
+def _collect_sitemap_urls(fetcher, sitemap_url: str, found: set, seen_sitemaps: set) -> None:
+    """Fetches a sitemap and adds real page URLs to `found`.
+
+    WordPress.com's top-level /sitemap.xml is normally a *sitemap index*
+    (a <sitemapindex> of <sitemap><loc> entries pointing at other sitemap
+    files - e.g. wp-sitemap-posts-post-1.xml, wp-sitemap-taxonomies-
+    category-1.xml - each of which is itself a <urlset> of <url><loc>
+    entries for actual pages). Both levels use the same <loc> tag name,
+    so naively collecting every <loc> in the top-level document treats
+    the *sub-sitemap files themselves* as if they were content pages:
+    they get fetched and parsed as articles, which produces "Untitled"
+    entries in the changelog since a sitemap XML file has no <h1> or
+    <title> for page_title() to find. Recursing here so only genuine
+    <url><loc> page entries end up in `found` fixes that at the source.
+    """
+    if sitemap_url in seen_sitemaps:
+        return
+    seen_sitemaps.add(sitemap_url)
+
+    status, html, _, _ = fetcher.get(sitemap_url)
+    if status != "new" or not html:
+        return
+
+    soup = BeautifulSoup(html, "xml")
+
+    # A sitemap index: each <loc> here is another sitemap, not a page.
+    for loc in soup.select("sitemapindex > sitemap > loc"):
+        sub_url = loc.text.strip()
+        if sub_url.startswith(BASE_URL):
+            _collect_sitemap_urls(fetcher, sub_url, found, seen_sitemaps)
+
+    # A urlset: each <loc> here is a real page.
+    for loc in soup.select("urlset > url > loc"):
+        url = loc.text.strip()
+        if url.startswith(BASE_URL):
+            found.add(url)
 
 
 
