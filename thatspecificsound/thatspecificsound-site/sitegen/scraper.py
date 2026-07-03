@@ -349,7 +349,7 @@ def parse_about(html: str) -> dict:
     paragraphs = []
     if content:
         for p in content.find_all("p"):
-            txt = clean_text(p.get_text(" ", strip=True))
+            txt = strip_inline_links(p)
             if txt:
                 paragraphs.append(txt)
 
@@ -554,6 +554,8 @@ def strip_inline_links(el: Tag) -> str:
             if alt and not is_blocked_url(node.get("src", "")):
                 return alt
             return ""
+        if node.name == "br":
+            return " "
         return "".join(walk(child) for child in node.children)
 
     return clean_text(walk(el))
