@@ -157,7 +157,14 @@ def scrape(state: ScrapeState, fetcher: scraper.Fetcher, force: bool) -> None:
     """Discover + fetch every page, updating `state` in place."""
 
     def fetch_and_record(url: str, page_type: str, parse_fn):
-        cache_headers = {} if force else state.get_cache_headers(url)
+        # A page whose cached parse predates the current PARSER_VERSION
+        # needs reparsing even if nothing changed upstream -- so treat it
+        # like --force for this one URL by withholding the ETag/
+        # Last-Modified headers, which guarantees a real 200 + full HTML
+        # body to reparse instead of a 304 that would just hand back the
+        # stale cached blocks again.
+        stale_parse = state.get_parser_version(url) != scraper.PARSER_VERSION
+        cache_headers = {} if (force or stale_parse) else state.get_cache_headers(url)
         status, html, new_cache, err = fetcher.get(url, cache_headers)
 
         if status == "error":
@@ -196,6 +203,7 @@ def scrape(state: ScrapeState, fetcher: scraper.Fetcher, force: bool) -> None:
                 cache_headers=new_cache,
                 parsed_content=parsed,
                 status="unchanged",
+                parser_version=scraper.PARSER_VERSION,
             )
             return parsed
 
@@ -209,6 +217,7 @@ def scrape(state: ScrapeState, fetcher: scraper.Fetcher, force: bool) -> None:
             cache_headers=new_cache,
             parsed_content=parsed,
             status="updated",
+            parser_version=scraper.PARSER_VERSION,
         )
         return parsed
 
@@ -265,7 +274,9 @@ def scrape(state: ScrapeState, fetcher: scraper.Fetcher, force: bool) -> None:
             continue
 
         # Automatically identify interview pages instead of relying only on URL paths
-        status, html, cache, err = fetcher.get(url, state.get_cache_headers(url))
+        stale_parse = state.get_parser_version(url) != scraper.PARSER_VERSION
+        cache_headers = {} if (force or stale_parse) else state.get_cache_headers(url)
+        status, html, cache, err = fetcher.get(url, cache_headers)
         if status == "error":
             print(f"  ! failed discovery fetch {url}: {err}")
             continue
@@ -304,6 +315,7 @@ def scrape(state: ScrapeState, fetcher: scraper.Fetcher, force: bool) -> None:
             cache_headers=cache,
             parsed_content=parsed,
             status=page_status,
+            parser_version=scraper.PARSER_VERSION,
         )
 
     # Anything previously scraped but no longer linked from the interviews

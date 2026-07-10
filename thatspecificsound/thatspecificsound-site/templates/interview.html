@@ -5,14 +5,17 @@
 <article class="interview">
   <header class="interview__header{% if not page.hero_image_local %} interview__header--no-image{% endif %}">
     {% if page.hero_image_local %}
-    <div class="interview__media">
+    <figure class="interview__media">
       <img src="{{ path_prefix|default('') }}{{ page.hero_image_local }}" alt="" width="1170" height="1455">
-    </div>
+      {% if page.photo_credit %}
+      <figcaption class="interview__credit">{{ page.photo_credit|linkify }}</figcaption>
+      {% endif %}
+    </figure>
     {% endif %}
     <div class="wrap interview__header-inner">
       <p class="eyebrow"><a href="index.html">Interviews</a></p>
       <h1>{{ page.title }}</h1>
-      {% if page.photo_credit %}
+      {% if page.photo_credit and not page.hero_image_local %}
       <p class="interview__credit">{{ page.photo_credit|linkify }}</p>
       {% endif %}
     </div>

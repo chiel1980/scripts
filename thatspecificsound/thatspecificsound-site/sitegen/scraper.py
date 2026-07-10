@@ -19,6 +19,15 @@ from urllib.parse import urljoin, urlparse
 import requests
 from bs4 import BeautifulSoup, NavigableString, Tag
 
+# Bump this whenever parse_interview()/parse_generic()'s parsing rules
+# change in a way that would produce different output for a page whose
+# *source* HTML hasn't changed. Pages are only ever reparsed when either
+# their source content changes or this version has moved past what's
+# recorded in state.json for them -- otherwise an unchanged source page
+# just keeps re-serving whatever was parsed under an older, possibly
+# buggy, version of this logic forever. See ScrapeState.get_parser_version.
+PARSER_VERSION = 2
+
 BASE_URL = "https://thatspecificsound.wordpress.com"
 USER_AGENT = (
     "ThatSpecificSoundArchiver/1.0 "

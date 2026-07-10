@@ -73,6 +73,15 @@ class ScrapeState:
         rec = self.pages.get(url)
         return rec.get("content_hash") if rec else None
 
+    def get_parser_version(self, url: str) -> int | None:
+        """The parser_version that was in effect the last time this URL's
+        content was actually parsed (as opposed to reused unparsed from a
+        304). None if we've never successfully parsed it (or it predates
+        this field existing), which callers should treat as stale so it
+        gets reparsed rather than silently trusted."""
+        rec = self.pages.get(url)
+        return rec.get("parser_version") if rec else None
+
     def get_cached_content(self, url: str) -> dict | None:
         return self.content_cache.get(url)
 
@@ -89,6 +98,7 @@ class ScrapeState:
         cache_headers: dict,
         parsed_content: dict,
         status: str,  # "new" | "updated"
+        parser_version: int,
     ) -> None:
         self.seen_urls.add(url)
         rec = self.pages.get(url, {})
@@ -102,6 +112,7 @@ class ScrapeState:
                 "last_modified": cache_headers.get("last_modified"),
                 "last_changed": _now(),
                 "first_seen": rec.get("first_seen", _now()),
+                "parser_version": parser_version,
             }
         )
         self.pages[url] = rec

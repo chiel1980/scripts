@@ -1,12 +1,13 @@
 {
-  "last_run": "2026-07-10T19:06:22+00:00",
+  "last_run": "2026-07-10T19:30:03+00:00",
   "pages": {
     "https://thatspecificsound.wordpress.com/": {
       "content_hash": "6e9a1ab9acc66c9d391a8a7d0a68830602df3338a71ad013e9ee4c19bea608fb",
       "etag": null,
       "first_seen": "2026-07-03T17:37:22+00:00",
-      "last_changed": "2026-07-10T19:05:52+00:00",
+      "last_changed": "2026-07-10T19:29:34+00:00",
       "last_modified": null,
+      "parser_version": 2,
       "title": "That Specific Sound",
       "type": "home"
     },
@@ -14,8 +15,9 @@
       "content_hash": "d43eae8d50dbd372aedb20b0b9c7fc5e16c82912a52e1ac0a87bbba06375331c",
       "etag": null,
       "first_seen": "2026-07-03T17:37:23+00:00",
-      "last_changed": "2026-07-10T19:05:53+00:00",
+      "last_changed": "2026-07-10T19:29:35+00:00",
       "last_modified": null,
+      "parser_version": 2,
       "title": "About",
       "type": "about"
     },
@@ -23,8 +25,9 @@
       "content_hash": "7d9962036d859e216dde3347bac616d9987b1da0765440ae4d39e5bdbb1ec2b1",
       "etag": null,
       "first_seen": "2026-07-03T17:37:40+00:00",
-      "last_changed": "2026-07-10T19:06:12+00:00",
+      "last_changed": "2026-07-10T19:29:53+00:00",
       "last_modified": null,
+      "parser_version": 2,
       "title": "Interview – Adam Tanbouz – He is Legend",
       "type": "interview"
     },
@@ -32,8 +35,9 @@
       "content_hash": "279881d7c87b08c5c47bcba0c8c699fbe65e6a651eb9a60197c381c552ba9bea",
       "etag": null,
       "first_seen": "2026-07-03T17:37:42+00:00",
-      "last_changed": "2026-07-10T19:06:13+00:00",
+      "last_changed": "2026-07-10T19:29:54+00:00",
       "last_modified": null,
+      "parser_version": 2,
       "title": "Interview – Bo Lueders – Harm’s Way",
       "type": "interview"
     },
@@ -41,8 +45,9 @@
       "content_hash": "0d4dc65845a6928c0fba1c68b5b9780926c5950c176867ad9d9cdb4bbefcf602",
       "etag": null,
       "first_seen": "2026-07-03T17:37:42+00:00",
-      "last_changed": "2026-07-10T19:06:14+00:00",
+      "last_changed": "2026-07-10T19:29:55+00:00",
       "last_modified": null,
+      "parser_version": 2,
       "title": "Interview – Boudewijn Bonebakker – Gorefest",
       "type": "interview"
     },
@@ -50,8 +55,9 @@
       "content_hash": "58e4039f4981cca0b385e9c3f1d0f02f63d8f304068b1ed8dd171be2258eae15",
       "etag": null,
       "first_seen": "2026-07-10T18:11:54+00:00",
-      "last_changed": "2026-07-10T19:06:15+00:00",
+      "last_changed": "2026-07-10T19:29:56+00:00",
       "last_modified": null,
+      "parser_version": 2,
       "title": "Interview – Dominiek ‘Dompi’ Denolf – Spirit of Youth",
       "type": "interview"
     },
@@ -59,8 +65,9 @@
       "content_hash": "2101ab99897718a7de782603a7982eb7be0e51a5cee8ed7feaba12f51b6d5c25",
       "etag": null,
       "first_seen": "2026-07-03T17:37:44+00:00",
-      "last_changed": "2026-07-10T19:06:16+00:00",
+      "last_changed": "2026-07-10T19:29:57+00:00",
       "last_modified": null,
+      "parser_version": 2,
       "title": "Interview – Kurt Ballou – Converge",
       "type": "interview"
     },
@@ -68,8 +75,9 @@
       "content_hash": "4689527a6050ad94393b12c728bcb5c6043745cae4c43c6855268c63d31f2469",
       "etag": null,
       "first_seen": "2026-07-03T17:37:45+00:00",
-      "last_changed": "2026-07-10T19:06:17+00:00",
+      "last_changed": "2026-07-10T19:29:58+00:00",
       "last_modified": null,
+      "parser_version": 2,
       "title": "Interview – Matthew Wood – One King Down",
       "type": "interview"
     },
@@ -77,8 +85,9 @@
       "content_hash": "cbab0e5f20a78f1afaa0c382a3d31a31a5d96377beeceb14f287113ee40cfb5e",
       "etag": null,
       "first_seen": "2026-07-03T17:37:46+00:00",
-      "last_changed": "2026-07-10T19:06:18+00:00",
+      "last_changed": "2026-07-10T19:29:59+00:00",
       "last_modified": null,
+      "parser_version": 2,
       "title": "Interview – Michael Scoville – One King Down",
       "type": "interview"
     },
@@ -86,8 +95,9 @@
       "content_hash": "7d16801aa562634cd43723e9b8bb3fd7258c54aaa3a31203cce6e0cdbee47153",
       "etag": null,
       "first_seen": "2026-07-03T17:37:47+00:00",
-      "last_changed": "2026-07-10T19:06:19+00:00",
+      "last_changed": "2026-07-10T19:30:00+00:00",
       "last_modified": null,
+      "parser_version": 2,
       "title": "Interview – Mike McKenzie – The Red Chord/Stomach Earth/Umbra Vitae/Wear your Wounds",
       "type": "interview"
     },
@@ -95,8 +105,9 @@
       "content_hash": "0c544ba60c496e767b81778d21f2a56e841b800d89670940cb6f681b7b4976c9",
       "etag": null,
       "first_seen": "2026-07-03T17:37:48+00:00",
-      "last_changed": "2026-07-10T19:06:20+00:00",
+      "last_changed": "2026-07-10T19:30:01+00:00",
       "last_modified": null,
+      "parser_version": 2,
       "title": "Interview – Rogier Stevens – Driven",
       "type": "interview"
     },
@@ -104,8 +115,9 @@
       "content_hash": "f1a3447c3bef0bf3d537bb0dd91de76d80f62beb76ba87f4e145b179d6df5311",
       "etag": null,
       "first_seen": "2026-07-03T17:37:49+00:00",
-      "last_changed": "2026-07-10T19:06:21+00:00",
+      "last_changed": "2026-07-10T19:30:02+00:00",
       "last_modified": null,
+      "parser_version": 2,
       "title": "Interview – Scott Crouse – Earth Crisis/Sect",
       "type": "interview"
     },
@@ -113,8 +125,9 @@
       "content_hash": "194738279735505c37704880c7aa4b5933c3603fec1a0d5aa94ee06cdd6e4085",
       "etag": null,
       "first_seen": "2026-07-03T17:37:50+00:00",
-      "last_changed": "2026-07-10T19:06:22+00:00",
+      "last_changed": "2026-07-10T19:30:03+00:00",
       "last_modified": null,
+      "parser_version": 2,
       "title": "Interview – Scott Mellinger – Zao/Lonely Ghost/Pack",
       "type": "interview"
     },
@@ -122,8 +135,9 @@
       "content_hash": "a2ebdddf8c768aee7cecc662d3de62700a5496ab5204d22d414e65831f131586",
       "etag": null,
       "first_seen": "2026-07-03T17:37:24+00:00",
-      "last_changed": "2026-07-10T19:05:54+00:00",
+      "last_changed": "2026-07-10T19:29:36+00:00",
       "last_modified": null,
+      "parser_version": 2,
       "title": "Interviews",
       "type": "interviews_index"
     }
