@@ -772,7 +772,7 @@
         "text": "Listen to Gorefest on Spotify [here](https://open.spotify.com/artist/3QWSC5ZtiBj1Kfr2BL46lW) Listen and view some Gorefest clips on Youtube [here](https://www.youtube.com/results?search_query=gorefest)"
       }
     ],
-    "photo_credit": "Picture from Wouterromeijnders.nl",
+    "photo_credit": "Photo credits: Wouterromeijnders.nl",
     "qa": [
       {
         "answers": [
@@ -1277,19 +1277,14 @@
   "https://thatspecificsound.wordpress.com/interview-kurt-ballou-converge/": {
     "full_html": "",
     "hero_image": "https://thatspecificsound.wordpress.com/wp-content/uploads/2026/01/kurt.webp?w=650",
-    "intro": [
-      {
-        "kind": "answer",
-        "text": "Image credit: Olly Curtis/Future"
-      }
-    ],
+    "intro": [],
     "outro": [
       {
         "kind": "answer",
         "text": "Kurt is also an amazing producer, check out [his studio website here](https://godcitystudio.com/). To read and hear more about Converge, see [their Instagram website here](https://www.instagram.com/converge/) And check out their videos here on [YouTube here.](https://www.youtube.com/@epitaph/search?query=converge)"
       }
     ],
-    "photo_credit": null,
+    "photo_credit": "Photo credits: Olly Curtis/Future",
     "qa": [
       {
         "answers": [
@@ -1479,19 +1474,14 @@
   "https://thatspecificsound.wordpress.com/interview-matthew-wood-one-king-down/": {
     "full_html": "",
     "hero_image": "https://thatspecificsound.wordpress.com/wp-content/uploads/2026/01/matt.jpg?w=1024",
-    "intro": [
-      {
-        "kind": "answer",
-        "text": "<Picture: [Danielle Dombrowski](https://www.instagram.com/danielledombrowskiphotography/)>"
-      }
-    ],
+    "intro": [],
     "outro": [
       {
         "kind": "answer",
         "text": "Check out [One King Down’s Instagram page](https://www.instagram.com/onekingdown/) Listen to [One King Down on Spotify](https://open.spotify.com/artist/782HAMHn2gK7WqWZZ7aJ9D)"
       }
     ],
-    "photo_credit": null,
+    "photo_credit": "Photo credits: [Danielle Dombrowski](https://www.instagram.com/danielledombrowskiphotography/)",
     "qa": [
       {
         "answers": [
@@ -1739,14 +1729,9 @@
   "https://thatspecificsound.wordpress.com/interview-michael-scoville-one-king-down/": {
     "full_html": "",
     "hero_image": "https://thatspecificsound.wordpress.com/wp-content/uploads/2026/01/mike-3.jpeg?w=700",
-    "intro": [
-      {
-        "kind": "answer",
-        "text": "<picture by: Michelle Olaya>"
-      }
-    ],
+    "intro": [],
     "outro": [],
-    "photo_credit": null,
+    "photo_credit": "Photo credits: Michelle Olaya",
     "qa": [
       {
         "answers": [
@@ -2016,14 +2001,9 @@
   "https://thatspecificsound.wordpress.com/interview-mike-mckenzie-the-red-chord-stomach-earth/": {
     "full_html": "",
     "hero_image": "https://thatspecificsound.wordpress.com/wp-content/uploads/2025/12/mike-mckenzie.jpg?w=1024",
-    "intro": [
-      {
-        "kind": "answer",
-        "text": "Image from Mike’s Facebook page"
-      }
-    ],
+    "intro": [],
     "outro": [],
-    "photo_credit": null,
+    "photo_credit": "Photo credits: Mike’s Facebook page",
     "qa": [
       {
         "answers": [
