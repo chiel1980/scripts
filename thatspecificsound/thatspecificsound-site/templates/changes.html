@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% block title %}What's changed — {{ site_title }}{% endblock %}
+{% block description %}A log of new and updated interviews picked up from the source site.{% endblock %}
+{% block content %}
+<section class="section section--narrow">
+  <div class="wrap">
+    <p class="eyebrow">Archive log</p>
+    <h1>What's changed</h1>
+    <p class="muted">Every time this archive is rebuilt, it compares itself against the source site and only re-processes pages that are new or have been edited. Here's the history of that.</p>
+
+    {% if not changelog %}
+    <p class="muted">No changes recorded yet — this is the first build.</p>
+    {% endif %}
+
+    {% for run in changelog %}
+    <div class="run-entry">
+      <p class="run-entry__date">{{ run.run_at }}</p>
+      {% if run.new %}
+      <p class="run-entry__label run-entry__label--new">New</p>
+      <ul>{% for e in run.new %}<li>{% set href = changelog_entry_href(e) %}{% if href and e.title != 'Untitled' %}<a href="{{ href }}">{{ e.title }}</a>{% else %}{{ e.title }}{% endif %}</li>{% endfor %}</ul>
+      {% endif %}
+      {% if run.updated %}
+      <p class="run-entry__label run-entry__label--updated">Updated</p>
+      <ul>{% for e in run.updated %}<li>{{ e.title }}</li>{% endfor %}</ul>
+      {% endif %}
+      {% if run.removed %}
+      <p class="run-entry__label run-entry__label--removed">Removed</p>
+      <ul>{% for e in run.removed %}<li>{{ e.title }}</li>{% endfor %}</ul>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endblock %}
