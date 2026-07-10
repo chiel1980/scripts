@@ -1,88 +1,94 @@
 [
   {
-    "new": [],
-    "removed": [],
-    "run_at": "2026-07-10T18:47:38+00:00",
-    "unchanged_count": 13,
-    "updated": [
+    "new": [
       {
-        "status": "updated",
-        "title": "Interview – Dominiek ‘Dompi’ Denolf – Spirit of Youth",
+        "status": "new",
+        "title": "That Specific Sound",
+        "type": "home",
+        "url": "https://thatspecificsound.wordpress.com/"
+      },
+      {
+        "status": "new",
+        "title": "About",
+        "type": "about",
+        "url": "https://thatspecificsound.wordpress.com/about/"
+      },
+      {
+        "status": "new",
+        "title": "Interviews",
+        "type": "interviews_index",
+        "url": "https://thatspecificsound.wordpress.com/interviews/"
+      },
+      {
+        "status": "new",
+        "title": "Interview – Adam Tanbouz – He is Legend",
         "type": "interview",
-        "url": "https://thatspecificsound.wordpress.com/interview-dominiek-dompi-denolf-spirit-of-youth/"
-      }
-    ]
-  },
-  {
-    "new": [],
-    "removed": [],
-    "run_at": "2026-07-10T19:06:22+00:00",
-    "unchanged_count": 12,
-    "updated": [
+        "url": "https://thatspecificsound.wordpress.com/interview-adam-tanbouz-he-is-legend/"
+      },
       {
-        "status": "updated",
+        "status": "new",
+        "title": "Interview – Bo Lueders – Harm’s Way",
+        "type": "interview",
+        "url": "https://thatspecificsound.wordpress.com/interview-bo-lueders-harms-way/"
+      },
+      {
+        "status": "new",
         "title": "Interview – Boudewijn Bonebakker – Gorefest",
         "type": "interview",
         "url": "https://thatspecificsound.wordpress.com/interview-boudewijn-bonebakker-gorefest/"
       },
       {
-        "status": "updated",
+        "status": "new",
         "title": "Interview – Dominiek ‘Dompi’ Denolf – Spirit of Youth",
         "type": "interview",
         "url": "https://thatspecificsound.wordpress.com/interview-dominiek-dompi-denolf-spirit-of-youth/"
-      }
-    ]
-  },
-  {
-    "new": [],
-    "removed": [],
-    "run_at": "2026-07-10T19:41:25+00:00",
-    "unchanged_count": 13,
-    "updated": [
-      {
-        "status": "updated",
-        "title": "Interview – Dominiek ‘Dompi’ Denolf – Spirit of Youth",
-        "type": "interview",
-        "url": "https://thatspecificsound.wordpress.com/interview-dominiek-dompi-denolf-spirit-of-youth/"
-      }
-    ]
-  },
-  {
-    "new": [],
-    "removed": [],
-    "run_at": "2026-07-10T20:04:03+00:00",
-    "unchanged_count": 9,
-    "updated": [
-      {
-        "status": "updated",
-        "title": "Interview – Boudewijn Bonebakker – Gorefest",
-        "type": "interview",
-        "url": "https://thatspecificsound.wordpress.com/interview-boudewijn-bonebakker-gorefest/"
       },
       {
-        "status": "updated",
+        "status": "new",
         "title": "Interview – Kurt Ballou – Converge",
         "type": "interview",
         "url": "https://thatspecificsound.wordpress.com/interview-kurt-ballou-converge/"
       },
       {
-        "status": "updated",
+        "status": "new",
         "title": "Interview – Matthew Wood – One King Down",
         "type": "interview",
         "url": "https://thatspecificsound.wordpress.com/interview-matthew-wood-one-king-down/"
       },
       {
-        "status": "updated",
+        "status": "new",
         "title": "Interview – Michael Scoville – One King Down",
         "type": "interview",
         "url": "https://thatspecificsound.wordpress.com/interview-michael-scoville-one-king-down/"
       },
       {
-        "status": "updated",
+        "status": "new",
         "title": "Interview – Mike McKenzie – The Red Chord/Stomach Earth/Umbra Vitae/Wear your Wounds",
         "type": "interview",
         "url": "https://thatspecificsound.wordpress.com/interview-mike-mckenzie-the-red-chord-stomach-earth/"
+      },
+      {
+        "status": "new",
+        "title": "Interview – Rogier Stevens – Driven",
+        "type": "interview",
+        "url": "https://thatspecificsound.wordpress.com/interview-rogier-stevens-driven/"
+      },
+      {
+        "status": "new",
+        "title": "Interview – Scott Crouse – Earth Crisis/Sect",
+        "type": "interview",
+        "url": "https://thatspecificsound.wordpress.com/interview-scott-crouse-earth-crisis-sect/"
+      },
+      {
+        "status": "new",
+        "title": "Interview – Scott Mellinger – Zao/Lonely Ghost/Pack",
+        "type": "interview",
+        "url": "https://thatspecificsound.wordpress.com/interview-scott-mellinger-zao-lonely-ghost-pack/"
       }
-    ]
+    ],
+    "removed": [],
+    "run_at": "2026-07-10T20:12:03+00:00",
+    "unchanged_count": 0,
+    "updated": []
   }
 ]
