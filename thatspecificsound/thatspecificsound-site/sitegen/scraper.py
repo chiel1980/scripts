@@ -480,9 +480,23 @@ def parse_interview(html: str, url: str) -> dict:
             linked_text = strip_inline_links(el)
 
             lower=text.lower()
-            if lower.startswith("photo credit"):
-                photo_credit=linked_text
-                continue
+            if lower.startswith(("photo credit", "copyright", "picture from")):
+                # The credit line almost always stands entirely on its own
+                # paragraph. On a handful of older posts, though, it was
+                # written in the very same paragraph as the first question
+                # with no line break in between (e.g. "Copyright \u2013 When
+                # did you start playing guitar...?"), which made the credit
+                # swallow the entire first question. Split those apart at
+                # the dash so both the credit line and the question survive,
+                # instead of only recognizing a credit that's fully alone.
+                m = re.match(r"^(.*?)\s+[\u2013\u2014-]\s+(.+)$", linked_text)
+                if m and m.group(2).strip().endswith("?"):
+                    photo_credit = m.group(1).strip()
+                    linked_text = m.group(2).strip()
+                    text = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", linked_text).strip()
+                else:
+                    photo_credit=linked_text
+                    continue
 
             # Questions are normally bold, uppercase, or end with ?
             strong=el.find("strong")

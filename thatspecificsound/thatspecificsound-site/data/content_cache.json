@@ -765,19 +765,14 @@
   "https://thatspecificsound.wordpress.com/interview-boudewijn-bonebakker-gorefest/": {
     "full_html": "",
     "hero_image": "https://thatspecificsound.wordpress.com/wp-content/uploads/2026/01/wouterromeijnders.nl_20191215_monomyth-27.jpeg?w=1024",
-    "intro": [
-      {
-        "kind": "answer",
-        "text": "Picture from Wouterromeijnders.nl"
-      }
-    ],
+    "intro": [],
     "outro": [
       {
         "kind": "answer",
         "text": "Listen to Gorefest on Spotify [here](https://open.spotify.com/artist/3QWSC5ZtiBj1Kfr2BL46lW) Listen and view some Gorefest clips on Youtube [here](https://www.youtube.com/results?search_query=gorefest)"
       }
     ],
-    "photo_credit": null,
+    "photo_credit": "Picture from Wouterromeijnders.nl",
     "qa": [
       {
         "answers": [
@@ -1027,7 +1022,7 @@
         "text": "Check out the Spirit of Youth songs [here](https://www.discogs.com/artist/1046983-Spirit-Of-Youth) and see some old nostalgia [here](https://www.youtube.com/watch?v=ckD-z6OXdoM&list=RDckD-z6OXdoM&start_radio=1)"
       }
     ],
-    "photo_credit": null,
+    "photo_credit": "Copyright",
     "qa": [
       {
         "answers": [
@@ -1036,7 +1031,7 @@
             "text": "Must have been 1989, I had a black kinda Fender strat copy. On a Boss sd-1 distortion pedal (wich I recently acquired again 😄) on a little combo, in my bedroom. My dad very fast picked up a Peavey Bandit 112 combo from a famous store in Tielt (music center) cause he was into music his whole life also."
           }
         ],
-        "question": "Copyright – When did you start playing guitar and what guitar and equipment did you start on?"
+        "question": "When did you start playing guitar and what guitar and equipment did you start on?"
       },
       {
         "answers": [
