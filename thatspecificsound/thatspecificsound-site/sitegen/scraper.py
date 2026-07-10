@@ -26,7 +26,7 @@ from bs4 import BeautifulSoup, NavigableString, Tag
 # recorded in state.json for them -- otherwise an unchanged source page
 # just keeps re-serving whatever was parsed under an older, possibly
 # buggy, version of this logic forever. See ScrapeState.get_parser_version.
-PARSER_VERSION = 2
+PARSER_VERSION = 3
 
 BASE_URL = "https://thatspecificsound.wordpress.com"
 USER_AGENT = (
@@ -101,13 +101,22 @@ class Fetcher:
 # ---------------------------------------------------------------------------
 
 # Anything under these hosts/paths is WordPress.com or Facebook plumbing
-# and must never survive into the generated site.
-# Anything under these hosts/paths is WordPress.com or Facebook plumbing
 # and must never survive into the generated site. The source site itself
 # (thatspecificsound.wordpress.com) is *not* blocked - those are normal
 # internal links we want to keep (rewritten to local pages later).
-BLOCKED_HOSTS = (
-    "wordpress.com",
+#
+# "wordpress.com" is matched *exactly* here, not as a subdomain suffix.
+# Automattic's own chrome (the "Blog at WordPress.com" footer, sign-up/
+# log-in links, etc.) always points at the bare wordpress.com domain, but
+# plenty of legitimate content -- e.g. a photo credit linking to someone
+# else's independent archive blog -- lives on a *.wordpress.com subdomain
+# too. Blocking the whole suffix silently strips those real credit/source
+# links along with the actual chrome, so subdomains are left to be judged
+# on their own merits instead. The other hosts here don't have that
+# problem (nobody's independent content lives on jetpack.com or
+# gravatar.com), so those still block the full suffix.
+BLOCKED_HOSTS_EXACT = ("wordpress.com",)
+BLOCKED_HOSTS_SUFFIX = (
     "wp.me",
     "facebook.com",
     "automattic.com",
@@ -128,7 +137,9 @@ def is_blocked_url(url: str) -> bool:
         return False
     if host == SOURCE_HOST:
         return False
-    return any(host == h or host.endswith("." + h) for h in BLOCKED_HOSTS)
+    if host in BLOCKED_HOSTS_EXACT:
+        return True
+    return any(host == h or host.endswith("." + h) for h in BLOCKED_HOSTS_SUFFIX)
 
 
 def is_emoji_image(img: Tag) -> bool:
