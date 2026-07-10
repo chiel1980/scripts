@@ -128,6 +128,31 @@ BLOCKED_HOSTS_SUFFIX = (
 SOURCE_HOST = urlparse(BASE_URL).netloc  # thatspecificsound.wordpress.com
 
 
+def is_same_site(url: str) -> bool:
+    """Whether `url` points at the source site, tolerant of http vs https
+    and an optional "www." prefix -- unlike a strict `url.startswith(BASE_URL)`
+    check, which silently rejects same-site URLs that differ from BASE_URL
+    by only those cosmetic details (e.g. WordPress occasionally emitting
+    http:// links, or a www. variant of the host). A rejected URL here
+    should always be a genuinely different domain, never our own site
+    spelled slightly differently -- so callers can safely drop what this
+    returns False for.
+    """
+    if not url:
+        return False
+    try:
+        host = urlparse(url, scheme="https").netloc.lower()
+    except ValueError:
+        return False
+    if not host:
+        return False
+
+    def _norm(h: str) -> str:
+        return h[4:] if h.startswith("www.") else h
+
+    return _norm(host) == _norm(SOURCE_HOST)
+
+
 def is_blocked_url(url: str) -> bool:
     if not url:
         return False
@@ -281,13 +306,13 @@ def _collect_sitemap_urls(fetcher, sitemap_url: str, found: set, seen_sitemaps: 
     # A sitemap index: each <loc> here is another sitemap, not a page.
     for loc in soup.select("sitemapindex > sitemap > loc"):
         sub_url = loc.text.strip()
-        if sub_url.startswith(BASE_URL):
+        if is_same_site(sub_url):
             _collect_sitemap_urls(fetcher, sub_url, found, seen_sitemaps)
 
     # A urlset: each <loc> here is a real page.
     for loc in soup.select("urlset > url > loc"):
         url = loc.text.strip()
-        if url.startswith(BASE_URL):
+        if is_same_site(url):
             found.add(url)
 
 
@@ -312,7 +337,7 @@ def discover_interview_links(fetcher, start_url):
 
         for a in soup.find_all("a", href=True):
             href = absolutize(a["href"])
-            if not href or not href.startswith(BASE_URL):
+            if not href or not is_same_site(href):
                 continue
 
             path = urlparse(href).path.lower()

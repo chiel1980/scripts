@@ -270,7 +270,8 @@ def scrape(state: ScrapeState, fetcher: scraper.Fetcher, force: bool) -> None:
     print(f"  Found {len(discovered)} individual pages to process")
 
     for url in sorted(discovered):
-        if not url.startswith(BASE_URL):
+        if not scraper.is_same_site(url):
+            print(f"  ~ skipping (not same site): {url}")
             continue
 
         # Automatically identify interview pages instead of relying only on URL paths
@@ -293,6 +294,7 @@ def scrape(state: ScrapeState, fetcher: scraper.Fetcher, force: bool) -> None:
                 state.record_unchanged(url)
             continue
         if status == "unchanged":
+            print(f"  = 304 not modified (server-side cache, still trusted): {url}")
             state.record_unchanged(url)
             continue
 
@@ -318,6 +320,9 @@ def scrape(state: ScrapeState, fetcher: scraper.Fetcher, force: bool) -> None:
         chash = scraper.content_hash(str(parsed))
         prev_hash = state.get_content_hash(url)
         page_status = "unchanged" if prev_hash == chash else "updated"
+        title = parsed.get("title", url)
+        reason = " (parser version bumped, forced reparse)" if stale_parse and not force else ""
+        print(f"  {'=' if page_status == 'unchanged' else '+'} {page_status}: {title}{reason}  ({url})")
 
         state.record_page(
             url,
