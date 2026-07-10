@@ -1,8 +1,0 @@
-requests>=2.31
-beautifulsoup4>=4.12
-jinja2>=3.1
-
-# Optional, for fully offline W3C validation (no internet needed at
-# validation time). Also requires a Java runtime on PATH.
-# Without this, --validate falls back to the public validator.w3.org API.
-vnujar>=24.10.17
