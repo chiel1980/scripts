@@ -279,6 +279,18 @@ def scrape(state: ScrapeState, fetcher: scraper.Fetcher, force: bool) -> None:
         status, html, cache, err = fetcher.get(url, cache_headers)
         if status == "error":
             print(f"  ! failed discovery fetch {url}: {err}")
+            # A failed request here does NOT mean the page was removed from
+            # the source -- it just means *this run* couldn't reach it. But
+            # detect_removed() at the end of scrape() deletes anything not
+            # marked "seen" this run, so without this fallback a single
+            # flaky/rate-limited request would silently and permanently wipe
+            # a perfectly good interview out of data/content_cache.json (and
+            # therefore out of the built site) even though nothing actually
+            # changed on WordPress. Falling back to whatever we already have
+            # cached, and marking the URL seen, keeps a transient failure
+            # from ever being indistinguishable from a real deletion.
+            if state.get_cached_content(url):
+                state.record_unchanged(url)
             continue
         if status == "unchanged":
             state.record_unchanged(url)
