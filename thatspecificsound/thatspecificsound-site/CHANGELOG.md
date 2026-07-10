@@ -1,6 +1,11 @@
 # Changelog
 Generated automatically by generate_site.py.
 
+## 2026-07-10T18:42:23+00:00
+
+**Updated:**
+- Interview – Dominiek ‘Dompi’ Denolf – Spirit of Youth
+
 ## 2026-07-10T18:38:09+00:00
 
 **Updated:**
