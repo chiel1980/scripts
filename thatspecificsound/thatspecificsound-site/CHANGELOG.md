@@ -1,6 +1,18 @@
 # Changelog
 Generated automatically by generate_site.py.
 
+## 2026-07-10T18:38:09+00:00
+
+**Updated:**
+- That Specific Sound
+- About
+- Interviews
+- Interview – Adam Tanbouz – He is Legend
+- Interview – Bo Lueders – Harm’s Way
+- Interview – Boudewijn Bonebakker – Gorefest
+- Interview – Kurt Ballou – Converge
+- Interview – Matthew Wood – One King Down
+
 ## 2026-07-10T18:25:17+00:00
 
 **Updated:**

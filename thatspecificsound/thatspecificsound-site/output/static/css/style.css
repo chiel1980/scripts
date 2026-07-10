@@ -203,7 +203,7 @@ img { max-width: 100%; height: auto; display: block; }
 
 /* ---------- prose / about ---------- */
 .prose p { margin: 0 0 1.2em; }
-.prose--outro { color: var(--text-muted); font-size: 0.95rem; }
+.prose--outro { color: var(--text-muted); font-size: 0.95rem; font-style: italic; }
 
 .prose-figure { margin: 1.6em 0; }
 .prose-figure img {

@@ -172,13 +172,19 @@ def scrape(state: ScrapeState, fetcher: scraper.Fetcher, force: bool) -> None:
             state.record_unchanged(url)
             return state.get_cached_content(url)
 
-        # status == "new": we got HTML, but it might still be byte-identical
-        # to what we had (servers don't always send useful ETags) - check
-        # the content hash too before treating it as a real change.
-        chash = scraper.content_hash(html)
-        prev_hash = state.get_content_hash(url)
+        # status == "new": we got HTML, but it might still be unchanged in
+        # any way that matters. Comparing raw HTML bytes isn't reliable for
+        # that -- WordPress.com pages embed things like nonces, stats/ad
+        # pixels, and randomized "related posts" widgets that change on
+        # every single request even when the actual page content hasn't
+        # changed at all. That was making home/about/interviews-index show
+        # up as "updated" on every rebuild. Parsing first and hashing the
+        # *parsed* content sidesteps that, since parse_fn already strips
+        # all of that WordPress/Jetpack chrome out.
         parsed = parse_fn(html, url)
         title = parsed.get("title", url)
+        chash = scraper.content_hash(str(parsed))
+        prev_hash = state.get_content_hash(url)
 
         if prev_hash == chash:
             print(f"  = unchanged (same content): {url}")
@@ -276,14 +282,28 @@ def scrape(state: ScrapeState, fetcher: scraper.Fetcher, force: bool) -> None:
                 "content": scraper.clean_html(html),
             }
 
+        # A 200 response here doesn't necessarily mean the content actually
+        # changed (WordPress doesn't always send useful ETags), so compare
+        # against the previously stored hash the same way fetch_and_record()
+        # does above. Without this, every page discovered through this loop
+        # -- i.e. every interview -- got unconditionally marked "updated" on
+        # every single run, even when nothing had changed on the source.
+        # That flooded data/changelog.json (and therefore changes.html) with
+        # a near-complete "Updated" listing of the whole site on every
+        # rebuild, which read as if the archive was reorganizing itself
+        # instead of just picking up real changes.
+        chash = scraper.content_hash(str(parsed))
+        prev_hash = state.get_content_hash(url)
+        page_status = "unchanged" if prev_hash == chash else "updated"
+
         state.record_page(
             url,
             page_type=parsed["type"],
             title=parsed.get("title", url),
-            content_hash=scraper.content_hash(str(parsed)),
+            content_hash=chash,
             cache_headers=cache,
             parsed_content=parsed,
-            status="updated",
+            status=page_status,
         )
 
     # Anything previously scraped but no longer linked from the interviews

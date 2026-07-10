@@ -517,6 +517,28 @@ def parse_interview(html: str, url: str) -> dict:
     if not qa:
         intro = [b for b in blocks if b["kind"] != "image"]
 
+    # Every interview ends with a short sign-off paragraph after the final
+    # Q&A pair (e.g. "Check Bo's Instagram page..."), rather than another
+    # question. Because it's just a plain, un-headed <p> like any other
+    # answer text, the loop above was gluing it onto the end of the last
+    # question's answer list -- reading as if the final answer just kept
+    # rambling on into a plug for the artist's socials. Pull that trailing
+    # sign-off out into its own `outro` block (rendered by the template as
+    # a separate, distinctly-styled closing section) instead. Heuristic:
+    # it's the very last block of the whole article, itself short and
+    # containing a link -- and we only take it if the question still has
+    # another answer block left over afterwards, so we never strip a
+    # question down to no answer at all.
+    outro = []
+    if qa and len(qa[-1]["answers"]) > 1:
+        last_block = qa[-1]["answers"][-1]
+        if (
+            last_block["kind"] == "answer"
+            and "](" in last_block["text"]
+            and len(last_block["text"]) < 400
+        ):
+            outro.append(qa[-1]["answers"].pop())
+
     return {
         "type":"interview" if qa else "article",
         "title":title,
@@ -525,7 +547,7 @@ def parse_interview(html: str, url: str) -> dict:
         "photo_credit":photo_credit,
         "intro":intro,
         "qa":qa,
-        "outro":[],
+        "outro":outro,
         "full_html": clean_html(str(content)) if content and not qa else ""
     }
 

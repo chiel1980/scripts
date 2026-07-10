@@ -349,5 +349,61 @@
         "url": "https://thatspecificsound.wordpress.com/interview-scott-mellinger-zao-lonely-ghost-pack/"
       }
     ]
+  },
+  {
+    "new": [],
+    "removed": [],
+    "run_at": "2026-07-10T18:38:09+00:00",
+    "unchanged_count": 6,
+    "updated": [
+      {
+        "status": "updated",
+        "title": "That Specific Sound",
+        "type": "home",
+        "url": "https://thatspecificsound.wordpress.com/"
+      },
+      {
+        "status": "updated",
+        "title": "About",
+        "type": "about",
+        "url": "https://thatspecificsound.wordpress.com/about/"
+      },
+      {
+        "status": "updated",
+        "title": "Interviews",
+        "type": "interviews_index",
+        "url": "https://thatspecificsound.wordpress.com/interviews/"
+      },
+      {
+        "status": "updated",
+        "title": "Interview – Adam Tanbouz – He is Legend",
+        "type": "interview",
+        "url": "https://thatspecificsound.wordpress.com/interview-adam-tanbouz-he-is-legend/"
+      },
+      {
+        "status": "updated",
+        "title": "Interview – Bo Lueders – Harm’s Way",
+        "type": "interview",
+        "url": "https://thatspecificsound.wordpress.com/interview-bo-lueders-harms-way/"
+      },
+      {
+        "status": "updated",
+        "title": "Interview – Boudewijn Bonebakker – Gorefest",
+        "type": "interview",
+        "url": "https://thatspecificsound.wordpress.com/interview-boudewijn-bonebakker-gorefest/"
+      },
+      {
+        "status": "updated",
+        "title": "Interview – Kurt Ballou – Converge",
+        "type": "interview",
+        "url": "https://thatspecificsound.wordpress.com/interview-kurt-ballou-converge/"
+      },
+      {
+        "status": "updated",
+        "title": "Interview – Matthew Wood – One King Down",
+        "type": "interview",
+        "url": "https://thatspecificsound.wordpress.com/interview-matthew-wood-one-king-down/"
+      }
+    ]
   }
 ]
