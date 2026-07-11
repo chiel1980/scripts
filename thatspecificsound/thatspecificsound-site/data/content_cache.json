@@ -1,11 +1,7 @@
 {
   "https://thatspecificsound.wordpress.com/": {
-    "links": {
-      "About": "https://thatspecificsound.wordpress.com/about/",
-      "Interviews": "https://thatspecificsound.wordpress.com/interviews/"
-    },
     "paragraphs": [
-      "Welcome to That Specific Sound : a website dedicated to some of the world’s greatest hardcore and metal guitarists, showcasing their rigs used in both studio recordings and live performances — revealing the secrets behind the unique sounds you’ve always wondered about. Check the Interviews sections to see the short interviews I conducted. See the About page to get a bit more detailed information why I decided to start this page. Enjoy! Michiel"
+      "Welcome to That Specific Sound: a website dedicated to some of the world’s greatest hardcore and metal guitarists, showcasing their rigs used in both studio recordings and live performances — revealing the secrets behind the unique sounds you’ve always wondered about. Check the [Interviews](https://thatspecificsound.wordpress.com/interviews/) sections to see the short interviews I conducted. See the [About](https://thatspecificsound.wordpress.com/about/) page to get a bit more detailed information why I decided to start this page. Enjoy! Michiel"
     ],
     "tagline": "",
     "title": "That Specific Sound",

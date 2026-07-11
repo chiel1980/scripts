@@ -7,7 +7,14 @@
     <p class="eyebrow">The archive</p>
     <h1 class="hero__title">Gear talk for people who care<br>what's actually plugged in.</h1>
     {% if page.paragraphs %}
-    <p class="hero__lead">{{ page.paragraphs[0] }}</p>
+    <p class="hero__lead">{{ page.paragraphs[0]|linkify }}</p>
+    {% endif %}
+    {% if page.paragraphs and page.paragraphs|length > 1 %}
+    <div class="prose">
+      {% for para in page.paragraphs[1:] %}
+      <p>{{ para|linkify }}</p>
+      {% endfor %}
+    </div>
     {% endif %}
     <div class="signal-chain" aria-hidden="true"><span class="jack"></span><span class="cable"></span><span class="jack"></span></div>
     <a class="button button--accent" href="interviews/index.html">Read the interviews</a>

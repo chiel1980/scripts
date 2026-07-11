@@ -18,7 +18,7 @@ from pathlib import Path
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 from .assets import ensure_image, local_image_path
-from .scraper import Fetcher, slug_from_url
+from .scraper import Fetcher, slug_from_url, BASE_URL
 
 ROOT = Path(__file__).resolve().parent.parent
 TEMPLATES_DIR = ROOT / "templates"
@@ -80,6 +80,43 @@ def localize_inline_images(blocks: list[dict], images_dir: Path, fetcher: Fetche
     for b in blocks:
         if b.get("kind") == "image":
             b["local_src"] = ensure_image(b.get("src"), images_dir, fetcher)
+
+
+def resolve_source_link(url: str, interviews: list) -> str | None:
+    """Maps a URL on the source site back to the corresponding local page,
+    so inline links in scraped body text (e.g. "Check the Interviews
+    section...", "See the About page...") point at this archive's own
+    pages instead of sending readers back out to the original WordPress
+    site. Returns None for anything that isn't one of our own pages
+    (external links, or a source URL we don't recognize), in which case
+    the caller should leave the link pointing at the source as a safe
+    fallback rather than risk producing a broken local link."""
+    if not url:
+        return None
+    normalized = url.rstrip("/")
+    base = BASE_URL.rstrip("/")
+    if normalized == base:
+        return "index.html"
+    if normalized == base + "/about":
+        return "about.html"
+    if normalized == base + "/interviews":
+        return "interviews/index.html"
+    for iv in interviews:
+        if iv.get("url", "").rstrip("/") == normalized:
+            return f"interviews/{iv['filename']}"
+    return None
+
+
+def localize_body_links(paragraphs: list, interviews: list) -> list:
+    """Rewrites the href half of every [label](url) marker in a list of
+    paragraphs (see resolve_source_link) in place, returning a new list."""
+
+    def _rewrite(m: "re.Match") -> str:
+        label, href = m.group(1), m.group(2)
+        local = resolve_source_link(href, interviews)
+        return f"[{label}]({local})" if local else m.group(0)
+
+    return [LINK_PATTERN.sub(_rewrite, p) for p in paragraphs]
 
 
 def changelog_entry_href(entry: dict) -> str | None:
@@ -165,9 +202,12 @@ def build_site(state, output_dir: Path, fetcher: Fetcher) -> None:
     }
 
     # ---- home ----
+    home_page = dict(home) if home else {}
+    if home_page.get("paragraphs"):
+        home_page["paragraphs"] = localize_body_links(home_page["paragraphs"], interviews)
     (output_dir / "index.html").write_text(
         env.get_template("home.html").render(
-            **common, page=home or {}, interviews=interviews[:6], active="Home"
+            **common, page=home_page, interviews=interviews[:6], active="Home"
         ),
         encoding="utf-8",
     )
