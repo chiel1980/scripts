@@ -2,7 +2,7 @@
 {% block title %}Interviews — {{ site_title }}{% endblock %}
 {% block description %}Short interviews with hardcore and metal guitarists about the gear behind their sound.{% endblock %}
 {% block content %}
-<section class="section section--narrow">
+<section class="section section--narrow section--tight-bottom">
   <div class="wrap">
     <p class="eyebrow">Archive</p>
     <h1>Interviews</h1>
@@ -16,12 +16,17 @@
   </div>
 </section>
 
-<section class="section">
+<section class="section section--tight-top">
   <div class="wrap">
     <ol class="rig-list">
       {% for iv in interviews %}
       <li class="rig-list__item">
         <a class="rig-list__link" href="{{ iv.filename }}">
+          <span class="rig-list__thumb{% if not iv.hero_image_local %} rig-list__thumb--placeholder{% endif %}">
+            {% if iv.hero_image_local %}
+            <img src="{{ iv.hero_image_local }}" alt="" loading="lazy"{% if iv.hero_focus_y %} style="object-position: center {{ iv.hero_focus_y }}"{% endif %}>
+            {% endif %}
+          </span>
           <span class="rig-list__index">{{ "%02d"|format(loop.index) }}</span>
           <span class="rig-list__title">{{ iv.title }}</span>
           <span class="rig-list__arrow" aria-hidden="true">&rarr;</span>
