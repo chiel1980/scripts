@@ -122,5 +122,19 @@
         "url": "https://thatspecificsound.wordpress.com/interview-scott-mellinger-zao-lonely-ghost-pack/"
       }
     ]
+  },
+  {
+    "new": [],
+    "removed": [],
+    "run_at": "2026-07-11T13:58:16+00:00",
+    "unchanged_count": 13,
+    "updated": [
+      {
+        "status": "updated",
+        "title": "Interviews",
+        "type": "interviews_index",
+        "url": "https://thatspecificsound.wordpress.com/interviews/"
+      }
+    ]
   }
 ]

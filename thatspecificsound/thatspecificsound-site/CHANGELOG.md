@@ -1,6 +1,11 @@
 # Changelog
 Generated automatically by generate_site.py.
 
+## 2026-07-11T13:58:16+00:00
+
+**Updated:**
+- Interviews
+
 ## 2026-07-10T21:02:28+00:00
 
 **Updated:**

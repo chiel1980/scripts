@@ -26,7 +26,7 @@ from bs4 import BeautifulSoup, NavigableString, Tag
 # recorded in state.json for them -- otherwise an unchanged source page
 # just keeps re-serving whatever was parsed under an older, possibly
 # buggy, version of this logic forever. See ScrapeState.get_parser_version.
-PARSER_VERSION = 4
+PARSER_VERSION = 5
 
 BASE_URL = "https://thatspecificsound.wordpress.com"
 USER_AGENT = (
@@ -424,17 +424,19 @@ def parse_interviews_index(html: str) -> dict:
                             }
                         )
             elif el.name == "p":
-                txt = clean_text(el.get_text(" ", strip=True))
-                a = el.find("a", href=True)
-                if a and txt.lstrip("\u2013- ").startswith(clean_text(a.get_text(" ", strip=True))):
-                    entries.append(
-                        {
-                            "title": clean_text(a.get_text(" ", strip=True)),
-                            "url": absolutize(a["href"]),
-                        }
-                    )
-                elif txt:
-                    intro.append(txt)
+                links = el.find_all("a", href=True)
+                if links:
+                    for a in links:
+                        entries.append(
+                            {
+                                "title": clean_text(a.get_text(" ", strip=True)),
+                                "url": absolutize(a["href"]),
+                            }
+                        )
+                else:
+                    txt = clean_text(el.get_text(" ", strip=True))
+                    if txt:
+                        intro.append(txt)
 
     return {"type": "interviews_index", "title": title, "intro": intro, "entries": entries}
 
