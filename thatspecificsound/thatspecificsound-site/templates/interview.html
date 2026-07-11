@@ -6,7 +6,7 @@
   <header class="interview__header{% if not page.hero_image_local %} interview__header--no-image{% endif %}">
     {% if page.hero_image_local %}
     <figure class="interview__media">
-      <img src="{{ path_prefix|default('') }}{{ page.hero_image_local }}" alt="" width="1170" height="1455">
+      <img src="{{ path_prefix|default('') }}{{ page.hero_image_local }}" alt="" width="1170" height="1455"{% if page.hero_focus_y %} style="object-position: center {{ page.hero_focus_y }}"{% endif %}>
       {% if page.photo_credit %}
       <figcaption class="interview__credit">{{ page.photo_credit|linkify }}</figcaption>
       {% endif %}

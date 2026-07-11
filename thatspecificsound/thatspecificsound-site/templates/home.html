@@ -32,7 +32,7 @@
       <article class="card">
         <a class="card__media" href="interviews/{{ iv.slug }}.html">
           {% if iv.hero_image_local %}
-          <img src="{{ iv.hero_image_local }}" alt="" loading="lazy" width="640" height="427">
+          <img src="{{ iv.hero_image_local }}" alt="" loading="lazy" width="640" height="427"{% if iv.hero_focus_y %} style="object-position: center {{ iv.hero_focus_y }}"{% endif %}>
           {% else %}
           <span class="card__media-placeholder" aria-hidden="true"></span>
           {% endif %}

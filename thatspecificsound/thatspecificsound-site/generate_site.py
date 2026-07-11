@@ -56,6 +56,7 @@ _DISTRO_PACKAGES = {
             "requests": "python3-requests",
             "bs4": "python3-bs4",
             "jinja2": "python3-jinja2",
+            "cv2": "python3-opencv",
             "java": "default-jre",
         },
         "install_cmd": "sudo apt update && sudo apt install {pkgs}",
@@ -67,6 +68,7 @@ _DISTRO_PACKAGES = {
             "requests": "python-requests",
             "bs4": "python-beautifulsoup4",
             "jinja2": "python-jinja",
+            "cv2": "python-opencv",
             "java": "jdk-openjdk",
         },
         "install_cmd": "sudo pacman -S {pkgs}",
@@ -132,6 +134,18 @@ def check_system_requirements(want_validate: bool = False) -> bool:
     if not missing_import_names:
         print("System requirements look OK (requests, bs4, jinja2"
               + (", java" if want_validate else "") + ").")
+        if importlib.util.find_spec("cv2") is None:
+            print(
+                "Note: OpenCV isn't installed, so hero photos will use a "
+                "fixed crop position instead of per-photo face detection. "
+                "Not required, but improves photo cropping."
+            )
+            if dmeta and "cv2" in dmeta["packages"]:
+                cmd = dmeta["install_cmd"].format(pkgs=dmeta["packages"]["cv2"])
+                print(f"Install with your distro's packages:\n  {cmd}")
+                print("(Or, if you prefer pip/venv instead: pip install opencv-python-headless)")
+            else:
+                print("Install with: pip install opencv-python-headless")
         return True
 
     print("Heads up -- some dependencies look missing:")

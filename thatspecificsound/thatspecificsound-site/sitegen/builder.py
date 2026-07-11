@@ -18,6 +18,7 @@ from pathlib import Path
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 from .assets import ensure_image, local_image_path
+from .facefocus import detect_focus_y
 from .scraper import Fetcher, slug_from_url, BASE_URL
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -155,6 +156,11 @@ def build_site(state, output_dir: Path, fetcher: Fetcher) -> None:
         iv["slug"] = slug_from_url(iv["url"])
         iv["filename"] = iv["slug"] + ".html"
         iv["hero_image_local"] = ensure_image(iv.get("hero_image"), images_dir, fetcher)
+        iv["hero_focus_y"] = (
+            detect_focus_y(output_dir / iv["hero_image_local"])
+            if iv["hero_image_local"]
+            else None
+        )
 
         # Download every inline photo embedded in the Q&A body (previously
         # only the hero image was ever fetched, so every other photo in
