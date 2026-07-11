@@ -24,7 +24,7 @@
         <a class="rig-list__link" href="{{ iv.filename }}">
           <span class="rig-list__thumb{% if not iv.hero_image_local %} rig-list__thumb--placeholder{% endif %}">
             {% if iv.hero_image_local %}
-            <img src="{{ iv.hero_image_local }}" alt="" loading="lazy"{% if iv.hero_focus_y %} style="object-position: center {{ iv.hero_focus_y }}"{% endif %}>
+            <img src="{{ path_prefix|default('') }}{{ iv.hero_image_local }}" alt="" loading="lazy"{% if iv.hero_focus_y %} style="object-position: center {{ iv.hero_focus_y }}"{% endif %}>
             {% endif %}
           </span>
           <span class="rig-list__index">{{ "%02d"|format(loop.index) }}</span>
